@@ -5,7 +5,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Topic | Path | Status | Confidence |
 |---|---|---|---|
 | Market structure, instruments, order types, participants, mechanics | 00-foundations/market-structure.md | done | robust |
-| Equity claim (what a share is) | 00-foundations/... | todo | — |
+| Equity claim (what a share is) | 00-foundations/equity-claim.md | done | robust |
 | Exchanges / ATS / Reg NMS | 00-foundations/... | todo | — |
 | Financial statements | 01-fundamental-analysis/... | todo | — |
 | Ratio analysis | 01-fundamental-analysis/... | todo | — |
@@ -36,6 +36,6 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 1/61 nodes done.
+- Coverage: 2/61 nodes done.
 - Open P0 gaps: many (see backlog).
 - DONE when all P0 nodes sourced + no open Verify tasks.

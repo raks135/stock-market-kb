@@ -20,4 +20,15 @@ Credibility tiers:
 | S11 | Wikipedia, "Market maker" https://en.wikipedia.org/wiki/Market_maker | 2 | SEC definition of market maker (quoted) |
 | S12 | Schwab, "3 Order Types" https://www.schwab.com/learn/story/3-order-types-market-limit-and-stop-orders | 2 | When to use each order type |
 
+## 2026-07-18 — equity claim article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S13 | SEC Investor.gov, "Stocks — FAQs" https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks | 1 | Definition of stock/equity, common vs preferred, liquidation priority, benefits/risks, market-cap categories |
+| S14 | SEC Investor.gov, "Shareholder Voting" https://www.investor.gov/shareholder-voting | 1 | Voting rights (elect directors, influence company) |
+| S15 | SEC Investor.gov/FINRA, "Investor Bulletin: Holding Your Securities" (Jul 2023) https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-97 | 1 | Street-name registration, beneficial owner, Cede & Co./DTC nominee, direct registration (DRS), book-entry |
+| S16 | Investopedia, "Common Stock" https://www.investopedia.com/terms/c/commonstock.asp | 2 | Common stock as ownership/claim on assets & earnings, voting for board, last in line on liquidation |
+| S17 | Corporate Finance Institute, "Common vs Preferred Shares" (Apr 2020) https://corporatefinanceinstitute.com/resources/equities/common-vs-preferred-shares | 2 | Common vs preferred comparison (voting, variable vs fixed/cumulative dividends, claim order, conversion, rate sensitivity) |
+| S18 | BDC, "Shares authorized, issued and outstanding" https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary/shares-authorized-issued-and-outstanding | 2 | Authorized/issued/outstanding definitions and relationships |
+| S19 | Investopedia, "Market Capitalization" (updated Jun 2026) https://www.investopedia.com/terms/m/marketcapitalization.asp | 2 | Market Cap = Price × Shares Outstanding; cap tiers; market cap ≠ intrinsic value; splits/dilution effects |
+
 Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JFE version for citation if available.

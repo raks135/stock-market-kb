@@ -4,7 +4,7 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 
 ## P0 (do first)
 - [x] 00-foundations: market structure, instruments, order types, participants, mechanics  (DONE: market-structure.md)
-- [ ] 00-foundations: what is a stock / share / equity claim
+- [x] 00-foundations: what is a stock / share / equity claim
 - [ ] 00-foundations: exchanges, ATS/dark pools, Reg NMS basics
 - [ ] 01-fundamental-analysis: income statement / balance sheet / cash flow reading
 - [ ] 01-fundamental-analysis: ratio analysis (liquidity, solvency, profitability, efficiency)
