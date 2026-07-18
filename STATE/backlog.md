@@ -14,7 +14,7 @@ Two phases:
 - [x] 10-derivatives: option greeks intuition (delta/gamma/vega/theta/rho)  (first article for 10) — DONE 2026-07-18 (option-greeks.md; confidence: robust)
 - [x] 11-macro-and-regimes: rates, business cycles, sector rotation  (first article for 11) — DONE 2026-07-18 (rates-business-cycles-sector-rotation.md; confidence: robust)
 - [x] 12-behavioral-finance: cognitive biases, sentiment, crowding  (first article for 12) — DONE 2026-07-18 (cognitive-biases-sentiment-crowding.md; confidence: robust)
-- [ ] 13-data-and-tooling: data vendors/APIs, libraries (pinned), reproducibility  (first article for 13)
+- [x] 13-data-and-tooling: data vendors/APIs, libraries (pinned), reproducibility  (first article for 13) — DONE 2026-07-18 (data-vendors-apis-libraries-reproducibility.md; confidence: robust)
 - [ ] 14-strategy-catalog: value & quality factor strategies (evidence + failure modes)  (first article for 14)
 - [x] 15-pitfalls-and-antipatterns: data snooping / p-hacking  (first article for 15) — DONE earlier (data-snooping-phacking.md); marked complete this iteration
 
@@ -79,6 +79,7 @@ Two phases:
 - [ ] VERIFY: Perold (1988) IS decomposition & Almgren & Chriss (2001) square-root impact primaries.
 - [ ] VERIFY: Kyle (1985) exact λ / market-depth algebra and linear pricing rule p = p* + λ·y (primary PDF not directly opened; cited via S120/S121 — only qualitative depth=1/λ asserted).
 - [ ] VERIFY: Huang & Stoll (1997) exact three-way spread split (order processing / inventory / adverse selection) coefficients — primary not directly opened; two-component S123 opened corroborates the decomposition concept only.
+- [ ] VERIFY: Cowell et al. (arXiv 0810.1922) "look-ahead benchmark bias up to ~8%/yr for S&P500" exact figure — cited via search snippet only this iteration (PDF not opened); cross-check against CRSP 1926-2006 study before asserting magnitude.
 
 COMPLETION: all 16 folders (00-15) have >=1 article AND all Phase A/B items done AND no open Verify tasks → KB COMPLETE.
 - Simulation is synthetic noise (Box–Muller, stdlib, seed 42) — deliberately null; demonstrates the *selection* effect, not a market claim. Numbers are reproducible as written.

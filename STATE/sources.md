@@ -239,3 +239,20 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S147 | Lakonishok, J., Shleifer, A. & Vishny, R.W. (1992), "The Impact of Institutional Trading on Stock Prices," Journal of Financial Economics 32(1):23–44 (NBER WP 3846 PDF) https://www.nber.org/system/files/working_papers/w3846/w3846.pdf | 1 | Primary: herding & positive-feedback among pension funds essentially absent except small stocks; challenges destabilization narrative |
 | S148 | Shefrin, H. & Statman, M. (1985), "The Disposition to Sell Winners Too Early and Ride Losers Too Long," Journal of Finance 40(3):777–790 | 1 | Primary (cited via opened S144/S143 + secondary summary): named & theorized the disposition effect from prospect theory; tax-loss selling nuance |
 
+## 2026-07-18 — 13-data-and-tooling article
+|| # | Source | Tier | Used for |
+|---|---|---|---|
+| S149 | yfinance (ranaroussi) GitHub README — https://github.com/ranaroussi/yfinance | 1 | Apache-2.0; NOT affiliated/endorsed/vetted by Yahoo; scrapes Yahoo's public APIs; research/education; personal-use TOS; latest 1.5.1 (Jun 2026) |
+| S150 | Alpha Vantage API Documentation — https://www.alphavantage.co/documentation/ | 1 | Free API key; 9 data categories; 20+ yrs history; intraday premium; adjusted=true default; split/dividend adjustment |
+| S151 | FRED API (St. Louis Fed) docs — https://fred.stlouisfed.org/docs/api/fred/ | 1 | API v1/v2; economic time series; ALFRED vintages (historical revisions); API keys |
+| S152 | SEC EDGAR Search Filings & EDGAR APIs — https://www.sec.gov/edgar/searchedgar/companysearch | 1 | Free public access to millions of filings; full-text search 20+ yrs; RESTful EDGAR APIs (submissions history, XBRL financials) |
+| S153 | VectorBT getting started — https://vectorbt.dev | 1 | pandas/NumPy + Numba/Rust; vectorized; thousands of strategies in seconds; PRO tier for advanced features |
+| S154 | Backtrader documentation — https://www.backtrader.com/docu/ | 1 | Cerebro engine; Strategy class; data feeds; event-driven; cerebro.run()/plot() |
+| S155 | Zipline-Reloaded docs — https://zipline.ml4trading.io | 1 | Event-driven; Quantopian origin; pandas integration; pipeline; Python>=3.8; v3.0 uses pandas>=2.0 |
+| S156 | PyPortfolioOpt docs (v1.5.4, MIT) — https://pyportfolioopt.readthedocs.io/en/latest/ | 1 | Efficient frontier, Black-Litterman, shrinkage, HRP; needs C++/cvxpy/cvxopt |
+| S157 | Luxalgo, "Survivorship Bias in Backtesting Explained" — https://www.luxalgo.com/blog/survivorship-bias-in-backtesting-explained | 2 | Survivorship overstates annual returns 1–4%; ~0.9% for mutual funds; ~14% drawdown underestimation; point-in-time remedy |
+| S158 | Dimensional, "Why Worry About Survivorship Bias?" — https://www.dimensional.com/us-en/insights/why-worry-about-survivorship-bias | 2 | 1991–2020 active US equity funds: survivorship overstates median alpha by 0.60%/yr (~60 bps), ~half the survivorship-free median |
+| S159 | Investopedia, "Survivorship Bias" — https://www.investopedia.com/terms/s/survivorshipbias.asp | 2 | Definition (referenced in further reading) |
+| S160 | Cowell et al., "Look-Ahead Benchmark Bias" (arXiv:0810.1922) — https://cdn.arenafi.org/papers/arxiv/0810.1922.pdf | 1 | Academic preprint; up to ~8%/yr look-ahead benchmark bias for S&P500 (PDF NOT directly opened this iteration → Verify) |
+
+
