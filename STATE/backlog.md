@@ -48,7 +48,7 @@ Two phases:
 - [x] 06-portfolio-construction: factor portfolios & smart beta — DONE 2026-07-18 (factor-portfolios-smart-beta.md; confidence: contested)
 - [x] 07-risk-management: drawdown & position sizing / stops — DONE 2026-07-18 (drawdown-position-sizing-stops.md; confidence: contested)
 - [x] 07-risk-management: stress testing & scenario analysis — DONE 2026-07-18 (stress-testing-scenario-analysis.md; confidence: robust)
-- [ ] 09-market-microstructure: maker-taker, payment for order flow, HFT
+- [x] 09-market-microstructure: maker-taker, payment for order flow, HFT — DONE 2026-07-18 (maker-taker-pfof-hft.md; confidence: contested)
 - [ ] 10-derivatives: volatility surface, skew, hedging basics
 - [ ] 10-derivatives: option strategies (covered call, protective put, spreads)
 - [ ] 11-macro-and-regimes: regime detection methods
@@ -95,3 +95,10 @@ COMPLETION: all above (P0+P1+P2) done + no open Verify tasks → KB COMPLETE.
 - Sources: 6 new — Tier 1: Federal Reserve Stress Tests S290, Fed 2025 Stress Test Scenarios S291 (real macro shock magnitudes: unemployment +5.9pp→10%, house -33%, CRE -30%), BIS Stress testing principles 2018 S292, SAMA Reverse Stress Testing S293; Tier 2: AnalystPrep CFA L2 S294, Ryan O'Connell S295 (DPG 7 scenarios, historical event table, worked pension example, limitations). All cited URLs opened + verified.
 - No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; Fed macro magnitudes from opened primary; BIS 9 principles + reverse-ST requirement from opened primaries/regulatory).
 - Kept companion rate/credit/RE shocks in the code clearly labeled "illustrative" so the engine demonstrates method without asserting unsourced magnitudes; only the equity leg of historical scenarios is sourced (S295).
+
+## Self-critique (iter 40 — 09 maker-taker / PFOF / HFT)
+- Wrote 09-market-microstructure/maker-taker-pfof-hft.md (template-compliant; three-bucket labeling: maker-taker mechanics robust, PFOF legality/mechanics robust, HFT net-effect contested; stdlib-only runnable impact sim VERIFIED on CPython 3.14.4 — calm 5.0 ticks/0.050%, stress 12.5 ticks/0.125%, 2.50x amplification).
+- Sources: 5 new — Tier 1: SEC Robinhood 33-10906 S298 (PFOF Rule 10b-10(d)(8), best-execution, $65M penalty), Kirilenko-Kyle Flash Crash S300 (opened PDF), Brogaard-Hendershott-Riordan 2014 RFS S301 (abstract opened); Tier 2: Investopedia maker-taker S296, Investopedia PFOF S297. Reused Tier 1: SEC HFT review S1, O'Hara 2015 S5, Reg NMS amendments S25/S26/S28. ALL cited URLs opened + verified.
+- HFT net liquidity-vs-fragility framed as REGIME-DEPENDENT (supplier in calm, withdrawer in stress) — corroborated by opened S5 (positive) + S300 (fragility); the carried-forward Verify task "HFT net contribution to liquidity vs fragility" remains OPEN as a cross-source synthesis question, not a claim I asserted.
+- No new Verify tasks spawned (all claims corroborated by >=2 opened independent sources; 2024 access-fee cap $0.001 and 2026 Rule 611 rescission proposal from opened S28/S26).
+- Repo health: 41/61 nodes done; Phase B remaining: 10 vol-surface/strategies, 11 regime-detection/inflation, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.
