@@ -41,7 +41,7 @@ Two phases:
 - [x] 04-quant-and-factors: low-vol / quality / carry factors — DONE 2026-07-18 (low-vol-quality-carry-factors.md; confidence: contested)
 - [x] 04-quant-and-factors: APT & multi-factor models — DONE 2026-07-18 (apt-multi-factor-models.md; confidence: contested)
 - [x] 04-quant-and-factors: factor timing & factor crowding — DONE 2026-07-18 (factor-timing-crowding.md; confidence: contested)
-- [ ] 05-stats-and-ml: cointegration & pairs trading basics
+- [x] 05-stats-and-ml: cointegration & pairs trading basics — DONE 2026-07-18 (cointegration-pairs-trading.md; confidence: contested)
 - [ ] 05-stats-and-ml: feature engineering & ML pitfalls in finance
 - [ ] 06-portfolio-construction: risk parity & Kelly sizing
 - [ ] 06-portfolio-construction: Black–Litterman
