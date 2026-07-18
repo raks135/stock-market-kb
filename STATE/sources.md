@@ -313,7 +313,20 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S191 | CFA Digest summary of Lo, Mamaysky & Wang (2000), *Investment Policy and Portfolio Management*, Feb 2001 https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/cfa-digest/2001/dig-v31-n1-811-pdf.pdf | 1 | Corroboration/summary of S190 findings; "useful adjunct, not independent profit tool" framing |
 | S192 | Bulkowski, T., "Best Chart Patterns" (Encyclopedia of Chart Patterns statistics, >30k samples) https://thepatternsite.com/BestPatterns.html | 2 | Practitioner gross post-breakout move stats: H&S top ≈−7%/2mo, Eve&Eve double bottom ≈+12–13%/2–3mo, high-tight flags ≈+21%/1mo; flagged gross not net-of-cost |
 | S193 | Charles Schwab, "Trading Volume as a Market Indicator" (2021) https://www.schwab.com/learn/story/trading-volume-as-market-indicator | 2 | Volume-confirmation rules: above-avg/rising volume confirms breakouts & trends; low-volume breakouts suspect |
-| S194 | Investopedia, "Head and Shoulders Pattern" https://www.investopedia.com/terms/h/head-shoulders.asp | 2 | H&S definition, neckline, inverse H&S, entry/exit around neckline (opened) |
+| S194 | Investopedia, "Head and Shoulders Pattern" https://www.investopedia.com/terms/h/head-and-shoulders.asp | 2 | H&S definition, neckline, inverse H&S, entry/exit around neckline (opened) |
+
+## 2026-07-18 — 04 Fama-French factors article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S205 | Fama, E.F. & French, K.R. (2015), "A Five-Factor Asset Pricing Model," Journal of Financial Economics 116:1–22 (primary PDF) https://tevgeniou.github.io/EquityRiskFactors/bibliography/FiveFactor.pdf | 1 | 5-factor model; factor construction (Table 3); average monthly returns (Table 4: Rm-Rf 0.50, SMB 0.29, HML 0.37, RMW 0.25, CMA 0.33); HML redundancy result (abstract + Sec.7) |
+| S206 | Kenneth R. French Data Library, "Description of Fama/French 5 Factors (2x3)" (authoritative construction + live CSVs) http://mba.tuck.dartmouth.edu/pages/faculty/Ken.french/Data_Library/f-f_5_factors_2x3.html | 1 | Exact SMB/HML/RMW/CMA portfolio definitions; sample & breakpoint rules; Rm-Rf definition |
+| S207 | Fama, E.F. & French, K.R. (1993), "Common Risk Factors in the Returns on Stocks and Bonds," JFE 33:3–56 (factor detail page) https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html | 1 | Original 3-factor model (market, SMB, HML) |
+| S208 | Fama, E.F. & French, K.R. (1992), "The Cross-Section of Expected Stock Returns," JF 47:427–65 (abstract, reused S100) | 1 | Size & BE/ME capture cross-section; beta–return flat |
+| S209 | Carhart, M. (1997), "On Persistence in Mutual Fund Performance," Journal of Finance 52:57–82 https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1997.tb03808.x | 1 | Momentum (PR1YR/UMD) 4th factor; 4-factor performance model |
+| S210 | Wikipedia, "Fama–French three-factor model" https://en.wikipedia.org/wiki/Fama%E2%80%93French_three-factor_model | 2 | 3-factor formula; sort/breakpoint mechanics; ~90% in-sample R² vs CAPM ~70% |
+| S211 | Investopedia, "Fama French Three Factor Model" https://www.investopedia.com/terms/f/famaandfrenchthreefactormodel.asp | 2 | 3-factor intuition; risk-vs-mispricing framing; 95% in-sample explanation |
+| S212 | Hou, K., Mo, H., Xue, C. & Zhang, L. (2019), "Which Factors?" Review of Finance 23(1) (q-factor challenge) https://theinvestmentcapm.com/uploads/1/2/2/6/122679606/houmoxuezhang2019rf.pdf | 1 | q-factor model subsumes FF factors in spanning tests; FF factors fail to explain q premiums |
+| S213 | Akey, P. et al. (2026), "Noisy factors? The retroactive impact of methodological changes on the Fama–French factors," Review of Finance https://academic.oup.com/rof/advance-article/doi/10.1093/rof/rfag002/8443460 | 1 | Factor returns revision-sensitive depending on CRSP data vintage (cited as emerging caveat) |
 
 
 

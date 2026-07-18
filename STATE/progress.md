@@ -19,7 +19,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 ||| Technical: chart patterns & volume (evidence grade) | 03-technical-analysis/chart-patterns-volume.md | done | contested |
 ||| Technical: candlesticks (evidence grade) | 03-technical-analysis/candlesticks.md | done | contested |
 | CAPM & beta (SML, estimation, Blume, Roll's critique) | 04-quant-and-factors/capm-beta.md | done | contested |
-| Fama–French | 04-quant-and-factors/... | todo | — |
+|| Fama–French 3/5 factors (construction, empirical record, extensions) | 04-quant-and-factors/fama-french-factors.md | done | contested |
 | Momentum/value premiums | 04-quant-and-factors/... | todo | — |
 | Stats: stationarity, ADF, autocorrelation | 05-stats-and-ml/stationarity-adf-autocorrelation.md | done | robust |
 | Stats: overfitting/look-ahead | 05-stats-and-ml/overfitting-lookahead.md | done | robust |
