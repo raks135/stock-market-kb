@@ -298,6 +298,14 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S186 | StockCharts ChartSchool, "MACD (Moving Average Convergence/Divergence) Oscillator" https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/macd-moving-average-convergence-divergence-oscillator | 2 | Signal-line & centerline crossovers; histogram definition; whipsaw in ranges (CMI 7 crosses/5mo no trend); PPO note; standard 12/26/9 |
 | S187 | Chong, T.T.L., Ng, W.-K. & Liew, V.K.-S. (2014), "Revisiting the Performance of MACD and RSI Oscillators," MPRA Paper 54149 https://mpra.ub.uni-muenchen.de/54149 | 1 | Primary (abstract opened): MACD(12,26,0) & RSI(21,50) significant abnormal returns in Milan Comit General & S&P/TSX; RSI(14,30/70) profitable on Dow Jones; extends Chong & Ng (2008) FT30 excess returns |
 
+## 2026-07-18 — 03-technical-analysis candlesticks article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S201 | Marshall, B.R., Young, M.R. & Rose, L.C. (2006), "Candlestick technical trading strategies: Can they create value for investors?" Journal of Banking & Finance 30(8):2303–2323 https://ideas.repec.org/a/eee/jbfina/v30y2006i8p2303-2323.html | 1 | Primary: DJIA components 1992–2002, bootstrap of random OHLC; candlestick strategies do not create value; Japanese market 1975–2004 also not profitable |
+| S202 | Yatrakis, P. & Williams, A.A. (2008), "Candlestick charts," Business Quest https://www.westga.edu/~bquest/2008/candlestick08.pdf | 2 | Origin (Homma/Dojima, Nison); shooting-star definition; small but statistically significant excess return over 5 days after shooting star in 257 NYSE stocks (Mar–Apr 2005) — short-lived weak-form anomaly |
+| S203 | Investopedia, "Candlestick Chart: Definition and the Basics" (updated Jul 2025) https://www.investopedia.com/terms/c/candlestick.asp | 2 | Real body / shadows; bullish vs bearish coloring; hammer/hanging man; engulfing; harami; doji; morning/evening star mechanics |
+| S204 | StockCharts ChartSchool, "Candlestick Pattern Dictionary" https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlestick-pattern-dictionary | 2 | Doji/hammer/hanging man/engulfing/harami/morning-evening star exact definitions; context dependence (hammer vs hanging man) |
+
 ## 2026-07-18 — 03-technical-analysis chart patterns & volume article
 | # | Source | Tier | Used for |
 |---|---|---|---|
