@@ -1,5 +1,13 @@
 # Iteration Log
 
+## 2026-07-18 — iter 15
+- Selected PHASE A task: 04-quant-and-factors CAPM & beta (first article for folder 04).
+- Sub-questions: CAPM/SML formula; beta definition & OLS estimation; levered/unlevered (bottom-up) beta; Blume shrinkage; empirical record (F&F 1992 flat beta); Roll's critique; assumptions/limitations; conflicts (CAPM dead vs alive; time-series vs cross-section).
+- Sources: 7 new (Tier 1: CFA S97, Damodaran S98, Roll 1977 via Wikipedia S99, Fama&French 1992 abstract S100; Tier 2: Investopedia S96, MPRA S102; Tier 3: Folio Lab S101). All URLs opened+verified; flat-beta claim corroborated S100+S96.
+- Wrote 04-quant-and-factors/capm-beta.md (template-compliant; three-bucket labeling; pure-stdlib runnable Python VERIFIED: beta=1.2425, alpha=-0.0033, CAPM E[R]=11.45%, Blume=1.1616).
+- Self-critique: Blume coefficient labeled empirical (not canonical); no new Verify spawned.
+- Repo health: 15/61 nodes done; PHASE A: 03,04 done; 06/07/09/10/11/12/13/14 still need first articles; open Verify carried forward.
+
 ## 2026-07-15 — iter 1 (kickoff + first loop)
 - Initialized repo: tree 00–15, STATE/{backlog,progress,sources}, README, CHANGELOG.
 - Selected P0 task: 00-foundations market structure.

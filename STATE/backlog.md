@@ -7,7 +7,7 @@ Two phases:
 
 ## PHASE A — cover every empty folder (do these next, in order)
 - [x] 03-technical-analysis: trend, support/resistance, momentum  (first article for 03) — DONE 2026-07-18 (trend-support-momentum.md; confidence: contested)
-- [ ] 04-quant-and-factors: CAPM & beta  (first article for 04)
+- [x] 04-quant-and-factors: CAPM & beta  (first article for 04) — DONE 2026-07-18 (capm-beta.md; confidence: contested)
 - [ ] 06-portfolio-construction: mean-variance / efficient frontier  (first article for 06)
 - [ ] 07-risk-management: VaR / CVaR  (first article for 07)
 - [ ] 09-market-microstructure: liquidity, spreads, execution, market impact  (first article for 09)

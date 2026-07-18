@@ -14,7 +14,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Relative valuation / comps | 02-valuation/relative-valuation.md | done | robust |
 | Technical: trend/momentum | 03-technical-analysis/trend-support-momentum.md | done | contested |
 | Technical: indicators | 03-technical-analysis/... | todo | — |
-| CAPM | 04-quant-and-factors/... | todo | — |
+| CAPM & beta (SML, estimation, Blume, Roll's critique) | 04-quant-and-factors/capm-beta.md | done | contested |
 | Fama–French | 04-quant-and-factors/... | todo | — |
 | Momentum/value premiums | 04-quant-and-factors/... | todo | — |
 | Stats: stationarity, ADF, autocorrelation | 05-stats-and-ml/stationarity-adf-autocorrelation.md | done | robust |
@@ -36,8 +36,8 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 14/61 nodes done.
-- PHASE A breadth in progress: 03 now has its first article; folders still empty of a first article: 04, 06, 07, 09, 10, 11, 12, 13, 14 (15 has data-snooping).
-- Next up: Phase A 04-quant-and-factors CAPM; then 06/07/09/10/11/12/13/14 first articles; then Phase B P1/P2 depth.
+- Coverage: 15/61 nodes done.
+- PHASE A breadth in progress: 03 and 04 now have first articles; folders still empty of a first article: 06, 07, 09, 10, 11, 12, 13, 14 (15 has data-snooping).
+- Next up: Phase A 06-portfolio-construction mean-variance; then 07/09/10/11/12/13/14 first articles; then Phase B P1/P2 depth.
 - P0 gaps: 15 survivorship still open; 15 already has data-snooping. All other P0 (00,01,02,05,08) sourced.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.
