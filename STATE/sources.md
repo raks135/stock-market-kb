@@ -400,6 +400,15 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S263 | Wikipedia, "Kelly criterion" https://en.wikipedia.org/wiki/Kelly_criterion | 2 | Binary f* = p − q/b; investment form f* = p/l − q/g; continuous single-asset f* = (μ−r)/σ²; fractional Kelly; more-than-Kelly raises ruin risk; garbage-in-garbage-out estimation warning; S&P Kelly ~117% (Thorp) |
 | S264 | Thorp, E.O. (2006), "The Kelly Criterion in Blackjack, Sports Betting, and the Stock Market," in Zenios & Ziemba (eds.) Handbook of Asset and Liability Management https://gwern.net/doc/statistics/decision/2006-thorp.pdf | 1 | Primary: log-utility geometric-growth-optimal; fractional Kelly growth ratio g(cf*)/g(f*) = c(2−c); case for fractional Kelly; S&P Kelly fraction ~117% implies leverage; estimation-error caution |
 
+## 2026-07-18 — 06 Black–Litterman article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S265 | Wikipedia, "Black–Litterman model" https://en.wikipedia.org/wiki/Black%E2%80%93Litterman_model | 2 | Background; developed 1990 at Goldman Sachs by Black & Litterman; overcomes MVO input-sensitivity; equilibrium prior as starting point; use BL to generate returns then constrained MVO |
+| S266 | PyPortfolioOpt, "Black-Litterman Allocation" docs (v1.5.4) https://pyportfolioopt.readthedocs.io/en/latest/BlackLitterman.html | 1 | Bayesian prior+views→posterior; Π = δΣw_mkt prior; master formula; τ=0.05 default; Ω proportional / Idzorek method; posterior covariance per He & Litterman (2002); bl_weights() implied weights |
+| S267 | Investopedia, "Understanding the Black-Litterman Model for Portfolio Optimization" https://www.investopedia.com/terms/b/black-litterman_model.asp | 2 | Pros (intuitive, prevents big weight shifts, investor control) / cons (doesn't guarantee best portfolio, sensitive to investor views); institutional use (pensions, insurers) |
+| S268 | Idzorek, T.M. (2005/2007), "A Step-by-Step Guide to the Black-Litterman Model: Incorporating user-specified confidence levels," Elsevier https://people.duke.edu/~charvey/Teaching/BA453_2006/Idzorek_onBL.pdf | 1 | Reverse-optimization Formula 1 Π=λΣw_mkt; λ=(risk premium)/σ²_mkt; master posterior distribution figure; proportional-Ω makes τ cancel; confidence 0–100% → ω_k=(1/c_k−1)(P_kτΣP_kᵀ); Best & Grauer 1991 / Michaud 1989 MVO pathologies (PDF opened & verified) |
+| S269 | CFA Institute RPC Digest (2013), "The Black–Litterman Model: A Risk Budgeting Perspective" https://rpc.cfainstitute.org/research/cfa-digest/2013/08/the-blacklitterman-model-a-risk-budgeting-perspective-digest-summary | 1 | BL returns = passive (equilibrium) + active (views); reverse optimization recovers benchmark weights when no views; risk-budgeting reinterpretation demystifies the Bayesian step (opened & verified) |
+
 
 
 

@@ -44,7 +44,7 @@ Two phases:
 - [x] 05-stats-and-ml: cointegration & pairs trading basics — DONE 2026-07-18 (cointegration-pairs-trading.md; confidence: contested)
 - [x] 05-stats-and-ml: feature engineering & ML pitfalls in finance — DONE 2026-07-18 (feature-engineering-ml-pitfalls.md; confidence: contested)
 - [x] 06-portfolio-construction: risk parity & Kelly sizing — DONE 2026-07-18 (risk-parity-kelly-sizing.md; confidence: robust)
-- [ ] 06-portfolio-construction: Black–Litterman
+- [x] 06-portfolio-construction: Black–Litterman — DONE 2026-07-18 (black-litterman.md; confidence: robust)
 - [ ] 06-portfolio-construction: factor portfolios & smart beta
 - [ ] 07-risk-management: drawdown & position sizing / stops
 - [ ] 07-risk-management: stress testing & scenario analysis
