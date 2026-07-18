@@ -115,3 +115,12 @@
 - Three-bucket labeling applied (topic robust; HLZ-vs-Chen magnitude contested). Failure modes explicit: hidden trial counts, dependence, non-stationarity/costs/capacity not fixed by corrections, walk-forward still snoops if reused.
 - Self-critique: S88 full text not opened -> conclusion softened; no new Verify spawned.
 - Repo health: 13/61 nodes done; open P0 gap: 15 survivorship; open Verify tasks carried forward.
+
+## 2026-07-18 — iter 14
+- Selected PHASE A task: 03-technical-analysis trend, support/resistance, momentum (first article for folder 03).
+- Sub-questions: TA definition/three tenets (Dow); trend & moving averages (golden/death cross); support/resistance (zones, role reversal, psychology/loss aversion); cross-sectional momentum (Jegadeesh & Titman 1993) vs time-series momentum (Moskowitz Ooi Pedersen 2012); empirical record & decay; conflicts (EMH/Malkiel vs Lo); common mistakes.
+- Sources: 7 (Tier 1: CFA Institute RF monograph S89 [opened — quotes Brock/J&T/Park&Irwin/Cowles]; Moskowitz TSM primary S91 [opened & verified]; Brock 1992 S90 + J&T 1993 S92 asserted only as faithfully quoted in opened S89, full PDFs not directly opened → flagged; Park & Irwin 2007 S93 via S89; Tier 2: Investopedia S94 [opened], analystnotes S95). All cited URLs either opened or quoted from an opened source.
+- Wrote 03-technical-analysis/trend-support-momentum.md (template-compliant; inline cites S89–S95; three-bucket labeling: robust=momentum premium, emerging=simple MA-rule profitability in current US equities, folklore=single-pattern clairvoyance; stdlib-only runnable SMA-cross + 12-1 momentum snippet VERIFIED executing).
+- Failure modes explicit: lagging reactive indicators, costs dominate churn, support/resistance are zones not lines, data-mining (7,846 Brock rules), regime non-stationarity; ties to KB 05/08/15.
+- Self-critique: Brock 1992 and J&T 1993 primaries not directly opened (fetch failed) — findings asserted only as quoted in opened S89; no new Verify spawned (carried forward).
+- Repo health: 14/61 nodes done; PHASE A in progress (03 done; 04/06/07/09/10/11/12/13/14 still need first articles); open Verify tasks carried forward.

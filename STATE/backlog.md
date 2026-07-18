@@ -6,7 +6,7 @@ Two phases:
   PHASE B (depth): fill remaining P0/P1/P2 subtopics listed below.
 
 ## PHASE A — cover every empty folder (do these next, in order)
-- [ ] 03-technical-analysis: trend, support/resistance, momentum  (first article for 03)
+- [x] 03-technical-analysis: trend, support/resistance, momentum  (first article for 03) — DONE 2026-07-18 (trend-support-momentum.md; confidence: contested)
 - [ ] 04-quant-and-factors: CAPM & beta  (first article for 04)
 - [ ] 06-portfolio-construction: mean-variance / efficient frontier  (first article for 06)
 - [ ] 07-risk-management: VaR / CVaR  (first article for 07)

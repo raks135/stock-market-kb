@@ -12,12 +12,12 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Quality of earnings | 01-fundamental-analysis/quality-of-earnings.md | done | robust |
 | DCF (FCFF/FCFE, WACC, terminal value) | 02-valuation/dcf.md | done | robust |
 | Relative valuation / comps | 02-valuation/relative-valuation.md | done | robust |
-| Technical: trend/momentum | 03-technical-analysis/... | todo | — |
+| Technical: trend/momentum | 03-technical-analysis/trend-support-momentum.md | done | contested |
 | Technical: indicators | 03-technical-analysis/... | todo | — |
 | CAPM | 04-quant-and-factors/... | todo | — |
 | Fama–French | 04-quant-and-factors/... | todo | — |
 | Momentum/value premiums | 04-quant-and-factors/... | todo | — |
-|| Stats: stationarity, ADF, autocorrelation | 05-stats-and-ml/stationarity-adf-autocorrelation.md | done | robust |
+| Stats: stationarity, ADF, autocorrelation | 05-stats-and-ml/stationarity-adf-autocorrelation.md | done | robust |
 | Stats: overfitting/look-ahead | 05-stats-and-ml/overfitting-lookahead.md | done | robust |
 | Mean-variance | 06-portfolio-construction/... | todo | — |
 | Risk parity / Kelly | 06-portfolio-construction/... | todo | — |
@@ -32,11 +32,12 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Behavioral | 12-behavioral-finance/... | todo | — |
 | Data & tooling | 13-data-and-tooling/... | todo | — |
 | Strategy catalog | 14-strategy-catalog/... | todo | — |
-|| Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
+| Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 13/61 nodes done.
-- Open P0 gaps: 15 survivorship still open; all other P0 sourced.
-- Next P0: 15-pitfalls survivorship bias. P1/P2 largely untouched (technical, factors, portfolio, risk, derivatives, macro, behavioral, data/tooling, strategy-catalog).
-- DONE when all P0 nodes sourced + no open Verify tasks.
+- Coverage: 14/61 nodes done.
+- PHASE A breadth in progress: 03 now has its first article; folders still empty of a first article: 04, 06, 07, 09, 10, 11, 12, 13, 14 (15 has data-snooping).
+- Next up: Phase A 04-quant-and-factors CAPM; then 06/07/09/10/11/12/13/14 first articles; then Phase B P1/P2 depth.
+- P0 gaps: 15 survivorship still open; 15 already has data-snooping. All other P0 (00,01,02,05,08) sourced.
+- DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.
