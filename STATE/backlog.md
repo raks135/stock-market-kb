@@ -37,7 +37,7 @@ Two phases:
 - [x] 03-technical-analysis: chart patterns & volume (evidence grade) — DONE 2026-07-18 (chart-patterns-volume.md; confidence: contested)
 - [x] 03-technical-analysis: candlesticks (evidence grade) — DONE 2026-07-18 (candlesticks.md; confidence: contested)
 - [x] 04-quant-and-factors: Fama–French 3/5 factors (empirical record) — DONE 2026-07-18 (fama-french-factors.md; confidence: contested)
-- [ ] 04-quant-and-factors: momentum & value premiums — robust or fading?
+- [x] 04-quant-and-factors: momentum & value premiums — robust or fading? — DONE 2026-07-18 (momentum-value-premiums.md; confidence: contested)
 - [ ] 04-quant-and-factors: low-vol / quality / carry factors
 - [ ] 04-quant-and-factors: APT & multi-factor models
 - [ ] 04-quant-and-factors: factor timing & factor crowding
@@ -80,6 +80,7 @@ Two phases:
 - [ ] VERIFY: Kyle (1985) exact λ / market-depth algebra and linear pricing rule p = p* + λ·y (primary PDF not directly opened; cited via S120/S121 — only qualitative depth=1/λ asserted).
 - [ ] VERIFY: Huang & Stoll (1997) exact three-way spread split (order processing / inventory / adverse selection) coefficients — primary not directly opened; two-component S123 opened corroborates the decomposition concept only.
 - [ ] VERIFY: conglomerate discount exact magnitude (13–15% commonly cited; Investopedia single Tier-2 source — cross-check against a primary/meta-study such as Berger & Ofek 1995 or a later synthesis before asserting magnitude).
+- [ ] VERIFY: "factor momentum aggregates the autocorrelations of all other factors" (2020 AEA, "Factor Momentum and the Momentum Factor") — cited as challenge to momentum-as-distinct-factor; primary not directly opened this iteration → flag before asserting.
 
 COMPLETION: all 16 folders (00-15) have >=1 article AND all Phase A/B items done AND no open Verify tasks → KB COMPLETE.
 - Simulation is synthetic noise (Box–Muller, stdlib, seed 42) — deliberately null; demonstrates the *selection* effect, not a market claim. Numbers are reproducible as written.
