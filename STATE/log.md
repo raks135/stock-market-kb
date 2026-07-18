@@ -8,6 +8,14 @@
 - Self-critique → spawned 1 Verify task (empirical edge of shrinkage/resampled efficiency vs 1/N OOS).
 - Repo health: 16/61 nodes done; PHASE A: 03/04/06 done; 07/09/10/11/12/13/14 still need first articles; open Verify carried forward.
 
+## 2026-07-18 — iter 17
+- Selected PHASE A task: 07-risk-management VaR / CVaR (first article for folder 07).
+- Sub-questions: VaR definition (quantile, not worst-case); three methods (parametric/historical/Monte Carlo); CVaR/Expected Shortfall definition & coherence; Artzner four axioms & VaR non-subadditivity; FRTB regulatory shift VaR→ES; Kupiec POF backtest + Basel traffic-light; limitations & common mistakes.
+- Sources: 9 new — Tier 1: CFA "Measuring and Managing Market Risk" S110, Artzner et al. 1999 primary S111, Kupiec 1995 primary ref S116; Tier 2: Wikipedia VaR/ES/Coherent S112/S113/S114, MetricGate Kupiec POF S115, KPMG FRTB S117, SIFMA FRTB S118. All URLs opened + verified; FRTB ES-replaces-VaR corroborated across KPMG+SIFMA+search; coherence/critique corroborated Artzner primary + 3 Wikipedia pages.
+- Wrote 07-risk-management/var-cvar.md (template-compliant; three-bucket labeling; pure-stdlib runnable Python VERIFIED: parametric VaR_95%=$15,949, CVaR_95%=$20,127; historical VaR=$16,124/CVaR=$20,101; Kupiec n=250, 18 breaches, LR=2.256, p=0.133 fail-to-reject).
+- Self-critique → spawned 1 Verify task (exact FRTB IMA calibration 97.5% ES vs 99% VaR against BCBS d457 primary).
+- Repo health: 17/61 nodes done; PHASE A: 03/04/06/07 done; 09/10/11/12/13/14 still need first articles; open Verify carried forward.
+
 ## 2026-07-18 — iter 15
 - Selected PHASE A task: 04-quant-and-factors CAPM & beta (first article for folder 04).
 - Sub-questions: CAPM/SML formula; beta definition & OLS estimation; levered/unlevered (bottom-up) beta; Blume shrinkage; empirical record (F&F 1992 flat beta); Roll's critique; assumptions/limitations; conflicts (CAPM dead vs alive; time-series vs cross-section).

@@ -22,7 +22,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Mean-variance / efficient frontier | 06-portfolio-construction/mean-variance-efficient-frontier.md | done | robust |
 | Risk parity / Kelly | 06-portfolio-construction/... | todo | — |
 | Black–Litterman | 06-portfolio-construction/... | todo | — |
-| VaR / CVaR | 07-risk-management/... | todo | — |
+| VaR / CVaR | 07-risk-management/var-cvar.md | done | robust |
 | Drawdown / sizing | 07-risk-management/... | todo | — |
 | Backtest: costs/slippage/walk-forward | 08-backtesting-methodology/transaction-costs-slippage-walkforward.md | done | robust |
 | Deflated Sharpe / multiple-testing | 08-backtesting-methodology/deflated-sharpe-multiple-testing.md | done | robust |
@@ -36,8 +36,8 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 16/61 nodes done.
-- PHASE A breadth in progress: 03, 04, 06 now have first articles; folders still empty of a first article: 07, 09, 10, 11, 12, 13, 14 (15 has data-snooping).
-- Next up: Phase A 07-risk-management VaR/CVaR; then 09/10/11/12/13/14 first articles; then Phase B P1/P2 depth.
-- P0 gaps: 15 survivorship still open; 15 already has data-snooping. All other P0 (00,01,02,05,08) sourced.
+- Coverage: 17/61 nodes done.
+- PHASE A breadth: 03, 04, 06, 07 now have first articles; folders still empty of a first article: 09, 10, 11, 12, 13, 14 (15 has data-snooping).
+- Next up: Phase A 09-market-microstructure (liquidity/spreads/execution/impact) first article; then 10/11/12/13/14 first articles; then Phase B P1/P2 depth.
+- P0 gaps: 15 survivorship still open; 15 already has data-snooping. All other P0 (00,01,02,05,07,08) sourced.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.

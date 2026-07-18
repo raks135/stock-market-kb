@@ -9,14 +9,14 @@ Two phases:
 - [x] 03-technical-analysis: trend, support/resistance, momentum  (first article for 03) — DONE 2026-07-18 (trend-support-momentum.md; confidence: contested)
 - [x] 04-quant-and-factors: CAPM & beta  (first article for 04) — DONE 2026-07-18 (capm-beta.md; confidence: contested)
 - [x] 06-portfolio-construction: mean-variance / efficient frontier  (first article for 06) — DONE 2026-07-18 (mean-variance-efficient-frontier.md; confidence: robust)
-- [ ] 07-risk-management: VaR / CVaR  (first article for 07)
+- [x] 07-risk-management: VaR / CVaR  (first article for 07) — DONE 2026-07-18 (var-cvar.md; confidence: robust)
 - [ ] 09-market-microstructure: liquidity, spreads, execution, market impact  (first article for 09)
 - [ ] 10-derivatives: option greeks intuition (delta/gamma/vega/theta/rho)  (first article for 10)
 - [ ] 11-macro-and-regimes: rates, business cycles, sector rotation  (first article for 11)
 - [ ] 12-behavioral-finance: cognitive biases, sentiment, crowding  (first article for 12)
 - [ ] 13-data-and-tooling: data vendors/APIs, libraries (pinned), reproducibility  (first article for 13)
 - [ ] 14-strategy-catalog: value & quality factor strategies (evidence + failure modes)  (first article for 14)
-- [ ] 15-pitfalls-and-antipatterns: data snooping / p-hacking  (first article for 15)
+- [x] 15-pitfalls-and-antipatterns: data snooping / p-hacking  (first article for 15) — DONE earlier (data-snooping-phacking.md); marked complete this iteration
 
 ## PHASE B — depth (after every folder has >=1 article)
 - [x] 00-foundations: market structure (DONE)
@@ -67,7 +67,7 @@ Two phases:
 - [ ] 15-pitfalls-and-antipatterns: survivorship bias
 
 ## Verify tasks (promote to Tier 1/2 before claiming; do NOT assert)
-- [ ] VERIFY: maker-taker rebate net effect on retail execution quality.
+- [ ] VERIFY: exact FRTB IMA calibration — 97.5% Expected Shortfall replacing 99% 10-day VaR — against BCBS d457 primary (KPMG/SIFMA confirm ES-replaces-VaR; exact confidence levels rest on secondary summaries only).
 - [ ] VERIFY: HFT net contribution to liquidity vs. fragility.
 - [ ] VERIFY: Altman Z-score cutoff zones (Altman 1968 primary; Z'/Z'' variants).
 - [ ] VERIFY: Piotroski F-score 23% long–short — gross vs net of costs; OOS after 1996.
