@@ -31,7 +31,7 @@ Two phases:
 - [x] 05-stats-and-ml: overfitting/look-ahead (DONE)
 - [x] 08-backtesting-methodology: transaction costs/slippage/walk-forward (DONE)
 - [x] 08-backtesting-methodology: deflated Sharpe/multiple-testing (DONE)
-- [ ] 01-fundamental-analysis: DuPont analysis & ROE decomposition
+- [x] 01-fundamental-analysis: DuPont analysis & ROE decomposition — DONE 2026-07-18 (dupont-analysis.md; confidence: robust)
 - [ ] 02-valuation: residual income / EVA & sum-of-parts
 - [ ] 03-technical-analysis: indicators (RSI, MACD) — evidence grade
 - [ ] 03-technical-analysis: chart patterns & volume (evidence grade)

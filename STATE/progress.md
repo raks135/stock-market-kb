@@ -10,6 +10,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Financial statements | 01-fundamental-analysis/financial-statements.md | done | robust |
 | Ratio analysis | 01-fundamental-analysis/ratio-analysis.md | done | robust |
 | Quality of earnings | 01-fundamental-analysis/quality-of-earnings.md | done | robust |
+| DuPont analysis & ROE decomposition | 01-fundamental-analysis/dupont-analysis.md | done | robust |
 | DCF (FCFF/FCFE, WACC, terminal value) | 02-valuation/dcf.md | done | robust |
 | Relative valuation / comps | 02-valuation/relative-valuation.md | done | robust |
 | Technical: trend/momentum | 03-technical-analysis/trend-support-momentum.md | done | contested |
@@ -37,8 +38,8 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 23/61 nodes done.
-- PHASE A breadth: ALL folders 00–15 now have >=1 first article (14 done this iteration). Breadth complete.
-- Next up: Phase B P1/P2 depth — remaining todos: 01 DuPont; 02 residual-income/sum-of-parts; 03 indicators/charts/candlesticks; 04 Fama–French/momentum-value/low-vol/factors/APT/timing; 05 cointegration/feature-engineering; 06 risk-parity/Kelly/Black–Litterman/smart-beta; 07 drawdown/position-sizing/stress; 09 maker-taker/HFT; 10 vol-surface/option-strategies; 11 regime-detection/inflation; 12 herding/limits-to-arbitrage; 13 hygiene/backtesting-cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
+- Coverage: 24/61 nodes done.
+- PHASE A breadth: ALL folders 00–15 now have >=1 first article. Breadth complete.
+- Next up: Phase B P1/P2 depth — remaining todos: 02 residual-income/sum-of-parts; 03 indicators/charts/candlesticks; 04 Fama–French/momentum-value/low-vol/factors/APT/timing; 05 cointegration/feature-engineering; 06 risk-parity/Kelly/Black–Litterman/smart-beta; 07 drawdown/position-sizing/stress; 09 maker-taker/HFT; 10 vol-surface/option-strategies; 11 regime-detection/inflation; 12 herding/limits-to-arbitrage; 13 hygiene/backtesting-cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
 - P0 gaps: 15 survivorship still open (Phase A/B). All other P0 (00,01,02,05,07,08) sourced.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.

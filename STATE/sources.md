@@ -268,4 +268,12 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S168 | Asness, C. (2022), "Is Value Just an Interest Rate Bet?" AQR Perspectives https://www.aqr.com/Insights/Perspectives/Is-Value-Just-an-Interest-Rate-Bet | 2 | Long-run HML↔10y-yield correlation ~0.10 (trivial); strong only last ~5y; value not merely a rate bet |
 | S169 | Inker, B. & Pease, J. (2021), "The Duration of Value and Growth," GMO white paper https://www.gmo.com/americas/research-library/the-duration-of-value-and-growth_whitepaper | 2 | Value & growth durations much closer than assumed; value can outperform without rate moves |
 
+## 2026-07-18 — 01-fundamental-analysis DuPont analysis & ROE decomposition article
+|| # | Source | Tier | Used for |
+|---|---|---|---|
+| S170 | Ryan O'Connell, CFA, FRM, "DuPont Analysis Explained: 3-Factor & 5-Factor ROE Decomposition" https://ryanoconnellfinance.com/dupont-analysis | 2 | 3- & 5-factor formulas; WMT/LVMH worked example; common mistakes (cross-industry, equity-multiplier risk, time-period mismatch, TTM+quarter, equity shrinkage); limitations (quality of earnings, negative equity) |
+| S171 | AnalystNotes, "Subject 6. The DuPont System" (CFA L1) https://analystnotes.com/cfa-study-notes-demonstrate-the-application-of-dupont-analysis-of-return-on-equity-and-calculate-and-interpret-effects-of-changes-in-its-components.html | 2 | Traditional 3-way + extended (tax/interest) formula; loss-multiplication caveat; leverage nuance |
+| S172 | AnalystPrep, "DuPont Analysis of Return on Equity" (CFA L1) https://analystprep.com/cfa-level-1-exam/financial-reporting-and-analysis/dupont-analysis-of-return-on-equity | 2 | Full 5-way derivation (Tax Burden x Interest Burden x EBIT Margin x Asset Turnover x Leverage); textbook worked example (ROE 8.33%); ROA x EM identity |
+| S173 | Investopedia, "DuPont Analysis" https://www.investopedia.com/terms/d/dupontanalysis.asp | 2 | Definition corroboration (NPM x asset turnover x equity multiplier); practitioner usage framing |
+
 
