@@ -10,7 +10,7 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [x] 01-fundamental-analysis: ratio analysis (liquidity, solvency, profitability, efficiency) (DONE: 01-fundamental-analysis/ratio-analysis.md)
 - [x] 01-fundamental-analysis: quality of earnings & red flags  (DONE: 01-fundamental-analysis/quality-of-earnings.md)
 - [x] 02-valuation: DCF (FCFF/FCFE) intuition + mechanics (DONE: 02-valuation/dcf.md)
-- [ ] 02-valuation: relative valuation / comps
+- [x] 02-valuation: relative valuation / comps
 - [ ] 05-stats-and-ml: stationarity, ADF, autocorrelation
 - [ ] 05-stats-and-ml: overfitting & look-ahead bias
 - [ ] 08-backtesting-methodology: transaction costs, slippage, walk-forward
@@ -51,3 +51,4 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [ ] VERIFY: Beneish (1999) M-Score canonical TATA coefficient — quality-of-earnings.md notes 4.679 (most-cited) vs 4.697 (MarketXLS S46); confirm the exact value in the FAJ primary.
 - [ ] VERIFY (DCF): cross-sectional empirical evidence that DCF intrinsic values predict future market prices better than multiples out-of-sample — most claims are anecdotal; seek a peer-reviewed test before asserting predictive power.
 - [ ] VERIFY (DCF): the "75% terminal value" figure for a specific forecast length — WSP/Macabacus quote ~75% (5-yr) and ~50% (10-yr); confirm against an independent practitioner/academic source (illustrative, not a law).
+- [ ] VERIFY (relative valuation): single-stock out-of-sample validity of "cheap multiple = outperform" — market-level P/E/CAPE mean-reversion (Campbell & Shiller 1998, Weigand & Irons 2007) is cited second-hand from search abstracts only; open the primary papers (or a peer-reviewed meta-review) before asserting any predictive power at the single-name level; note horizon dependence.

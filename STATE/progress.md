@@ -11,7 +11,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Ratio analysis | 01-fundamental-analysis/ratio-analysis.md | done | robust |
 | Quality of earnings | 01-fundamental-analysis/quality-of-earnings.md | done | robust |
 | DCF (FCFF/FCFE, WACC, terminal value) | 02-valuation/dcf.md | done | robust |
-| Relative valuation | 02-valuation/... | todo | — |
+| Relative valuation / comps | 02-valuation/relative-valuation.md | done | robust |
 | Technical: trend/momentum | 03-technical-analysis/... | todo | — |
 | Technical: indicators | 03-technical-analysis/... | todo | — |
 | CAPM | 04-quant-and-factors/... | todo | — |
@@ -36,6 +36,6 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 7/61 nodes done.
+- Coverage: 8/61 nodes done.
 - Open P0 gaps: many remain (see backlog).
 - DONE when all P0 nodes sourced + no open Verify tasks.

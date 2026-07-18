@@ -90,3 +90,11 @@ Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JF
 || S55 | Corporate Finance Institute, "FCFF vs FCFE" https://corporatefinanceinstitute.com/resources/valuation/fcff-vs-fcfe | 2 | FCFF = unlevered (excl. interest/net debt), FCFE = levered; EV↔FCFF, Equity↔FCFE |
 || S56 | Damodaran, A., "Myth 5.5: The Terminal Value ate my DCF!" (Musings on Markets, 2016) https://aswathdamodaran.blogspot.com/2016/11/myth-55-terminal-value-ate-my-dcf.html | 1 | High TV% is NOT a flaw (mirrors capital-gains-dominated returns); TV% rises with growth; early-stage assumptions still drive terminal value; g constraint tied to excess returns |
 || S57 | Macabacus, "Terminal Value in DCF" https://macabacus.com/valuation/dcf-terminal-value | 2 | TV ≈ 75% (5-yr) / ≈50% (10-yr); perpetuity g bounded 2–3% inflation to 4–5% GDP; cross-check implied g / implied multiple |
+
+## 2026-07-18 — relative-valuation article (02-valuation)
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S58 | CFA Institute, "Market-Based Valuation: Price and Enterprise Value Multiples" (2026 CFA L2 Equity Valuation refresher) https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples | 1 | Multiple definitions (price vs EV); method of comparables & law of one price; justified P/E, P/B, P/S; PEG; normalization; median vs mean; sector rationale |
+| S59 | Damodaran, A., "Relative Valuation" (NYU Stern exec-val notes, relval.pdf) https://pages.stern.nyu.edu/~adamodar/pdfiles/execval/relval.pdf | 1 | Essence of relative valuation; 85% equity reports stat; four-step deconstruction; definitional test (match claimholders); descriptive/analytical/application tests; sector multiple-choice table; prevalence of multiple-based M&A |
+| S60 | Investopedia, "Comparables Approach to Equity Valuation" https://www.investopedia.com/articles/investing/080913/equity-valuation-comparables-approach.asp | 2 | Comps vs DCF/precedent/asset-based; metrics used (P/B, P/E, P/FCF) |
+| S61 | Wall Street Prep, "Comparable Company Analysis (Trading Comps)" https://www.wallstreetprep.com/knowledge/comparable-company-analysis-comps | 2 | Step-by-step peer selection; scrubbing/calendarizing; EV vs equity multiples; output conventions (min/25/median/mean/75/max); LTM/NTM |

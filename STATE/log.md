@@ -60,3 +60,12 @@
 - Three-bucket labeling applied (method robust; inputs emerging/folklore). Conflicts explicit: perpetuity vs exit multiple (academics vs practitioners); high-TV% is/isn't a flaw (Damodaran: not a flaw); relative valuation "assumption-free" myth. Failure modes: g<WACC, g≤GDP, going-concern only, NI/EBITDA≠cash, single-point false precision, survivorship in any "DCF beats market" backtest.
 - Self-critique — spawned 2 new Verify tasks (DCF vs multiples predictive evidence; independent confirmation of 75% TV figure).
 - Repo health: 7/61 nodes done; many P0 open; open Verify tasks remain (carried forward).
+
+## 2026-07-18 — iter 8
+- Selected P0 task: 02-valuation relative valuation / comps.
+- Sub-questions: definition & law of one price; multiple taxonomy (P/E, PEG, P/B, P/S, EV/EBITDA, EV/EBIT, EV/S); claimholder-matching rule; justified multiples from DCF; comps methodology (peer selection, scrub, median); empirical pervasiveness; limitations & common mistakes; conflicts.
+- Sources: 4 (Tier 1: CFA Market-Based Valuation S58, Damodaran Relative Valuation S59; Tier 2: Investopedia comparables S60, Wall Street Prep trading comps S61). S58/S59/S60/S61 URLs opened + verified; comps mechanics corroborated across S58/S59/S61; justified-multiple algebra corroborated S58+S59.
+- Wrote 02-valuation/relative-valuation.md (template-compliant; inline cites S58–S61; runnable stdlib Python comps demo — verified: peer medians EV/EBITDA 7.82, P/E 11.48, P/B 3.06, P/S 1.31; target $6000m bracketed by $5512m–$6439m implied).
+- Three-bucket labeling applied (method robust; output emerging/folklore). Conflicts explicit: comps "objective" vs "circular" (Damodaran); median vs mean; P/E vs EV/EBITDA default. Failure modes: benchmark inherits peer bias/bubble, mismatched claimholders, skewed mean, negative denominators, leverage in P/E, sector-only peers, survivorship/look-ahead in backtests.
+- Self-critique -> spawned 1 new Verify task (single-stock mean-reversion predictive power cited only via search abstracts, not primary papers).
+- Repo health: 8/61 nodes done; many P0 open; open Verify tasks remain (carried forward).
