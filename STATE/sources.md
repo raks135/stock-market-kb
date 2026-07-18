@@ -382,5 +382,16 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S248 | Krauss, C. (2017), "Statistical Arbitrage Pairs Trading Strategies: Review and Outlook," Journal of Economic Surveys 31:513–545 (RePEc: ideas.repec.org/a/bla/jecsur/v31y2017i2p513-545.html; econstor WP pdf) | 2 | Survey: distance pairs trading profitable across markets/time but decaying; within-industry best; cointegration not uniformly superior (RePEc page + WP PDF snippet opened & verified) |
 | S249 | arxiv:2412.12458 (Columbia coursework, 2024), "An Application of the Ornstein-Uhlenbeck Process to Pairs Trading" https://arxiv.org/html/2412.12458v1 | 3 | OU outperforms naive z-score on risk-return; explicit limitation: no transaction costs/slippage, non-stationarity risk (opened & verified; educational lead only) |
 
+## 2026-07-18 — 05 feature engineering & ML pitfalls article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S250 | Gu, S., Kelly, B. & Xiu, D. (2020), "Empirical Asset Pricing via Machine Learning," Review of Financial Studies 33(5):2223–2273 (open-access PDF) https://dachxiu.chicagobooth.edu/download/ML.pdf | 1 | ML = high-dim + regularization + efficient search; NN market-timing OOS Sharpe 0.77 vs 0.51 buy-and-hold; value-weighted LS decile NN Sharpe 1.35 (>2x regression-based); dominant signals = momentum/liquidity/volatility; cites Green-Hand-Zhang ~330 & Harvey-Liu-Zhu 316 predictors (opened full PDF & verified) |
+| S251 | López de Prado, M. (2018), "The 10 Reasons Most Machine Learning Funds Fail," GARP whitepaper (PDF) https://www.garp.org/hubfs/Whitepapers/a1Z1W0000054x6lUAA.pdf | 1 | Primary: the 10 pitfalls/solutions (Sisyphus→meta-strategy; backtest-driven research→feature importance; chronological→volume clock; integer→fractional diff; fixed-horizon→triple-barrier; side+size→meta-labeling; non-IID→uniqueness/sequential bootstrap; CV leakage→purging+embargoing; walk-forward→CPCV; overfitting→synthetic data + DSR); ~20 iterations to a false positive at 5% (opened full PDF & verified) |
+| S252 | Martin, R.A. (2023), "Advances in Financial Machine Learning" notes (executive summary of López de Prado 2018) https://reasonabledeviations.com/notes/adv_fin_ml | 2 | Triple-barrier + meta-labeling; fractional differentiation memory-stationarity tradeoff; purged k-fold CV; feature importance (MDI/MDA/SFI + PCA Kendall-τ); "backtesting is not a research tool, feature importance is"; 7 backtest deadly sins (opened & verified) |
+| S253 | QuantInsti, "Cross Validation in Finance: Purging, Embargoing, Combination" https://blog.quantinsti.com/cross-validation-embargo-purging-combinatorial | 2 | Embargoing (63-day vol lookback → drop first ~63 days of next fold); purging (event-time vs trade-time overlap); CV as backtest; combinatorial purged CV; overfit-via-parameter-tuning example (opened & verified) |
+| S254 | Green, J., Hand, J.R.M. & Zhang, X.F. (2013), "The Characteristics that Provide Independent Information about Average U.S. Equity Returns" (cited in S250) | 1 | ~330 stock-level predictive characteristics documented (cited via S250) |
+| S255 | Harvey, C.R., Liu, Y. & Zhu, H. (2016), "…and the Cross-Section of Expected Returns," RFS 29(1):5–68 (reuse of registry S72) | 1 | 316 "factors"; multiple-testing context for feature selection (reused S72) |
+
+
 
 
