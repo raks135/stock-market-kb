@@ -25,7 +25,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | VaR / CVaR | 07-risk-management/... | todo | — |
 | Drawdown / sizing | 07-risk-management/... | todo | — |
 | Backtest: costs/slippage/walk-forward | 08-backtesting-methodology/transaction-costs-slippage-walkforward.md | done | robust |
-| Backtest: deflated Sharpe | 08-backtesting-methodology/... | todo | — |
+| Deflated Sharpe / multiple-testing | 08-backtesting-methodology/deflated-sharpe-multiple-testing.md | done | robust |
 | Microstructure | 09-market-microstructure/... | todo | — |
 | Options greeks | 10-derivatives/... | todo | — |
 | Macro / regimes | 11-macro-and-regimes/... | todo | — |
@@ -36,6 +36,6 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 11/61 nodes done.
-- Open P0 gaps: 08 deflated Sharpe/multiple-testing, 15 data-snooping, 15 survivorship still open; 08 costs/slippage/walk-forward DONE.
+- Coverage: 12/61 nodes done.
+- Open P0 gaps: 15 data-snooping, 15 survivorship still open; 08 deflated Sharpe/multiple-testing DONE.
 - DONE when all P0 nodes sourced + no open Verify tasks.

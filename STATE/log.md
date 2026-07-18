@@ -96,3 +96,13 @@
 - Three-bucket labeling applied (topic robust; square-root η market-specific; WFO mitigates not eliminates overfit). Failure modes: implicit costs dominate, VWAP understates impact, WFO regime-lag + window bias, capacity/scale, no look-ahead in code.
 - Self-critique -> spawned 1 new Verify task (open Perold 1988 + Almgren&Chriss 2001 primaries for exact IS decomposition / impact constant).
 - Repo health: 11/61 nodes done; open P0 gaps: 08 deflated Sharpe, 15 data-snooping, 15 survivorship; open Verify tasks carried forward.
+
+## 2026-07-18 — iter 12
+- Selected P0 task: 08-backtesting-methodology deflated Sharpe ratio + multiple-testing.
+- Sub-questions: multiple-testing/FWER inflation; selection bias & backtest overfitting; PSR (non-normal SE of Sharpe estimator); DSR = PSR at expected-max-Sharpe null; MinTRL; Bonferroni/Holm (FWER) vs Benjamini-Hochberg (FDR) vs BY; factor-zoo t≈3.0 bar; HLZ vs Chen(2024) conflict.
+- Sources: 8 new (Tier 1: Bailey&LdP DSR primary S80, Chen 2024 Fed S82, Benjamini&Hochberg 1995 S83, Lo 2002 S86; Tier 2: QuantConnect PSR S81, Wikipedia DSR/FDR S85; Tier 3: Brenndoerfer mult-comparisons S84) + reused HLZ summary S72. All primary/key URLs opened + verified (DSR PDF, Chen PDF, QuantConnect, Brenndoerfer). HLZ primary (Oxford/SSRN) failed fetch but 316/|t|≈3.0 corroborated via opened S72 (Foxholm) + SSRN abstract.
+- Wrote 08-backtesting-methodology/deflated-sharpe-multiple-testing.md (template-compliant; inline cites S80–S86; stdlib-only runnable Python VERIFIED: PSR(0)=0.999, DSR deflates 0.999→0.958→0.753→0.468 for N=1/10/100/1000; MinTRL=36 obs; m=200 null → 12 naive false positives, 0 after Bonferroni/BH, FWER_naive=1.000).
+- Three-bucket labeling applied (DSR/PSR mechanics robust; HLZ-vs-Chen "how many factors are real" magnitude contested). Conflicts explicit: HLZ "most false, |t|≈3.0" vs Chen "≥75% true, HLZ's own FDR 9–35%, conflict is interpretive."
+- Failure modes explicit: DSR fixes statistical inflation only (not non-stationarity/costs/capacity); N must be true/effective trials; asymptotic; γ=0 prior; BH dependence assumption.
+- Self-critique: no new Verify tasks spawned; HLZ magnitude now corroborated (2 sources) though primary PDF not directly opened (logged).
+- Repo health: 12/61 nodes done; open P0 gaps: 15 data-snooping, 15 survivorship; open Verify tasks carried forward.

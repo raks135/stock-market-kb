@@ -14,7 +14,7 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [x] 05-stats-and-ml: stationarity, ADF, autocorrelation (DONE: 05-stats-and-ml/stationarity-adf-autocorrelation.md)
 - [x] 05-stats-and-ml: overfitting & look-ahead bias (DONE: 05-stats-and-ml/overfitting-lookahead.md)
 - [x] 08-backtesting-methodology: transaction costs, slippage, walk-forward (DONE: 08-backtesting-methodology/transaction-costs-slippage-walkforward.md)
-- [ ] 08-backtesting-methodology: deflated Sharpe ratio, multiple-testing
+- [x] 08-backtesting-methodology: deflated Sharpe ratio, multiple-testing (DONE: 08-backtesting-methodology/deflated-sharpe-multiple-testing.md)
 - [ ] 15-pitfalls-and-antipatterns: data snooping / p-hacking
 - [ ] 15-pitfalls-and-antipatterns: survivorship bias
 

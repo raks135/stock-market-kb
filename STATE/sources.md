@@ -128,3 +128,14 @@ Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JF
 | S77 | QuantInsti, "Walk-Forward Optimization: How It Works, Its Limitations" https://blog.quantinsti.com/walk-forward-optimization-introduction | 2 | WFO rolling IS->OOS mechanics; window-selection bias; regime-lag limitation; computational cost |
 | S78 | Investopedia, "Slippage" (Adam Hayes PhD CFA; updated Jul 2026) https://www.investopedia.com/terms/s/slippage.asp | 2 | Slippage = expected vs actual fill; positive/negative; worst in volatility/low-liquidity/large orders; limit orders mitigate |
 | S79 | Bouchaud, J-P., "The Square-Root Law of Market Impact" (Substack, Nov 2024) https://bouchaud.substack.com/p/the-square-root-law-of-market-impact | 2 | Square-root impact law robust empirical regularity; dP/P ~ sqrt(Q), ~independent of N and T; contradicts Kyle linear lambda |
+
+## 2026-07-18 — deflated Sharpe / multiple-testing article (08-backtesting-methodology)
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S80 | Bailey, D.H. & López de Prado, M. (2014), "The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality," J. Portfolio Management 40(5):94-107 (PDF) https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf | 1 | DSR/PSR definitions; multiple-testing & selection-bias framing; expected-max-Sharpe SR0 formula; non-normality correction; MinTRL context |
+| S81 | QuantConnect, "Probabilistic Sharpe Ratio" https://www.quantconnect.com/research/17112/probabilistic-sharpe-ratio | 2 | PSR closed-form (skew/kurtosis-adjusted); non-normality effect; worked SPY example; confirms SE term |
+| S82 | Chen, A.Y. (2024), "Most claimed statistical findings in cross-sectional return predictability are likely true," Federal Reserve Board (May 2024) https://www.anderson.ucla.edu/sites/default/files/document/2024-05/5.24.24%20Paper%20Andrew%20Checn%20Fed%20Reserve%20Board.pdf | 1 | FDR bound >=75% (tightest 91%) of findings true; HLZ figures imply FDR <=35% (SMM 9%); conflict is interpretive (significance vs truth) |
+| S83 | Benjamini, Y. & Hochberg, Y. (1995), "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing," JRSSB 57(1):289-300 | 1 | BH procedure (primary); FDR = E[V/R]; adjusted p-value form |
+| S84 | Brenndoerfer, M. (2026), "Multiple Comparisons: FWER, FDR, Bonferroni, Holm & Benjamini-Hochberg" https://mbrenndoerfer.com/writing/multiple-comparisons-fwer-fdr-bonferroni-holm-benjamini-hochberg | 3 | FWER=1-(1-a)^m table (14 tests->0.51, 100->0.994); Bonferroni/Holm/BH/BY code + algorithm (corroboration only) |
+| S85 | Wikipedia, "Deflated Sharpe ratio" / "False discovery rate" | 2 | DSR formula cross-check; FDR definition |
+| S86 | Lo, A.W. (2002), "The Statistics of Sharpe Ratios," Financial Analysts Journal 58(4):36-52 | 1 | Sampling distribution / variance of the Sharpe ratio estimator (basis for SE term) |
