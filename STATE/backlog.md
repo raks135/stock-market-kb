@@ -52,7 +52,7 @@ Two phases:
 - [x] 10-derivatives: volatility surface, skew, hedging basics — DONE 2026-07-18 (volatility-surface-skew-hedging.md; confidence: robust)
 - [x] 10-derivatives: option strategies (covered call, protective put, spreads) — DONE 2026-07-18 (option-strategies.md; confidence: robust)
 - [x] 11-macro-and-regimes: regime detection methods — DONE 2026-07-18 (regime-detection-methods.md; confidence: contested)
-- [ ] 11-macro-and-regimes: inflation, yields & equity valuation
+- [x] 11-macro-and-regimes: inflation, yields & equity valuation
 - [ ] 12-behavioral-finance: herding, overconfidence, loss aversion (prospect theory)
 - [ ] 12-behavioral-finance: limits to arbitrage
 - [ ] 13-data-and-tooling: data hygiene & survivorship-free datasets
@@ -123,3 +123,9 @@ COMPLETION: all above (P0+P1+P2) done + no open Verify tasks → KB COMPLETE.
 - Repo health: 44/61 nodes done; Phase B remaining: 11 inflation/yields, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.
 
 - [ ] VERIFY: dedicated primary showing a single-regime heavy-tailed / GARCH process can mimic apparent Markov-switching *mean* regimes in equity returns (e.g., Cappuccio, Lubian & Raggi 2004; or Kim, Nelson & Startz on identification) — current "fat-tail mirage" caveat rests on Ang & Bekaert 2011 (S316) framing only; cross-check a primary before asserting the identifiability weakness as more than a caveat.
+
+## Self-critique (iter 44 — 11 inflation, yields & equity valuation)
+- Wrote 11-macro-and-regimes/inflation-yields-equity-valuation.md (template-compliant; three-bucket labeling: discount-rate & equity-duration mechanics robust, Fed-model validity & inflation-hedge efficacy contested; pure-stdlib runnable Python VERIFIED on CPython 3.14.4 — duration 20.0y→50.0y (2.50x) as k falls 0.09→0.05; P/E 17.0→25.5 (+50.0%) for a 2pp drop in r; Fed-model fallacy demonstrated: real E/P 0.0392 vs nominal Y 0.0400 flags EXPENSIVE, vs real/TIPS Y 0.0200 flags CHEAP).
+- Sources: 9 new, ALL URLs opened & verified — Tier 1: Sharpe 1999 Fed FEDS paper S320, Asness 2003 Fight the Fed Model S321, Campbell & Vuolteenaho 2004 Inflation Illusion S323, Wilcox 2012 CFA Equity Valuation & Inflation review S324; Tier 2: Arnott & Ryan 2001 Death of Risk Premium S322, AllianceBernstein 2021 S325, MSCI 2008 Hedging Inflation S326, Schroeder & Esterer equity-duration WP S327, Golez & Koudijs 2025 via Alpha Architect S328. Claims corroborated >=2 independent opened sources (Fed-model fallacy: S321 + S323; inflation-illusion: S323 + S324; long-run-neutral/short-run-negative: S324 + S326; low-rate→longer-duration: S327 + S328).
+- No new Verify spawned (all asserted claims corroborated by >=2 opened independent sources). Bhamra et al. 2023 (RFS) retained only as a flagged further-reading pointer (abstract seen, full text not opened) — not asserted.
+- Repo health: 45/61 nodes done; Phase B remaining: 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify tasks carried forward.

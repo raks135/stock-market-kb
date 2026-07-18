@@ -44,6 +44,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 || Option strategies (covered call, protective put, bull/bear spreads, collar, straddle, calendar) | 10-derivatives/option-strategies.md | done | robust |
 || Macro / regimes: rates, business cycle, sector rotation, regime detection | 11-macro-and-regimes/rates-business-cycles-sector-rotation.md | done | robust |
 || Regime detection methods (Markov-switching/HMM, structural breaks, heuristics) | 11-macro-and-regimes/regime-detection-methods.md | done | contested |
+| Inflation, yields & equity valuation (discount-rate/equity-duration channels, Fed-model critique, inflation-illusion) | 11-macro-and-regimes/inflation-yields-equity-valuation.md | done | contested |
 | Behavioral: biases, sentiment, crowding | 12-behavioral-finance/cognitive-biases-sentiment-crowding.md | done | robust |
 | Data & tooling (vendors, libraries, reproducibility) | 13-data-and-tooling/data-vendors-apis-libraries-reproducibility.md | done | robust |
 | Data & tooling (hygiene / survivorship-free datasets) | 13-data-and-tooling/... | todo | — |
@@ -52,8 +53,8 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 44/61 nodes done.
+- Coverage: 45/61 nodes done.
 - PHASE A breadth: ALL folders 00–15 now have >=1 first article. Breadth complete.
-- Next up (Phase B depth): 11 inflation/yields; 12 herding/limits; 13 hygiene/cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
+- Next up (Phase B depth): 12 herding/limits; 13 hygiene/cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
 - P0 gaps: 15 survivorship still open (Phase A/B). All other P0 (00,01,02,05,07,08) sourced.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.
