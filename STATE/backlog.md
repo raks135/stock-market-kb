@@ -60,7 +60,7 @@ Two phases:
 - [x] 14-strategy-catalog: momentum & trend-following strategies
 - [x] 14-strategy-catalog: mean-reversion / stat-arb strategies — DONE 2026-07-18 (mean-reversion-stat-arb.md; confidence: contested)
 - [x] 14-strategy-catalog: carry & volatility strategies — DONE 2026-07-18 (carry-volatility-strategies.md; confidence: contested)
-- [ ] 15-pitfalls-and-antipatterns: overfitting / curve fitting
+- [x] 15-pitfalls-and-antipatterns: overfitting / curve fitting
 - [ ] 15-pitfalls-and-antipatterns: regime change & non-stationarity
 - [ ] 15-pitfalls-and-antipatterns: look-ahead bias (deep dive)
 - [ ] 15-pitfalls-and-antipatterns: transaction-cost neglect
@@ -172,3 +172,9 @@ COMPLETION: all above (P0+P1+P2) done + no open Verify tasks → KB COMPLETE.
 - Sources: 7 new — Tier 1: Carr & Wu 2009 S373 (abstract opened & verified), Lustig-Roussanov-Verdelhan 2011 S375 (abstract opened & verified), Gorton-Hayashi-Rouwenhorst 2013 S376 (abstract-level via snippet), JPMorgan SEC filing S379 (opened via snippet); Tier 2: Alpha Architect VRP S374 (opened & verified), CFA/FAJ Volmageddon S377 (opened & verified), Quantpedia VIX term structure S378 (opened via search). Reused Tier 1: Koijen et al. 2018 S223, Israelov & Nielsen 2015 S313. ALL cited URLs opened & verified.
 - No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; Koijen carry Sharpe from opened primary S223; VRP pervasiveness from S373+S374; currency forward-premium puzzle from S375 + S223; Volmageddon from opened S377). GHR 10% basis spread cited via snippet-level primary S376 (flagged abstract-level).
 - Repo health: 52/61 nodes done; Phase B remaining: 15 (5) overfitting/regime/look-ahead/txn-cost/survivorship; open Verify tasks carried forward.
+
+## Self-critique (iter 52 — 15 overfitting / curve fitting)
+- Wrote 15-pitfalls-and-antipatterns/overfitting-curve-fitting.md (template-compliant; three-bucket labeling: bias-variance mechanics & selection-bias math robust, "hold-out unreliable in finance vs CSCV fixes it" & "replication-crisis magnitude" contested/framed; two runnable snippets VERIFIED via repo .venv numpy 2.5.1 — Snippet A polynomial curve-fit: train MSE 0.2844→0.0269 as degree 1→15 while test MSE bottoms at deg3 (0.0055) then rises to 0.0382 (U-shape overfitting); Snippet B 500-noise-trial search: best in-sample Sharpe 1.011 (t=11.08, naive p≈0 "significant") vs that strategy's OOS Sharpe 0.006 (t=0.06, p=0.95) = textbook false positive from selection).
+- Sources: 4 new — Tier 1: Campbell & Thompson 2008 S380 (opened & verified: most predictors negative OOS R², only cay/T-bill/term-spread/div-payout/equity-share/cay beat historical avg), Hansen-Lunde-Nason 2011 MCS S383 (abstract opened & verified); Tier 2: Bailey Significance/SSRN 3895330 S381 (opened & verified: three finance-specific false-discovery reasons + journals seldom disclose # trials), Wikipedia bias-variance S382 (opened & verified: EPE=bias²+var+noise). Reused Tier 1: Bailey-López de Prado DSR S68, Bailey et al. PBO/CSCV S69, White 2000 S87, Lo 2002 S86, HLZ S72, Benjamini-Hochberg S83.
+- No new Verify tasks spawned (all asserted claims corroborated by >=2 opened independent sources; bias-variance decomposition from opened S382; PBO/DSR from opened primaries S69/S68; Campbell-Thompson negative-OOS-R² from opened primary S380; MCS from opened primary S383).
+- Repo health: 53/61 nodes done; Phase B remaining: 15 regime/look-ahead/txn-cost/survivorship (4); open Verify tasks carried forward.

@@ -550,6 +550,14 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S378 | Quantpedia, "Exploiting Term Structure of VIX Futures" https://quantpedia.com/strategies/exploiting-term-structure-of-vix-futures | 2 | VIX futures contango/backwardation; roll-yield; alpha deteriorating out-of-sample; opened via search description |
 | S379 | J.P. Morgan Strategic Volatility Index SEC filing (free-writing prospectus) https://www.sec.gov/Archives/edgar/data/19617/000095010314000708/crt_dp43643-fwp.pdf | 1 | SEC official; VIX term structure contango; short VIX-futures position offsets negative roll yield; opened via snippet |
 
+## 2026-07-18 — 15-pitfalls overfitting / curve fitting article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S380 | Campbell, J.Y. & Thompson, S.B. (2008), "Predicting Excess Stock Returns Out of Sample: Can Anything Beat the Historical Average?" *Review of Financial Studies* 21(4):1509–1528 (NBER w11468) https://www.nber.org/system/files/working_papers/w11468/w11468.pdf | 1 | Primary (abstract + table opened & verified): most predictors yield NEGATIVE OOS R²; only cay, T-bill rate, term spread, dividend payout, equity share of new issues, consumption–wealth ratio beat historical average under sign constraints; past fit ≠ predictive |
+| S381 | Bailey, D.H. (2022), "How backtest overfitting in finance leads to false discoveries," *Significance* (Royal Statistical Society), condensed from SSRN 3895330 "Finance is Not Excused" https://mathinvestor.org/2022/01/how-backtest-overfitting-in-finance-leads-to-false-discoveries | 2 | Opened & verified: three reasons finance prone to false discoveries (competition→low significance, short-lived discoveries/non-stationarity, rarely debunked OOS); journals seldom require disclosing # trials; poor active-fund/forecaster record |
+| S382 | Wikipedia, "Bias–variance tradeoff" https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff | 2 | Opened & verified: EPE = bias² + variance + irreducible error; flexibility↑ → bias↓ variance↑; U-shape of OOS error |
+| S383 | Hansen, P.R., Lunde, A. & Nason, J.M. (2011), "The Model Confidence Set," *Econometrica* 79(2):453–497 https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771 | 1 | Primary (abstract opened & verified): MCS = set of models containing the best with confidence 1−α; uninformative data → large MCS; disciplined alternative to "pick the max-Sharpe model" |
+
 
 
 

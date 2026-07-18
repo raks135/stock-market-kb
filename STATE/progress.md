@@ -55,12 +55,13 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 ||| Momentum & trend-following strategies (cross-sectional + TSM; evidence, costs, crashes) | 14-strategy-catalog/momentum-trend-following-strategies.md | done | contested |
 |||| Mean-reversion & statistical-arbitrage strategies (OU/s-score, variance-ratio, Avellaneda–Lee, Aug-2007) | 14-strategy-catalog/mean-reversion-stat-arb.md | done | contested |
 || Carry & volatility (short-tail-risk) strategies (cross-asset carry + VRP, evidence, failure modes) | 14-strategy-catalog/carry-volatility-strategies.md | done | contested |
-| Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
-| Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
+|| Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
+|| Overfitting & curve fitting (bias-variance, selection bias, DSR/PBO/MCS) | 15-pitfalls-and-antipatterns/overfitting-curve-fitting.md | done | robust |
+|| Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 52/61 nodes done (carry-volatility added; folder 14 now has 4 articles).
+- Coverage: 53/61 nodes done (overfitting-curve-fitting added; folder 15 now has 2 articles).
 - PHASE A breadth: ALL folders 00–15 now have >=1 first article. Breadth complete.
-- Next up (Phase B depth): 15 overfitting/regime/look-ahead/txn-cost/survivorship (5 items).
-- Open Phase B items: 15 (5) = 5 remaining. Open Verify tasks carried forward (not asserted).
+- Next up (Phase B depth): 15 regime/look-ahead/txn-cost/survivorship (4 items).
+- Open Phase B items: 15 (4) = 4 remaining. Open Verify tasks carried forward (not asserted).
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.
