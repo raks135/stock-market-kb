@@ -31,6 +31,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Mean-variance / efficient frontier | 06-portfolio-construction/mean-variance-efficient-frontier.md | done | robust |
 | Risk parity / Kelly sizing | 06-portfolio-construction/risk-parity-kelly-sizing.md | done | robust |
 | Black–Litterman (reverse optimization + Bayesian views blend) | 06-portfolio-construction/black-litterman.md | done | robust |
+| Factor portfolios & smart beta (construction, long–short vs ETF gap, capacity/costs) | 06-portfolio-construction/factor-portfolios-smart-beta.md | done | contested |
 | VaR / CVaR | 07-risk-management/var-cvar.md | done | robust |
 | Drawdown / sizing | 07-risk-management/... | todo | — |
 | Backtest: costs/slippage/walk-forward | 08-backtesting-methodology/transaction-costs-slippage-walkforward.md | done | robust |
@@ -46,8 +47,8 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 37/61 nodes done.
+- Coverage: 38/61 nodes done.
 - PHASE A breadth: ALL folders 00–15 now have >=1 first article. Breadth complete.
-- Next up: 06 smart-beta; 07 drawdown/position-sizing/stress; 09 maker-taker/HFT; 10 vol-surface/option-strategies; 11 regime-detection/inflation; 12 herding/limits-to-arbitrage; 13 hygiene/backtesting-cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
+- Next up: 07 drawdown/position-sizing/stress; 09 maker-taker/HFT; 10 vol-surface/option-strategies; 11 regime-detection/inflation; 12 herding/limits-to-arbitrage; 13 hygiene/backtesting-cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
 - P0 gaps: 15 survivorship still open (Phase A/B). All other P0 (00,01,02,05,07,08) sourced.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.
