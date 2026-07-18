@@ -290,5 +290,13 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S182 | AnalystNotes, "The Residual Income Valuation Model" (CFA L2) https://analystnotes.com/cfa-study-notes-the-residual-income-valuation-model.html | 2 | Clean-surplus relation B_t = B_{t−1} + NI_t − D_t; RI model ≡ DDM under clean surplus; persistence factor for continuing RI |
 | S183 | Wall Street Prep, "Economic Value Added (EVA)" https://www.wallstreetprep.com/knowledge/economic-value-added-eva | 2 | EVA = NOPAT − WACC × Invested Capital = (ROIC − WACC) × Invested Capital; worked $4m example; corroborates S174/S175 |
 
+## 2026-07-18 — 03-technical-analysis indicators (RSI/MACD) article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S184 | StockCharts ChartSchool, "Relative Strength Index (RSI)" https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/relative-strength-index-rsi | 2 | Wilder RSI formula (3 components: RS/AvgGain/AvgLoss), 14-period default, Wilder smoothing = EMA α=1/n, 70/30 overbought/oversold, divergence/failure-swing, warm-up ≥250 pts, 70+ can persist in uptrends |
+| S185 | Wikipedia, "MACD" https://en.wikipedia.org/wiki/MACD | 2 | MACD(12,26,9) definition; MACD line = EMA12−EMA26, signal = EMA9 of MACD; lagging-indicator caveat; unbounded → not for overbought/oversold; PPO for cross-security comparison |
+| S186 | StockCharts ChartSchool, "MACD (Moving Average Convergence/Divergence) Oscillator" https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/macd-moving-average-convergence-divergence-oscillator | 2 | Signal-line & centerline crossovers; histogram definition; whipsaw in ranges (CMI 7 crosses/5mo no trend); PPO note; standard 12/26/9 |
+| S187 | Chong, T.T.L., Ng, W.-K. & Liew, V.K.-S. (2014), "Revisiting the Performance of MACD and RSI Oscillators," MPRA Paper 54149 https://mpra.ub.uni-muenchen.de/54149 | 1 | Primary (abstract opened): MACD(12,26,0) & RSI(21,50) significant abnormal returns in Milan Comit General & S&P/TSX; RSI(14,30/70) profitable on Dow Jones; extends Chong & Ng (2008) FT30 excess returns |
+
 
 
