@@ -43,7 +43,7 @@ Two phases:
 - [x] 04-quant-and-factors: factor timing & factor crowding — DONE 2026-07-18 (factor-timing-crowding.md; confidence: contested)
 - [x] 05-stats-and-ml: cointegration & pairs trading basics — DONE 2026-07-18 (cointegration-pairs-trading.md; confidence: contested)
 - [x] 05-stats-and-ml: feature engineering & ML pitfalls in finance — DONE 2026-07-18 (feature-engineering-ml-pitfalls.md; confidence: contested)
-- [ ] 06-portfolio-construction: risk parity & Kelly sizing
+- [x] 06-portfolio-construction: risk parity & Kelly sizing — DONE 2026-07-18 (risk-parity-kelly-sizing.md; confidence: robust)
 - [ ] 06-portfolio-construction: Black–Litterman
 - [ ] 06-portfolio-construction: factor portfolios & smart beta
 - [ ] 07-risk-management: drawdown & position sizing / stops

@@ -392,6 +392,15 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S254 | Green, J., Hand, J.R.M. & Zhang, X.F. (2013), "The Characteristics that Provide Independent Information about Average U.S. Equity Returns" (cited in S250) | 1 | ~330 stock-level predictive characteristics documented (cited via S250) |
 | S255 | Harvey, C.R., Liu, Y. & Zhu, H. (2016), "…and the Cross-Section of Expected Returns," RFS 29(1):5–68 (reuse of registry S72) | 1 | 316 "factors"; multiple-testing context for feature selection (reused S72) |
 
+## 2026-07-18 — 06 risk parity & Kelly article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S261 | Maillard, S., Roncalli, T. & Teiletche, J. (2008/2010), "On the properties of equally-weighted risk contributions portfolios" (JPM 36, 60-70) https://www.thierry-roncalli.com/download/erc.pdf | 1 | ERC definition (MCTR = (Σw)_i/σ, RC_i = w_i(Σw)_i/σ, ΣRC_i=σ); ERC optimization problem; volatility ranking σ_mv ≤ σ_erc ≤ σ_1/n; ERC as middle ground between min-var and 1/N; references Qian 2005 & Choueifaty-Coignard 2008 |
+| S262 | CFA Institute RPC Digest, "Risk Parity, Maximum Diversification, and Minimum Variance: An Analytic Perspective" (2013) https://rpc.cfainstitute.org/research/cfa-digest/2013/11/risk-parity-maximum-diversification-and-minimum-variance-an-analytic-perspective-digest-summ | 1 | RP introduced by Bridgewater in 1990s; RP lies inside efficient frontier; analytic study on 1,000 U.S. stocks (1968-2012) finds min-var > RP > max-div on risk minimization; RP uses whole universe vs min-var concentration |
+| S263 | Wikipedia, "Kelly criterion" https://en.wikipedia.org/wiki/Kelly_criterion | 2 | Binary f* = p − q/b; investment form f* = p/l − q/g; continuous single-asset f* = (μ−r)/σ²; fractional Kelly; more-than-Kelly raises ruin risk; garbage-in-garbage-out estimation warning; S&P Kelly ~117% (Thorp) |
+| S264 | Thorp, E.O. (2006), "The Kelly Criterion in Blackjack, Sports Betting, and the Stock Market," in Zenios & Ziemba (eds.) Handbook of Asset and Liability Management https://gwern.net/doc/statistics/decision/2006-thorp.pdf | 1 | Primary: log-utility geometric-growth-optimal; fractional Kelly growth ratio g(cf*)/g(f*) = c(2−c); case for fractional Kelly; S&P Kelly fraction ~117% implies leverage; estimation-error caution |
+
+
 
 
 
