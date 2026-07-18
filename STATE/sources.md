@@ -348,5 +348,17 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S162 | (reused) Asness, Frazzini & Pedersen (2013/2019), "Quality Minus Junk," Review of Accounting Studies 24(1) http://www.econ.yale.edu/~shiller/behfin/2013_04-10/asness-frazzini-pedersen.pdf | 1 | Quality = safe/profitable/growing/well-managed; QMJ significant in US + 23/24 countries; price-of-quality low in dot-com bubble |
 | S227 | Wikipedia, "Low-volatility anomaly" https://en.wikipedia.org/wiki/Low-volatility_anomaly | 2 | CAPM-contradiction framing; anomaly holds "in most markets studied" |
 
+## 2026-07-18 — 04-quant-and-factors APT & multi-factor models article
+|| # | Source | Tier | Used for |
+|---|---|---|---|
+|| S228 | Wikipedia, "Arbitrage pricing theory" https://en.wikipedia.org/wiki/Arbitrage_pricing_theory | 2 | APT factor-structure & pricing equations; assumptions (perfect competition, #factors ≤ #assets); vs CAPM contrast |
+|| S229 | Investopedia, "Arbitrage Pricing Theory (APT)" https://www.investopedia.com/terms/a/apt.asp | 2 | APT formula, factors (GDP/commodities/indices/FX), vs CAPM framing |
+|| S230 | Investopedia, "CAPM vs. Arbitrage Pricing Theory" https://www.investopedia.com/articles/markets/080916/capm-vs-arbitrage-pricing-theory-how-they-differ.asp | 2 | CAPM vs APT differences (no market portfolio, weaker assumptions) |
+|| S231 | CFA Institute, "Using Multifactor Models" (2026 L2 Portfolio Mgmt refresher) https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/using-multifactor-models | 1 | APT 3 assumptions; macro/fundamental/statistical factor-model taxonomy; factor portfolio; active-risk decomposition; "makes less strong assumptions than CAPM" |
+|| S232 | Brenndoerfer, M. (2025), "APT and Multi-Factor Models: Fama-French Factors Explained" https://mbrenndoerfer.com/writing/arbitrage-pricing-theory-multi-factor-models | 3 | Factor-structure derivations; no-arbitrage argument; APT pricing equation; Fama-French application & worked regressions (corroboration/teaching) |
+|| S233 | Ross, S.A. (1976), "The Arbitrage Theory of Capital Asset Pricing," Journal of Economic Theory 13(3):341–360 (EconPapers) https://econpapers.repec.org/RePEc:eee:jetheo:v:13:y:1976:i:3:p:341-360 | 1 | Foundational primary; APT derivation (cited via opened EconPapers bibliographic page; full text behind ScienceDirect paywall) |
+|| S234 | Roll, R. & Ross, S.A. (1980), "An Empirical Investigation of the Arbitrage Pricing Theory," Journal of Finance 35(5):1073–1103 (RePEc IDEAS) https://ideas.repec.org/a/bla/jfinan/v35y1980i5p1073-1103.html | 1 | Primary empirical test; "at least three and probably four priced factors" (finding via opened RePEc page + Wiley search snippet; full text paywalled) |
+|| S235 | Chen, N., Roll, R. & Ross, S.A. (1986), "Economic Forces and the Stock Market," Journal of Finance 41(3):383–403 | 1 | Primary; tests whether innovations in macroeconomic variables (industrial production, inflation, term structure, risk premium) are rewarded in stock returns (abstract-level confirmed via JSTOR search; UCLA PDF fetch failed → full text not directly opened) |
+
 
 

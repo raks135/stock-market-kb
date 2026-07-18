@@ -39,7 +39,7 @@ Two phases:
 - [x] 04-quant-and-factors: Fama–French 3/5 factors (empirical record) — DONE 2026-07-18 (fama-french-factors.md; confidence: contested)
 - [x] 04-quant-and-factors: momentum & value premiums — robust or fading? — DONE 2026-07-18 (momentum-value-premiums.md; confidence: contested)
 - [x] 04-quant-and-factors: low-vol / quality / carry factors — DONE 2026-07-18 (low-vol-quality-carry-factors.md; confidence: contested)
-- [ ] 04-quant-and-factors: APT & multi-factor models
+- [x] 04-quant-and-factors: APT & multi-factor models — DONE 2026-07-18 (apt-multi-factor-models.md; confidence: contested)
 - [ ] 04-quant-and-factors: factor timing & factor crowding
 - [ ] 05-stats-and-ml: cointegration & pairs trading basics
 - [ ] 05-stats-and-ml: feature engineering & ML pitfalls in finance
