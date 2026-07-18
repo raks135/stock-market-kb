@@ -276,4 +276,19 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S172 | AnalystPrep, "DuPont Analysis of Return on Equity" (CFA L1) https://analystprep.com/cfa-level-1-exam/financial-reporting-and-analysis/dupont-analysis-of-return-on-equity | 2 | Full 5-way derivation (Tax Burden x Interest Burden x EBIT Margin x Asset Turnover x Leverage); textbook worked example (ROE 8.33%); ROA x EM identity |
 | S173 | Investopedia, "DuPont Analysis" https://www.investopedia.com/terms/d/dupontanalysis.asp | 2 | Definition corroboration (NPM x asset turnover x equity multiplier); practitioner usage framing |
 
+## 2026-07-18 — 02-valuation residual income / EVA / SOTP article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S174 | CFA Institute, "Residual Income Valuation" (2026 CFA L2 Equity Valuation refresher) https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/residual-income-valuation | 1 | RI definition & equity charge; V0 = B0 + Σ RI_t/(1+r)^t; EVA = NOPAT − (C% × TC); single/multistage & continuing-value forms; strengths/weaknesses; EVA/MVA usage |
+| S175 | Investopedia, "Economic Value Added (EVA)" https://www.investopedia.com/terms/e/eva.asp | 2 | EVA = NOPAT − (Invested Capital × WACC); positive EVA = value creation; corroborates S174 formula |
+| S176 | Wikipedia, "Sum-of-the-parts analysis" https://en.wikipedia.org/wiki/Sum-of-the-parts_analysis | 2 | SOTP definition (multi-divisional/holding/conglomerate); EV = Σ segment values − net debt + adjustments; link to conglomerate discount |
+| S177 | AnalystPrep, "Residual Income Model" (CFA L2) https://analystprep.com/study-notes/cfa-level-2/residual-income-model | 2 | RI_t = E_t − (r × B_{t−1})); V0 = B0 + Σ RI_t/(1+r)^t; per-share vs total |
+| S178 | Penman, S.H. & Sougiannis, T. (1998), "A Comparison of Dividend, Cash Flow, and Earnings Approaches to Equity Valuation," Contemporary Accounting Research 15(3):343–83 https://doi.org/10.1111/j.1911-3846.1998.tb00564.x | 1 | Primary (abstract opened): valuation errors lower using accrual/earnings (RI) techniques than cash-flow or dividend discounting over finite horizons; underpins empirical-evidence section |
+| S179 | Investopedia, "Conglomerate Discount" https://www.investopedia.com/terms/c/conglomeratediscount.asp | 2 | SOTP value exceeds conglomerate market cap by ~13–15% (single Tier-2 source for magnitude → flagged Verify); discount cause = reporting complexity / inefficiencies |
+| S180 | Andersen, "Sum-of-the-Parts: The Key to Valuing Conglomerates Accurately" https://eg.andersen.com/sum-of-the-parts-valuation | 2 | When to use SOTP (distinct growth/risk/capital-intensity segments); segment-level method choice; spin-off/sale use cases |
+| S181 | EBSCO, "Economic Value Added (EVA)" research starter https://www.ebsco.com/research-starters/business-and-management/economic-value-added-eva | 2 | EVA = NOPAT − (Invested Capital × WACC); capital-allocation / decision tool framing; corroborates S174/S175 |
+| S182 | AnalystNotes, "The Residual Income Valuation Model" (CFA L2) https://analystnotes.com/cfa-study-notes-the-residual-income-valuation-model.html | 2 | Clean-surplus relation B_t = B_{t−1} + NI_t − D_t; RI model ≡ DDM under clean surplus; persistence factor for continuing RI |
+| S183 | Wall Street Prep, "Economic Value Added (EVA)" https://www.wallstreetprep.com/knowledge/economic-value-added-eva | 2 | EVA = NOPAT − WACC × Invested Capital = (ROIC − WACC) × Invested Capital; worked $4m example; corroborates S174/S175 |
+
+
 

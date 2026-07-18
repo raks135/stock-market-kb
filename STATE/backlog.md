@@ -32,7 +32,7 @@ Two phases:
 - [x] 08-backtesting-methodology: transaction costs/slippage/walk-forward (DONE)
 - [x] 08-backtesting-methodology: deflated Sharpe/multiple-testing (DONE)
 - [x] 01-fundamental-analysis: DuPont analysis & ROE decomposition — DONE 2026-07-18 (dupont-analysis.md; confidence: robust)
-- [ ] 02-valuation: residual income / EVA & sum-of-parts
+- [x] 02-valuation: residual income / EVA & sum-of-parts — DONE 2026-07-18 (residual-income-eva-sotp.md; confidence: robust)
 - [ ] 03-technical-analysis: indicators (RSI, MACD) — evidence grade
 - [ ] 03-technical-analysis: chart patterns & volume (evidence grade)
 - [ ] 03-technical-analysis: candlesticks (evidence grade)
@@ -79,7 +79,7 @@ Two phases:
 - [ ] VERIFY: Perold (1988) IS decomposition & Almgren & Chriss (2001) square-root impact primaries.
 - [ ] VERIFY: Kyle (1985) exact λ / market-depth algebra and linear pricing rule p = p* + λ·y (primary PDF not directly opened; cited via S120/S121 — only qualitative depth=1/λ asserted).
 - [ ] VERIFY: Huang & Stoll (1997) exact three-way spread split (order processing / inventory / adverse selection) coefficients — primary not directly opened; two-component S123 opened corroborates the decomposition concept only.
-- [ ] VERIFY: Cowell et al. (arXiv 0810.1922) "look-ahead benchmark bias up to ~8%/yr for S&P500" exact figure — cited via search snippet only this iteration (PDF not opened); cross-check against CRSP 1926-2006 study before asserting magnitude.
+- [ ] VERIFY: conglomerate discount exact magnitude (13–15% commonly cited; Investopedia single Tier-2 source — cross-check against a primary/meta-study such as Berger & Ofek 1995 or a later synthesis before asserting magnitude).
 
 COMPLETION: all 16 folders (00-15) have >=1 article AND all Phase A/B items done AND no open Verify tasks → KB COMPLETE.
 - Simulation is synthetic noise (Box–Muller, stdlib, seed 42) — deliberately null; demonstrates the *selection* effect, not a market claim. Numbers are reproducible as written.
