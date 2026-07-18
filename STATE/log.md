@@ -78,3 +78,12 @@
 - Three-bucket labeling applied (topic robust; contested: ADF null-reversal, ADF vs KPSS classification, "all models need stationarity" debated). Failure modes: ADF low power near unit root, structural breaks, stationarity is in-sample only, stationary≠predictable, Ljung-Box on heavy tails.
 - Self-critique -> spawned 1 new Verify task (Jegadeesh 1990 reversal / Jegadeesh & Titman 1993 momentum primaries for horizon-dependent autocorrelation claim).
 - Repo health: 9/61 nodes done; P0 gaps remain (overfitting/look-ahead, backtest costs, deflated Sharpe, survivorship); open Verify tasks carried forward.
+
+## 2026-07-18 — iter 10
+- Selected P0 task: 05-stats-and-ml overfitting & look-ahead bias.
+- Sub-questions: overfitting/backtest-overfitting definition; look-ahead bias sources; multiple-testing & expected-max Sharpe; Deflated Sharpe Ratio / Probabilistic Sharpe Ratio; PBO/CSCV; Harvey-Liu-Zhu factor-zoo cutoff; mitigation; common mistakes.
+- Sources: 7 (Tier 1 primaries: Bailey & López de Prado DSR S68, PBO/CSCV S69, overfitting simulator S70; Tier 2: Coqueret&Guida textbook S71, Foxholm HLZ review S72, CFI look-ahead S73, AnalystPrep backtesting S74). All URLs opened + verified; DSR/PSR formulas extracted directly from S68 PDF.
+- Wrote 05-stats-and-ml/overfitting-lookahead.md (template-compliant; inline cites S68–S74; runnable stdlib Python overfitting demo VERIFIED: N=1000 noise trials -> best in-sample Sharpe 2.95, OOS −0.61, naive PSR 1.000, Deflated Sharpe 0.034).
+- Three-bucket labeling applied (topic robust; contested: HLZ ~3.0 cutoff debated by Chen 2024; DSR vs holdout; CPCV vs walk-forward). Failure modes: effective-N for correlated trials, OOS≠future, non-stationarity, costs/capacity, DSR doesn't fix costs.
+- Self-critique -> spawned 1 new Verify task (Harvey-Liu-Zhu exact t cutoff unverified against primary; SSRN/Oxford fetch failed, cited via Tier-2 Foxholm).
+- Repo health: 10/61 nodes done; P0 gaps remain (backtest costs, deflated Sharpe, data-snooping, survivorship); open Verify tasks carried forward.

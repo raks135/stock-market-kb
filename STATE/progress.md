@@ -18,7 +18,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Fama–French | 04-quant-and-factors/... | todo | — |
 | Momentum/value premiums | 04-quant-and-factors/... | todo | — |
 || Stats: stationarity, ADF, autocorrelation | 05-stats-and-ml/stationarity-adf-autocorrelation.md | done | robust |
-| Stats: overfitting/look-ahead | 05-stats-and-ml/... | todo | — |
+| Stats: overfitting/look-ahead | 05-stats-and-ml/overfitting-lookahead.md | done | robust |
 | Mean-variance | 06-portfolio-construction/... | todo | — |
 | Risk parity / Kelly | 06-portfolio-construction/... | todo | — |
 | Black–Litterman | 06-portfolio-construction/... | todo | — |
@@ -36,6 +36,6 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 9/61 nodes done.
-- Open P0 gaps: stationarity done; overfitting/look-ahead, backtesting costs, deflated Sharpe, survivorship still open.
+- Coverage: 10/61 nodes done.
+- Open P0 gaps: overfitting/look-ahead done; backtesting costs, deflated Sharpe, data-snooping, survivorship still open.
 - DONE when all P0 nodes sourced + no open Verify tasks.
