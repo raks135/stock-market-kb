@@ -50,7 +50,7 @@ Two phases:
 - [x] 07-risk-management: stress testing & scenario analysis — DONE 2026-07-18 (stress-testing-scenario-analysis.md; confidence: robust)
 - [x] 09-market-microstructure: maker-taker, payment for order flow, HFT — DONE 2026-07-18 (maker-taker-pfof-hft.md; confidence: contested)
 - [x] 10-derivatives: volatility surface, skew, hedging basics — DONE 2026-07-18 (volatility-surface-skew-hedging.md; confidence: robust)
-- [ ] 10-derivatives: option strategies (covered call, protective put, spreads)
+- [x] 10-derivatives: option strategies (covered call, protective put, spreads) — DONE 2026-07-18 (option-strategies.md; confidence: robust)
 - [ ] 11-macro-and-regimes: regime detection methods
 - [ ] 11-macro-and-regimes: inflation, yields & equity valuation
 - [ ] 12-behavioral-finance: herding, overconfidence, loss aversion (prospect theory)
@@ -109,3 +109,9 @@ COMPLETION: all above (P0+P1+P2) done + no open Verify tasks → KB COMPLETE.
 - No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; BKM empirical skew numbers from opened primary; Hull OOS hedging-gain numbers from opened primary; Sepp P&L identity matches Haugh S129).
 - Leland 1985 cited only via secondary d-nb description (primary PDF not directly opened) — flagged in sources.md and Further Reading, not asserted as a primary claim.
 - Repo health: 42/61 nodes done; Phase B remaining: 10 option-strategies, 11 regime-detection/inflation, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.
+
+## Self-critique (iter 42 — 10 option strategies: covered call / protective put / spreads)
+- Wrote 10-derivatives/option-strategies.md (template-compliant; three-bucket labeling: mechanics/construction robust, "income"/"downside-protection" framings flagged as myths, net-of-cost empirical edge contested; pure-stdlib runnable payoff calculator VERIFIED on CPython 3.14.4 — covered call max profit 5.00 / max loss −95.00 / BE 95.0; protective put max loss −8.00 / BE 103.0 (upside unlimited); bull call spread 7.00/−3.00/BE 103.0; bear put spread 7.00/−3.00/BE 97.0; collar cap +4.00 / floor −6.00 / BE 101.0; synthetic-long≡forward identity confirmed True).
+- Sources: 6 new — Tier 1: CFA Institute Options Strategies 2026 S310 (opened), Cboe BuyWrite Indices Methodology S311 (PDF opened, BXM/BXMD/BXY/BXR construction), Ibbotson BXM Case Study 2004 S312 (PDF opened: 12.39% vs 12.20% CAGR, 2/3 vol, Stutzer 0.22 vs 0.16, avg premium 1.69%/mo, IV 16.5% vs RV 14.9%, skew −1.249, cost/tax caveat), Israelov & Nielsen "Still Not Cheap" JPM 2015 S313 (PDF opened: 5% OTM put cuts beta 1.0→0.72, downside beta 0.47, VRP avg +3.4% positive 88%, long-vol leg −2.0%/yr Sharpe −0.83), Israelov & Nielsen "One Fact and Eight Myths" FAJ 2014 S314 (PDF opened: covered call = ½ long + ½ short straddle, Table 1 BXM Sharpe 0.33 vs 0.29, beta 0.67, up/downside beta 0.63/0.78, myths 1–8); Tier 2: Optiver protective-put/covered-call explainer S315 (opened). ALL cited URLs opened + verified.
+- No new Verify tasks spawned (all major claims corroborated by >=2 independent opened sources; BXM and protective-put numbers from opened primaries; VRP from opened S313; covered-call = long-equity+short-vol decomposition from opened S314).
+- Repo health: 43/61 nodes done; Phase B remaining: 11 regime-detection/inflation, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.

@@ -41,6 +41,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Maker-taker, PFOF, HFT (pricing, routing, speed, contested net effect) | 09-market-microstructure/maker-taker-pfof-hft.md | done | contested |
 ||| Options greeks (delta/gamma/vega/theta, BS formulas, hedging) | 10-derivatives/option-greeks.md | done | robust |
 ||| Vol surface, skew, delta/gamma hedging, P&L decomposition | 10-derivatives/volatility-surface-skew-hedging.md | done | robust |
+|| Option strategies (covered call, protective put, bull/bear spreads, collar, straddle, calendar) | 10-derivatives/option-strategies.md | done | robust |
 | Macro / regimes: rates, business cycle, sector rotation, regime detection | 11-macro-and-regimes/rates-business-cycles-sector-rotation.md | done | robust |
 | Behavioral: biases, sentiment, crowding | 12-behavioral-finance/cognitive-biases-sentiment-crowding.md | done | robust |
 | Data & tooling (vendors, libraries, reproducibility) | 13-data-and-tooling/data-vendors-apis-libraries-reproducibility.md | done | robust |
@@ -50,8 +51,8 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 41/61 nodes done.
+- Coverage: 43/61 nodes done.
 - PHASE A breadth: ALL folders 00–15 now have >=1 first article. Breadth complete.
-- Next up (Phase B depth): 10 vol-surface/strategies; 11 regime-detection/inflation; 12 herding/limits; 13 hygiene/cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
+- Next up (Phase B depth): 11 regime-detection/inflation; 12 herding/limits; 13 hygiene/cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
 - P0 gaps: 15 survivorship still open (Phase A/B). All other P0 (00,01,02,05,07,08) sourced.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.

@@ -461,6 +461,16 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 || S308 | Bakshi, G., Kapadia, N. & Madan, D. (2003), "Stock Return Characteristics, Skew Laws, and the Differential Pricing of Individual Equity Options," RFS 16(1):101–143 https://www.people.umass.edu/nkapadia/docs/Bakshi_Kapadia_Madan_2003_RFS.pdf | 1 | Primary: individual-equity smiles persistently negative but far less steep than index; deep-OTM-put IV >> ATM (index ≈29% vs 26%, stock ≈22% vs 14%); skew–kurtosis corr ≈ −0.48; estimators underpin CBOE SKEW |
 || S309 | Leland, H. (1985), "Option Pricing and Replication with Transaction Costs" (summary only) https://d-nb.info/1181860253/34 | 1 | Foundational: transaction costs require volatility-adjusted (modified) hedge; exact replication impossible with costs (primary NOT directly opened → secondary description only) |
 
+## 2026-07-18 — 10-derivatives option strategies article
+|| # | Source | Tier | Used for |
+|---|---|---|---|
+|| S310 | CFA Institute, "Options Strategies" (2026 CFA L3 Portfolio Mgmt refresher reading) https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/options-strategies | 1 | Covered call / protective put / bull-bear spread / straddle / collar / calendar definitions, payoff, max gain-loss-limited, synthetic long/short, three-bucket risk framing |
+|| S311 | Cboe, "BuyWrite Indices Methodology" (BXM/BXMD/BXY/BXR/BXRD) https://cdn.cboe.com/api/global/us_indices/governance/Cboe_BuyWrite_Indices_Methodology.pdf | 1 | BXM = long SPX + write monthly ATM SPX call; BXMD 30-delta OTM; BXY 2% OTM; BXR Russell 2000; construction & rebalance |
+|| S312 | Ibbotson Associates, "Highlights from Case Study on BXM Buy-Write Options Strategy" (2004) https://cdn.cboe.com/resources/education/research_publications/IbbotsonAug30final.pdf | 1 | BXM CAGR 12.39% vs S&P 12.20% (Jun1988–Mar2004); ~2/3 vol; Stutzer 0.22 vs 0.16; avg monthly premium 1.69% (22.31% ann); IV 16.5% vs RV 14.9%; skew −1.249 vs −0.456; Rampart tracking error 1.27%/yr; no cost/tax caveat |
+|| S313 | Israelov, R. & Nielsen, L. (2015), "Still Not Cheap: Portfolio Protection in Calm Markets," J. Portfolio Mgmt 41(4) https://www.aqr.com/-/media/AQR/Documents/Journal-Articles/JPM-Still-Not-Cheap.pdf | 1 | 5% OTM monthly protective put cuts beta 1.0→0.72, downside beta 0.47; VRP avg +3.4% positive 88% (Jan1990–Jun2014); long-vol leg −2.0%/yr Sharpe −0.83; "too expensive" vs selling 10% equity (~0.6%/yr) |
+|| S314 | Israelov, R. & Nielsen, L. (2014), "Covered Call Strategies: One Fact and Eight Myths," Financial Analysts Journal 70(6) https://rpc.cfainstitute.org/research/financial-analysts-journal/2014/covered-call-strategies-one-fact-and-eight-myths | 1 | FACT: covered call = ½ long + ½ short straddle (long equity + short vol); Table 1 BXM excess 4.4%/vol 13.4%/Sharpe 0.33/DD −43%/beta 0.67/up-beta 0.63/down-beta 0.78 (Jul1986–Dec2013); myths 1–8 (income, downside protection, etc.) |
+|| S315 | Optiver, "Options strategies (protective put & covered call)" https://www.optiver.com/insights/explainers/options-strategies-part-one | 2 | Protective put = long underlying + long put (caps loss, lose premium); covered call = long underlying + write call (small downside buffer, caps upside) |
+
 
 
 
