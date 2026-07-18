@@ -11,7 +11,7 @@ Two phases:
 - [x] 06-portfolio-construction: mean-variance / efficient frontier  (first article for 06) — DONE 2026-07-18 (mean-variance-efficient-frontier.md; confidence: robust)
 - [x] 07-risk-management: VaR / CVaR  (first article for 07) — DONE 2026-07-18 (var-cvar.md; confidence: robust)
 - [x] 09-market-microstructure: liquidity, spreads, execution, market impact  (first article for 09) — DONE 2026-07-18 (liquidity-spreads-execution-impact.md; confidence: robust)
-- [ ] 10-derivatives: option greeks intuition (delta/gamma/vega/theta/rho)  (first article for 10)
+- [x] 10-derivatives: option greeks intuition (delta/gamma/vega/theta/rho)  (first article for 10) — DONE 2026-07-18 (option-greeks.md; confidence: robust)
 - [ ] 11-macro-and-regimes: rates, business cycles, sector rotation  (first article for 11)
 - [ ] 12-behavioral-finance: cognitive biases, sentiment, crowding  (first article for 12)
 - [ ] 13-data-and-tooling: data vendors/APIs, libraries (pinned), reproducibility  (first article for 13)

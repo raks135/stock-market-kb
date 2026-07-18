@@ -27,7 +27,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Backtest: costs/slippage/walk-forward | 08-backtesting-methodology/transaction-costs-slippage-walkforward.md | done | robust |
 | Deflated Sharpe / multiple-testing | 08-backtesting-methodology/deflated-sharpe-multiple-testing.md | done | robust |
 | Microstructure: liquidity, spreads, execution, impact | 09-market-microstructure/liquidity-spreads-execution-impact.md | done | robust |
-| Options greeks | 10-derivatives/... | todo | — |
+|| Options greeks (delta/gamma/vega/theta/rho, BS formulas, hedging) | 10-derivatives/option-greeks.md | done | robust |
 | Macro / regimes | 11-macro-and-regimes/... | todo | — |
 | Behavioral | 12-behavioral-finance/... | todo | — |
 | Data & tooling | 13-data-and-tooling/... | todo | — |
@@ -36,9 +36,9 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 18/61 nodes done.
-- PHASE A breadth: 03, 04, 06, 07, 09 now have first articles; folders still empty of a first article: 10, 11, 12, 13, 14 (15 has data-snooping).
-- Next up: Phase A 10-derivatives (option greeks) first article; then 11/12/13/14 first articles; then Phase B P1/P2 depth.
+- Coverage: 19/61 nodes done.
+- PHASE A breadth: 03, 04, 06, 07, 09, 10 now have first articles; folders still empty of a first article: 11, 12, 13, 14 (15 has data-snooping).
+- Next up: Phase A 11-macro-and-regimes (rates/business cycles/sector rotation) first article; then 12/13/14 first articles; then Phase B P1/P2 depth.
 - P0 gaps: 15 survivorship still open; 15 already has data-snooping. All other P0 (00,01,02,05,07,08) sourced.
-- New folder-first articles still needed before full breadth: 10, 11, 12, 13, 14.
+- New folder-first articles still needed before full breadth: 11, 12, 13, 14.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.

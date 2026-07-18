@@ -203,5 +203,13 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S124 | Huang, R.D. & Stoll, H.R. (1997), "The Components of the Bid-Ask Spread: A General Approach," *RFS* 10(4):995–1034 | 1 | Primary: three-way spread split (order processing / inventory / adverse selection) extending S123 (NOT directly opened → Verify exact split) |
 | S125 | O'Connell, R. (2026), "Implementation Shortfall: Perold Framework and Transaction Cost Analysis," ryanoconnellfinance.com https://ryanoconnellfinance.com/implementation-shortfall | 2 | IS definition (paper vs actual); four components (explicit/realized P&L/delay/missed); VWAP/TWAP/arrival-price benchmarks; urgency trade-off |
 | S126 | Perold, A.F. (1988), "The Implementation Shortfall: Paper versus Reality," *J. Portfolio Management* 14(1):4–9 | 1 | Primary: IS framework (referenced & defined in S120 Almgren-Chriss; details via S125) |
+
+## 2026-07-18 — 10-derivatives option greeks article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S127 | Wikipedia, "Greeks (finance)" https://en.wikipedia.org/wiki/Greeks_(finance) | 2 | Greek taxonomy (first/second/third order); rho minor; delta as probability *proxy* not equality; model-dependence note |
+| S128 | Macroption, "Black-Scholes Formulas (d1, d2, Call, Put, Greeks)" https://www.macroption.com/black-scholes-formula | 2 | Exact BS greek formulas (delta/gamma/vega/theta/rho); call-put delta parity ΔC−ΔP=1; vega/rho per-100%-point (÷100 for 1%); theta sign conventions; not-all-options-negative-theta |
+| S129 | Haugh, M. (Columbia IEOR E4706), "The Black-Scholes Model" lecture notes https://www.columbia.edu/~mh2078/FoundationsFE/BlackScholes.pdf | 1 | BS PDE/derivation; delta hedging & replication error; dollar gamma; P&L = ∫½S²Γ(σ²_imp−σ²_t)dt; volatility surface skew/smile (Eurostoxx 50, Nov 2007) is real & persistent; more sophisticated models used in practice |
+| S130 | Investopedia, "Understanding Greeks in Finance" https://www.investopedia.com/terms/g/greeks.asp | 2 | Practitioner intuition: delta/gamma/vega/theta/rho definitions; rho interest-rate sensitivity; Greeks as risk-management tools |
 | (reused) | S75 CFA Trading Costs & Electronic Markets; S76 Graham Capital TCA note; S79 Bouchaud square-root law | 1/2 | Effective/realized spread definitions (S75); impact decomposition & capacity (S76); square-root impact regularity (S79) |
 

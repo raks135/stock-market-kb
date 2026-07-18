@@ -1,6 +1,13 @@
 # Iteration Log
 
-## 2026-07-18 — iter 18
+## 2026-07-18 — iter 19
+- Selected PHASE A task: 10-derivatives option greeks intuition (first article for folder 10).
+- Sub-questions: 5 greeks definitions/intuition (delta/gamma/vega/theta/rho); order (1st vs 2nd); BS closed-form formulas; call-put delta parity; vega/rho per-1% scaling trap; theta sign conventions; delta hedging & dollar gamma & P&L(imp-realized vol); volatility surface skew empirical; "delta=prob ITM" folklore; common mistakes.
+- Sources: 4 new — Tier 2: Wikipedia Greeks S127, Macroption BS formulas S128, Investopedia Greeks S130; Tier 1: Columbia/Haugh BS lecture notes S129 (opened PDF: delta hedging, dollar gamma, P&L formula, vol-surface skew). All URLs opened+verified; greek definitions corroborated across S127/S128/S130 (3 independent); BS formulas via S128 + S129; vol-surface skew via opened S129.
+- Wrote 10-derivatives/option-greeks.md (template-compliant; three-bucket labeling: BS mechanics robust, model assumptions limited/contested, "delta=prob ITM" flagged folklore; stdlib-only runnable Python VERIFIED: ATM call Δ=0.598/put −0.402 parity=1.000; gamma/vega equal call&put; deep ITM Δ→1, OTM→0; Taylor reprice err $0.0025 on $7.77).
+- Self-critique: no new Verify spawned (all claims corroborated by >=2 opened sources; vol-surface skew from opened primary lecture notes). Hull textbook cited as further reading only (not a URL).
+- Repo health: 19/61 nodes done; PHASE A: 03/04/06/07/09/10 done; 11/12/13/14 still need first articles; open Verify carried forward.
+
 - Selected PHASE A task: 09-market-microstructure liquidity/spreads/execution/impact (first article for folder 09).
 - Sub-questions: liquidity tri-dimensionality (tightness/depth/resiliency); spread measures (quoted/effective/realized); Roll (1984) implicit spread; Glosten–Harris (1988) transitory vs adverse-selection decomposition; Kyle (1985) lambda/depth; Almgren–Chriss (2000/01) temporary/permanent impact + efficient frontier; square-root impact law; implementation shortfall (Perold 1988).
 - Sources: 8 new — Tier 1: Roll 1984 primary S119, Almgren–Chriss primary S120, BIS CGFS 1999 S121, Glosten–Harris 1988 primary S123, Perold 1988 primary S126; Tier 2: O'Connell IS S125; Kyle 1985 S122 & Huang–Stoll 1997 S124 cited as primaries via reference only (NOT directly opened → 2 new Verify tasks). Reused S75/S76/S79. All opened URLs verified; Roll/Almgren-Chriss/Glosten-Harris/BIS PDFs opened & formulas extracted directly.
