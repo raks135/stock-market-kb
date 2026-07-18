@@ -213,3 +213,17 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S130 | Investopedia, "Understanding Greeks in Finance" https://www.investopedia.com/terms/g/greeks.asp | 2 | Practitioner intuition: delta/gamma/vega/theta/rho definitions; rho interest-rate sensitivity; Greeks as risk-management tools |
 | (reused) | S75 CFA Trading Costs & Electronic Markets; S76 Graham Capital TCA note; S79 Bouchaud square-root law | 1/2 | Effective/realized spread definitions (S75); impact decomposition & capacity (S76); square-root impact regularity (S79) |
 
+## 2026-07-18 — 11-macro-and-regimes article (first article for folder 11)
+|| # | Source | Tier | Used for |
+|---|---|---|---|---|
+|| S130 | NBER, "Business Cycle Dating Procedure: FAQ" https://www.nber.org/research/business-cycle-dating/business-cycle-dating-procedure-frequently-asked-questions | 1 | Recession = depth/diffusion/duration; NOT the 2-quarter GDP rule; peak/trough; NBER announcements lag (Apr-2020 trough dated Jul-2021) |
+|| S131 | St. Louis Fed (Wolla), "All About the Business Cycle" (Page One Economics, 2023) https://www.stlouisfed.org/publications/page-one-economics/2023/03/01/all-about-the-business-cycle-where-do-recessions-come-from | 1 | Business-cycle stages; real GDP vs NBER; educational framing |
+|| S132 | Damodaran, A., "Interest Rates, Earning Growth and Equity Value" (Musings on Markets, 2021) https://aswathdamodaran.blogspot.com/2021/03/rates-growth-and-value-investment.html | 1 | Discount-rate channel; PE falls as rates rise; high-growth hit harder; Fed doesn't set long rates; "facile" higher-rates-bad caveat |
+|| S133 | Investopedia, "Inverted Yield Curve" https://www.investopedia.com/terms/i/invertedyieldcurve.asp | 2 | 10y-3m (academic) vs 10y-2y (investor) spread; inversions preceded recessions |
+|| S134 | Fidelity, "An introduction to sector rotation strategies" https://www.fidelity.com/learning-center/trading-investing/markets-sectors/intro-sector-rotation-strats | 2 | Business-cycle to sector performance; early/mid/late phases; 3 sub-cycles (profit/credit/inventory) |
+|| S135 | Goyal & Welch (2008), "A Comprehensive Look at the Empirical Performance of Equity Premium Prediction," RFS 21(4); Welch (2023) update https://ivo-welch.org/research/presentations/99-stanford-prediction.pdf | 1 | 17 (later ~45) variables; most fail OOS vs historical mean; "70-80% poof"; no confident market-timing recommendation |
+|| S136 | Hamilton (1989), "A New Approach to the Economic Analysis of Nonstationary Time Series and the Business Cycle," Econometrica 57(2); Kuan (2002) lecture notes https://homepage.ntu.edu.tw/~ckuan/pdf/Lec-Markov_note_spring%202010.pdf | 1/2 | Markov-switching model: unobservable state, first-order chain, transition matrix, regime-dependent distributions |
+|| S137 | IMF Working Paper 2021/219, "Stock Returns and Inflation Redux" https://www.elibrary.imf.org/view/journals/001/2021/219/article-A001-en.xml | 1 | Negative real-stock-return/inflation link under countercyclical policy; discount-rate channel; 71-economy panel; ZLB break |
+|| S138 | CNBC (Domm), "2-year tops 10-year — yield curve inversion" (2022) https://www.cnbc.com/2022/03/31/2-year-treasury-yield-tops-10-year-rate-a-yield-curve-inversion-that-could-signal-a-recession.html | 2 | >2/3 recession chance 1yr / >98% 2yr after 2s10y inversion; long lag; 3m-10y "more accurate"; not a golden rule |
+
+

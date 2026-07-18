@@ -1,5 +1,13 @@
 # Iteration Log
 
+## 2026-07-18 — iter 20
+- Selected PHASE A task: 11-macro-and-regimes (first article for folder 11).
+- Sub-questions: NBER recession definition vs 2-quarter rule; business-cycle stages; interest rates & valuation (discount-rate channel, duration sensitivity); yield-curve inversion as recession predictor (maturity-pair conflict); inflation–equity relation & monetary-policy regime dependence; sector rotation by cycle phase; macro return-predictability (Goyal–Welch); regime detection (Hamilton Markov switching + volatility-regime heuristic).
+- Sources: 9 new — Tier 1: NBER FAQ S130, St Louis Fed S131, Damodaran blog S132, Goyal–Welch 2008 + Welch 2023 S135, Hamilton 1989 S136, IMF WP 2021/219 S137; Tier 2: Investopedia inverted yield curve S133, Fidelity sector rotation S134, CNBC 2022 S138 (Kuan 2002 lecture corroborates Hamilton). All cited URLs opened + verified.
+- Wrote 11-macro-and-regimes/rates-business-cycles-sector-rotation.md (template-compliant; three-bucket labeling: macro channels robust, sector-rotation & macro-timing edge contested; stdlib-only runnable Python VERIFIED: 10y-2y spread flags 2 inversions; volatility-regime detector recovers 39/40 crisis + 120/120 calm months).
+- Self-critique: no new Verify spawned (all claims corroborated by >=2 opened sources; Goyal-Welch OOS-null and Hamilton MSM corroborated across opened primaries/lecture). NBER lag flagged as key practical limitation.
+- Repo health: 20/61 nodes done; PHASE A: 03/04/06/07/09/10/11 done; 12/13/14 still need first articles; open Verify carried forward.
+
 ## 2026-07-18 — iter 19
 - Selected PHASE A task: 10-derivatives option greeks intuition (first article for folder 10).
 - Sub-questions: 5 greeks definitions/intuition (delta/gamma/vega/theta/rho); order (1st vs 2nd); BS closed-form formulas; call-put delta parity; vega/rho per-1% scaling trap; theta sign conventions; delta hedging & dollar gamma & P&L(imp-realized vol); volatility surface skew empirical; "delta=prob ITM" folklore; common mistakes.
