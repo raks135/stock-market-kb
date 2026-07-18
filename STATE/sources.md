@@ -298,5 +298,14 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S186 | StockCharts ChartSchool, "MACD (Moving Average Convergence/Divergence) Oscillator" https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/macd-moving-average-convergence-divergence-oscillator | 2 | Signal-line & centerline crossovers; histogram definition; whipsaw in ranges (CMI 7 crosses/5mo no trend); PPO note; standard 12/26/9 |
 | S187 | Chong, T.T.L., Ng, W.-K. & Liew, V.K.-S. (2014), "Revisiting the Performance of MACD and RSI Oscillators," MPRA Paper 54149 https://mpra.ub.uni-muenchen.de/54149 | 1 | Primary (abstract opened): MACD(12,26,0) & RSI(21,50) significant abnormal returns in Milan Comit General & S&P/TSX; RSI(14,30/70) profitable on Dow Jones; extends Chong & Ng (2008) FT30 excess returns |
 
+## 2026-07-18 — 03-technical-analysis chart patterns & volume article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S190 | Lo, A.W., Mamaysky, H. & Wang, J. (2000), "Foundations of Technical Analysis: Computational Algorithms, Statistical Inference, and Empirical Implementation," *Journal of Finance* 55(4):1705–1770 (full text) https://www.cis.upenn.edu/~mkearns/teaching/cis700/lo.pdf | 1 | Primary (opened full text): 10-pattern automated kernel-regression detection; Definition 1 H&S geometry; informativeness test (conditional vs unconditional return distribution, KS); CRSP 1962–1996; 1,611 observed H&S vs 577 GBM; Nasdaq stronger; Jegadeesh discussant quote |
+| S191 | CFA Digest summary of Lo, Mamaysky & Wang (2000), *Investment Policy and Portfolio Management*, Feb 2001 https://rpc.cfainstitute.org/sites/default/files/-/media/documents/article/cfa-digest/2001/dig-v31-n1-811-pdf.pdf | 1 | Corroboration/summary of S190 findings; "useful adjunct, not independent profit tool" framing |
+| S192 | Bulkowski, T., "Best Chart Patterns" (Encyclopedia of Chart Patterns statistics, >30k samples) https://thepatternsite.com/BestPatterns.html | 2 | Practitioner gross post-breakout move stats: H&S top ≈−7%/2mo, Eve&Eve double bottom ≈+12–13%/2–3mo, high-tight flags ≈+21%/1mo; flagged gross not net-of-cost |
+| S193 | Charles Schwab, "Trading Volume as a Market Indicator" (2021) https://www.schwab.com/learn/story/trading-volume-as-market-indicator | 2 | Volume-confirmation rules: above-avg/rising volume confirms breakouts & trends; low-volume breakouts suspect |
+| S194 | Investopedia, "Head and Shoulders Pattern" https://www.investopedia.com/terms/h/head-shoulders.asp | 2 | H&S definition, neckline, inverse H&S, entry/exit around neckline (opened) |
+
 
 

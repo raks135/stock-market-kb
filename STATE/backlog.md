@@ -34,7 +34,7 @@ Two phases:
 - [x] 01-fundamental-analysis: DuPont analysis & ROE decomposition — DONE 2026-07-18 (dupont-analysis.md; confidence: robust)
 - [x] 02-valuation: residual income / EVA & sum-of-parts — DONE 2026-07-18 (residual-income-eva-sotp.md; confidence: robust)
 - [x] 03-technical-analysis: indicators (RSI, MACD) — evidence grade — DONE 2026-07-18 (indicators-rsi-macd.md; confidence: contested)
-- [ ] 03-technical-analysis: chart patterns & volume (evidence grade)
+- [x] 03-technical-analysis: chart patterns & volume (evidence grade) — DONE 2026-07-18 (chart-patterns-volume.md; confidence: contested)
 - [ ] 03-technical-analysis: candlesticks (evidence grade)
 - [ ] 04-quant-and-factors: Fama–French 3/5 factors (empirical record)
 - [ ] 04-quant-and-factors: momentum & value premiums — robust or fading?
