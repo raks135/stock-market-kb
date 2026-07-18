@@ -7,7 +7,7 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [x] 00-foundations: what is a stock / share / equity claim
 - [x] 00-foundations: exchanges, ATS/dark pools, Reg NMS basics (DONE: 00-foundations/exchanges-ats-regnms.md)
 - [x] 01-fundamental-analysis: income statement / balance sheet / cash flow reading  (DONE: 01-fundamental-analysis/financial-statements.md)
-- [ ] 01-fundamental-analysis: ratio analysis (liquidity, solvency, profitability, efficiency)
+- [x] 01-fundamental-analysis: ratio analysis (liquidity, solvency, profitability, efficiency) (DONE: 01-fundamental-analysis/ratio-analysis.md)
 - [ ] 01-fundamental-analysis: quality of earnings & red flags
 - [ ] 02-valuation: DCF (FCFF/FCFE) intuition + mechanics
 - [ ] 02-valuation: relative valuation / comps
@@ -45,3 +45,5 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [ ] VERIFY: maker-taker rebate net effect on retail execution quality (conflicting: some studies say improves liquidity, some say harms price discovery) — need Tier 1 source.
 - [ ] VERIFY: HFT net contribution to liquidity vs. fragility — SEC 2014 lit review Part II is a start; need a peer-reviewed summary.
 - [ ] VERIFY: academic evidence that accruals predict future cash flows / earnings persistence (Dechow 1994, Sloan 1996) — need to open and cite the primary paper before asserting in financial-statements.md.
+- [ ] VERIFY: Altman Z-score cutoff zones (Z>2.99 safe, 1.81–2.99 grey, Z<1.81 distress) — cited from secondary reproductions; confirm directly against Altman (1968) primary text and note private/non-manufacturing variants (Z', Z'').
+- [ ] VERIFY: Piotroski F-score 23% long–short annual return (1976–1996) — confirm whether gross or net of transaction costs, and out-of-sample robustness after the 1996 sample end; cite a peer-reviewed replication.
