@@ -78,3 +78,15 @@ Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JF
 | S47 | Soleadea, "CFA Level 1: Issues and Red Flags" (financial reporting quality) https://soleadea.org/cfa-level-1/issues-red-flags | 2 | Aggressive vs conservative accounting choices; revenue-recognition/inventory/R&D-capitalization/reserve red flags; CFO management techniques |
 | S48 | (reused) SEC Beginners' Guide S29 / How to Read a 10-K S30,S31 | 1 | Where to pull raw line items (EDGAR 10-K) for the screens |
 | S49 | Quantpedia, "Accrual Anomaly" https://quantpedia.com/strategies/accrual-anomaly | 2 | Empirical decay post-2002 (Mohanram); mid-2000s rebound (Bender & Nielsen); live validity rated Weak; BS_ACC formula; OOS drawdown/Sharpe |
+
+## 2026-07-18 — DCF article (02-valuation)
+|| # | Source | Tier | Used for |
+||---|---|---|---|
+|| S50 | CFA Institute, "Free Cash Flow Valuation" (2026 CFA L2 Equity Valuation refresher) https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/free-cash-flow-valuation | 1 | DCF definition; FCFF vs FCFE; WACC & valuation equations; FCFF/FCFE build formulas; two-stage model; non-operating assets; analyst-usage survey (Pinto et al. 2019) |
+|| S51 | Damodaran, A., "Discounted Cashflow Valuation: Problems and Solutions" (NYU Stern) https://pages.stern.nyu.edu/~adamodar/New_Home_Page/problems/dcfprob.htm | 1 | DCF = PV of risk-adjusted expected CFs; equity vs firm approaches; cash-flow/discount-rate mismatch warning; DCF hard for private/biotech/cyclical/distressed/restructuring/land-rich; relative valuation still needs fundamentals |
+|| S52 | Investopedia, "Terminal Value (TV) Definition and Formula" (updated May 2025) https://www.investopedia.com/terms/t/terminalvalue.asp | 2 | TV = FCF/(d−g); terminal growth ~ inflation, ≤ GDP; practitioners prefer exit multiple, academics perpetuity |
+|| S53 | Wall Street Prep, "Terminal Value (DCF)" https://www.wallstreetprep.com/knowledge/terminal-value | 2 | TV ≈ 75% of total implied valuation; Gordon & exit-multiple formulas; PV of TV |
+|| S54 | Investopedia, "Weighted Average Cost of Capital (WACC)" https://www.investopedia.com/terms/w/wacc.asp | 2 | WACC = market-value-weighted after-tax cost of debt + equity; cost of equity via CAPM |
+|| S55 | Corporate Finance Institute, "FCFF vs FCFE" https://corporatefinanceinstitute.com/resources/valuation/fcff-vs-fcfe | 2 | FCFF = unlevered (excl. interest/net debt), FCFE = levered; EV↔FCFF, Equity↔FCFE |
+|| S56 | Damodaran, A., "Myth 5.5: The Terminal Value ate my DCF!" (Musings on Markets, 2016) https://aswathdamodaran.blogspot.com/2016/11/myth-55-terminal-value-ate-my-dcf.html | 1 | High TV% is NOT a flaw (mirrors capital-gains-dominated returns); TV% rises with growth; early-stage assumptions still drive terminal value; g constraint tied to excess returns |
+|| S57 | Macabacus, "Terminal Value in DCF" https://macabacus.com/valuation/dcf-terminal-value | 2 | TV ≈ 75% (5-yr) / ≈50% (10-yr); perpetuity g bounded 2–3% inflation to 4–5% GDP; cross-check implied g / implied multiple |

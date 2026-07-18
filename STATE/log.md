@@ -51,3 +51,12 @@
 - Three-bucket labeling applied (framework robust; trading-edge of accrual strategy contested/decayed post-2002 per S49; M-Score a forensic flag not proof). Failure modes: accruals≠fraud, single-metric decisions, look-ahead via restatements, survivorship in backtests, taxes/costs, non-stationarity.
 - Self-critique -> resolved Sloan accrual Verify (primary opened); spawned 2 new Verify tasks (COSO fraud-category primary; Beneish TATA coefficient canonical value).
 - Repo health: 6/61 nodes done; many P0 open.
+
+## 2026-07-18 — iter 7
+- Selected P0 task: 02-valuation DCF (FCFF/FCFE intuition + mechanics).
+- Sub-questions: DCF definition/intrinsic value; FCFF vs FCFE + build formulas; WACC + CAPM cost of equity; two-stage model; terminal value (Gordon growth + exit multiple) and the "terminal value dominates" problem; practical limitations & common mistakes (cash-flow/discount-rate mismatch).
+- Sources: 8 (Tier 1: CFA Free Cash Flow Valuation S50, Damodaran NYU DCF problems S51, Damodaran blog "Terminal Value ate my DCF" S56; Tier 2: Investopedia TV S52, Wall Street Prep TV S53, Investopedia WACC S54, CFI FCFF vs FCFE S55, Macabacus TV S57). All URLs opened + verified.
+- Wrote 02-valuation/dcf.md (template-compliant; inline cites S50–S57; runnable stdlib Python two-stage DCF — verified executing: WACC≈7.78%, PV of terminal value ≈81.5% of firm value, equity value Gordon≈$748m / $37.39 sh, exit-9x≈$493m / $24.66 sh, implied g from exit TV≈0.66%; plus WACC×g sensitivity grid).
+- Three-bucket labeling applied (method robust; inputs emerging/folklore). Conflicts explicit: perpetuity vs exit multiple (academics vs practitioners); high-TV% is/isn't a flaw (Damodaran: not a flaw); relative valuation "assumption-free" myth. Failure modes: g<WACC, g≤GDP, going-concern only, NI/EBITDA≠cash, single-point false precision, survivorship in any "DCF beats market" backtest.
+- Self-critique — spawned 2 new Verify tasks (DCF vs multiples predictive evidence; independent confirmation of 75% TV figure).
+- Repo health: 7/61 nodes done; many P0 open; open Verify tasks remain (carried forward).

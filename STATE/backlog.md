@@ -9,7 +9,7 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [x] 01-fundamental-analysis: income statement / balance sheet / cash flow reading  (DONE: 01-fundamental-analysis/financial-statements.md)
 - [x] 01-fundamental-analysis: ratio analysis (liquidity, solvency, profitability, efficiency) (DONE: 01-fundamental-analysis/ratio-analysis.md)
 - [x] 01-fundamental-analysis: quality of earnings & red flags  (DONE: 01-fundamental-analysis/quality-of-earnings.md)
-- [ ] 02-valuation: DCF (FCFF/FCFE) intuition + mechanics
+- [x] 02-valuation: DCF (FCFF/FCFE) intuition + mechanics (DONE: 02-valuation/dcf.md)
 - [ ] 02-valuation: relative valuation / comps
 - [ ] 05-stats-and-ml: stationarity, ADF, autocorrelation
 - [ ] 05-stats-and-ml: overfitting & look-ahead bias
@@ -49,3 +49,5 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [ ] VERIFY: Piotroski F-score 23% long–short annual return (1976–1996) — confirm whether gross or net of transaction costs, and out-of-sample robustness after the 1996 sample end; cite a peer-reviewed replication.
 - [ ] VERIFY: revenue-recognition manipulation is the single largest category of financial-statement fraud — qualitative claim made in quality-of-earnings.md but only sourced via CFA/practitioner (Tier 2); confirm against a primary Tier-1 study (e.g., COSO/AAA "Fraudulent Financial Reporting" 1987–1997/1998–2007) before asserting magnitudes.
 - [ ] VERIFY: Beneish (1999) M-Score canonical TATA coefficient — quality-of-earnings.md notes 4.679 (most-cited) vs 4.697 (MarketXLS S46); confirm the exact value in the FAJ primary.
+- [ ] VERIFY (DCF): cross-sectional empirical evidence that DCF intrinsic values predict future market prices better than multiples out-of-sample — most claims are anecdotal; seek a peer-reviewed test before asserting predictive power.
+- [ ] VERIFY (DCF): the "75% terminal value" figure for a specific forecast length — WSP/Macabacus quote ~75% (5-yr) and ~50% (10-yr); confirm against an independent practitioner/academic source (illustrative, not a law).
