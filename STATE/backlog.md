@@ -11,7 +11,7 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [x] 01-fundamental-analysis: quality of earnings & red flags  (DONE: 01-fundamental-analysis/quality-of-earnings.md)
 - [x] 02-valuation: DCF (FCFF/FCFE) intuition + mechanics (DONE: 02-valuation/dcf.md)
 - [x] 02-valuation: relative valuation / comps
-- [ ] 05-stats-and-ml: stationarity, ADF, autocorrelation
+- [x] 05-stats-and-ml: stationarity, ADF, autocorrelation (DONE: 05-stats-and-ml/stationarity-adf-autocorrelation.md)
 - [ ] 05-stats-and-ml: overfitting & look-ahead bias
 - [ ] 08-backtesting-methodology: transaction costs, slippage, walk-forward
 - [ ] 08-backtesting-methodology: deflated Sharpe ratio, multiple-testing
@@ -52,3 +52,4 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [ ] VERIFY (DCF): cross-sectional empirical evidence that DCF intrinsic values predict future market prices better than multiples out-of-sample — most claims are anecdotal; seek a peer-reviewed test before asserting predictive power.
 - [ ] VERIFY (DCF): the "75% terminal value" figure for a specific forecast length — WSP/Macabacus quote ~75% (5-yr) and ~50% (10-yr); confirm against an independent practitioner/academic source (illustrative, not a law).
 - [ ] VERIFY (relative valuation): single-stock out-of-sample validity of "cheap multiple = outperform" — market-level P/E/CAPE mean-reversion (Campbell & Shiller 1998, Weigand & Irons 2007) is cited second-hand from search abstracts only; open the primary papers (or a peer-reviewed meta-review) before asserting any predictive power at the single-name level; note horizon dependence.
+- [ ] VERIFY: short-horizon reversal (Jegadeesh 1990) and 6–12m momentum (Jegadeesh & Titman 1993) primary evidence for the horizon-dependent autocorrelation claim made in stationarity-adf-autocorrelation.md — currently asserted only via Cont (2001) framework; open the primaries before asserting specific magnitudes/effects at the single-name level.

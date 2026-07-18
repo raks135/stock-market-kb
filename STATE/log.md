@@ -69,3 +69,12 @@
 - Three-bucket labeling applied (method robust; output emerging/folklore). Conflicts explicit: comps "objective" vs "circular" (Damodaran); median vs mean; P/E vs EV/EBITDA default. Failure modes: benchmark inherits peer bias/bubble, mismatched claimholders, skewed mean, negative denominators, leverage in P/E, sector-only peers, survivorship/look-ahead in backtests.
 - Self-critique -> spawned 1 new Verify task (single-stock mean-reversion predictive power cited only via search abstracts, not primary papers).
 - Repo health: 8/61 nodes done; many P0 open; open Verify tasks remain (carried forward).
+
+## 2026-07-18 — iter 9
+- Selected P0 task: 05-stats-and-ml stationarity, ADF, autocorrelation.
+- Sub-questions: weak vs strong stationarity; why equity prices are I(1) and returns I(0); ADF null/regression/critical values; autocorrelation/ACF + Ljung-Box; volatility clustering (squared-return autocorrelation) and ARCH/GARCH; empirical stylized facts; common ADF null-reversal mistake; KPSS complement.
+- Sources: 6 (Tier 1: statsmodels adfuller S62, Cont 2001 S63 [opened PDF], statsmodels ljungbox S66, statsmodels ADF/KPSS notebook S67; Tier 2: econometrics-with-r S64, machinelearningplus ADF S65). All URLs opened + verified.
+- Wrote 05-stats-and-ml/stationarity-adf-autocorrelation.md (template-compliant; inline cites S62–S67; runnable stdlib+statsmodels Python verified in a pinned venv — price NON-STATIONARY p=0.61, log return STATIONARY p≈0, raw returns Ljung-Box p=0.29 no autocorrelation, squared returns Ljung-Box p≈0 strong autocorrelation).
+- Three-bucket labeling applied (topic robust; contested: ADF null-reversal, ADF vs KPSS classification, "all models need stationarity" debated). Failure modes: ADF low power near unit root, structural breaks, stationarity is in-sample only, stationary≠predictable, Ljung-Box on heavy tails.
+- Self-critique -> spawned 1 new Verify task (Jegadeesh 1990 reversal / Jegadeesh & Titman 1993 momentum primaries for horizon-dependent autocorrelation claim).
+- Repo health: 9/61 nodes done; P0 gaps remain (overfitting/look-ahead, backtest costs, deflated Sharpe, survivorship); open Verify tasks carried forward.
