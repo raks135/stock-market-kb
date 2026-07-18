@@ -52,13 +52,14 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Data & tooling (hygiene / survivorship-free datasets) | 13-data-and-tooling/data-hygiene-survivorship-free.md | done | robust |
 | Data & tooling (backtesting libraries cookbook) | 13-data-and-tooling/backtesting-libraries-cookbook.md | done | robust |
 || Value & quality factor strategies (evidence + failure modes) | 14-strategy-catalog/value-quality-strategies.md | done | robust |
-|| Momentum & trend-following strategies (cross-sectional + TSM; evidence, costs, crashes) | 14-strategy-catalog/momentum-trend-following-strategies.md | done | contested |
+||| Momentum & trend-following strategies (cross-sectional + TSM; evidence, costs, crashes) | 14-strategy-catalog/momentum-trend-following-strategies.md | done | contested |
+||| Mean-reversion & statistical-arbitrage strategies (OU/s-score, variance-ratio, Avellaneda–Lee, Aug-2007) | 14-strategy-catalog/mean-reversion-stat-arb.md | done | contested |
 | Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 50/61 nodes done (momentum-trend-following added; folder 14 now has 2 articles).
+- Coverage: 51/61 nodes done (mean-reversion-stat-arb added; folder 14 now has 3 articles).
 - PHASE A breadth: ALL folders 00–15 now have >=1 first article. Breadth complete.
-- Next up (Phase B depth): 14 mean-reversion/carry-vol (2 items); 15 overfitting/regime/look-ahead/txn-cost/survivorship (5 items).
-- Open Phase B items: 14 (2) + 15 (5) = 7 remaining. Open Verify tasks carried forward (not asserted).
+- Next up (Phase B depth): 14 carry-vol (1 item); 15 overfitting/regime/look-ahead/txn-cost/survivorship (5 items).
+- Open Phase B items: 14 (1) + 15 (5) = 6 remaining. Open Verify tasks carried forward (not asserted).
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.
