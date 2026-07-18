@@ -40,7 +40,7 @@ Two phases:
 - [x] 04-quant-and-factors: momentum & value premiums — robust or fading? — DONE 2026-07-18 (momentum-value-premiums.md; confidence: contested)
 - [x] 04-quant-and-factors: low-vol / quality / carry factors — DONE 2026-07-18 (low-vol-quality-carry-factors.md; confidence: contested)
 - [x] 04-quant-and-factors: APT & multi-factor models — DONE 2026-07-18 (apt-multi-factor-models.md; confidence: contested)
-- [ ] 04-quant-and-factors: factor timing & factor crowding
+- [x] 04-quant-and-factors: factor timing & factor crowding — DONE 2026-07-18 (factor-timing-crowding.md; confidence: contested)
 - [ ] 05-stats-and-ml: cointegration & pairs trading basics
 - [ ] 05-stats-and-ml: feature engineering & ML pitfalls in finance
 - [ ] 06-portfolio-construction: risk parity & Kelly sizing
@@ -73,6 +73,7 @@ Two phases:
 - [ ] VERIFY: Piotroski F-score 23% long–short — gross vs net of costs; OOS after 1996.
 - [ ] VERIFY: revenue-recognition fraud as largest fraud category (COSO/AAA primary).
 - [ ] VERIFY: Beneish (1999) M-Score canonical TATA coefficient (FAJ primary).
+- [ ] VERIFY: divergent-vs-convergent crowding behavior (momentum underperforms after high crowding; value outperforms) — currently rests on a single Tier-3 practitioner (CXO/CoMetric) summary; cross-check against a primary (e.g., Dichtl, Drobetz, Lohre, Rother & Vosskamp 2019 "avoid factors that exhibit crowding", or the CoMetric primary) before asserting directionally.
 - [ ] VERIFY (DCF): OOS evidence DCF predicts prices better than multiples.
 - [ ] VERIFY (relative valuation): single-stock OOS validity (Campbell & Shiller 1998 / Weigand & Irons 2007).
 - [ ] VERIFY: Jegadeesh (1990) reversal & Jegadeesh & Titman (1993) momentum primaries.
