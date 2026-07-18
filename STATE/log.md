@@ -106,3 +106,12 @@
 - Failure modes explicit: DSR fixes statistical inflation only (not non-stationarity/costs/capacity); N must be true/effective trials; asymptotic; γ=0 prior; BH dependence assumption.
 - Self-critique: no new Verify tasks spawned; HLZ magnitude now corroborated (2 sources) though primary PDF not directly opened (logged).
 - Repo health: 12/61 nodes done; open P0 gaps: 15 data-snooping, 15 survivorship; open Verify tasks carried forward.
+
+## 2026-07-18 — iter 13
+- Selected P0 task: 15-pitfalls-and-antipatterns data snooping / p-hacking.
+- Sub-questions: definition (data used >once for inference/model selection); why selection inflates type-I error; FWER 1-(1-a)^m; Bonferroni/Holm vs BH(FDR); White (2000) Reality Check / SPA bootstrap; DSR; factor-zoo (HLZ) multiple-testing; conflicts (HLZ vs Chen 2024).
+- Sources: 2 new Tier-1 primaries opened + verified — White 2000 Econometrica (S87), Sullivan/Timmermann/White 1999 JoF (S88, abstract); reused Tier-1 S68/S69/S70/S80/S83/S86 and Tier-2 S71/S72/S82 from registry.
+- Wrote 15-pitfalls-and-antipatterns/data-snooping-phacking.md (template-compliant; inline cites; runnable stdlib-only simulation VERIFIED: best of 1000 noise rules |t|=3.64 naive p=0.0003 -> Bonferroni p=0.27; avg max|t|=3.45 across 200 searches; 95% of searches yield |t|>3).
+- Three-bucket labeling applied (topic robust; HLZ-vs-Chen magnitude contested). Failure modes explicit: hidden trial counts, dependence, non-stationarity/costs/capacity not fixed by corrections, walk-forward still snoops if reused.
+- Self-critique: S88 full text not opened -> conclusion softened; no new Verify spawned.
+- Repo health: 13/61 nodes done; open P0 gap: 15 survivorship; open Verify tasks carried forward.

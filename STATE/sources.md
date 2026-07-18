@@ -139,3 +139,9 @@ Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JF
 | S84 | Brenndoerfer, M. (2026), "Multiple Comparisons: FWER, FDR, Bonferroni, Holm & Benjamini-Hochberg" https://mbrenndoerfer.com/writing/multiple-comparisons-fwer-fdr-bonferroni-holm-benjamini-hochberg | 3 | FWER=1-(1-a)^m table (14 tests->0.51, 100->0.994); Bonferroni/Holm/BH/BY code + algorithm (corroboration only) |
 | S85 | Wikipedia, "Deflated Sharpe ratio" / "False discovery rate" | 2 | DSR formula cross-check; FDR definition |
 | S86 | Lo, A.W. (2002), "The Statistics of Sharpe Ratios," Financial Analysts Journal 58(4):36-52 | 1 | Sampling distribution / variance of the Sharpe ratio estimator (basis for SE term) |
+
+## 2026-07-18 — 15 data-snooping / p-hacking article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S87 | White, H. (2000), "A Reality Check for Data Snooping," Econometrica 68(5):1097-1126 (PDF mirror) https://www.ssc.wisc.edu/~bhansen/718/White2000.pdf | 1 | Primary: data-snooping definition ("data used >once for inference/model selection", endemic); newsletter-scam/coin-flip analogy; Reality Check bootstrap tests intersection null; FWER control |
+| S88 | Sullivan, R., Timmermann, A. & White, H. (1999), "Data-Snooping, Technical Trading Rule Performance, and the Bootstrap," Journal of Finance 54(5):1647-1691 https://ideas.repec.org/a/bla/jfinan/v54y1999i5p1647-1691.html (DOI 10.1111/0022-1082.00163) | 1 | Primary (metadata + abstract opened): applies White RC bootstrap to 26->expanded rules over ~100y DJIA; much technical-rule significance vanishes after adjustment; 300+ citations |

@@ -32,10 +32,11 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Behavioral | 12-behavioral-finance/... | todo | — |
 | Data & tooling | 13-data-and-tooling/... | todo | — |
 | Strategy catalog | 14-strategy-catalog/... | todo | — |
-| Data snooping | 15-pitfalls-and-antipatterns/... | todo | — |
+|| Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 12/61 nodes done.
-- Open P0 gaps: 15 data-snooping, 15 survivorship still open; 08 deflated Sharpe/multiple-testing DONE.
+- Coverage: 13/61 nodes done.
+- Open P0 gaps: 15 survivorship still open; all other P0 sourced.
+- Next P0: 15-pitfalls survivorship bias. P1/P2 largely untouched (technical, factors, portfolio, risk, derivatives, macro, behavioral, data/tooling, strategy-catalog).
 - DONE when all P0 nodes sourced + no open Verify tasks.

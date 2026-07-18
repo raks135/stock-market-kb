@@ -15,7 +15,7 @@ Priorities: P0 = foundations & traps, P1 = depth, P2 = catalog & niches. Each it
 - [x] 05-stats-and-ml: overfitting & look-ahead bias (DONE: overfitting-lookahead.md)
 - [x] 08-backtesting-methodology: transaction costs, slippage, walk-forward (DONE)
 - [x] 08-backtesting-methodology: deflated Sharpe ratio, multiple-testing (DONE)
-- [ ] 15-pitfalls-and-antipatterns: data snooping / p-hacking
+- [x] 15-pitfalls-and-antipatterns: data snooping / p-hacking (DONE: data-snooping-phacking.md)
 - [ ] 15-pitfalls-and-antipatterns: survivorship bias
 
 ## P1 (fundamentals depth + quant + portfolio + risk)
@@ -75,5 +75,10 @@ Priorities: P0 = foundations & traps, P1 = depth, P2 = catalog & niches. Each it
 - [ ] VERIFY (relative valuation): single-stock OOS validity of "cheap = outperform" (open Campbell & Shiller 1998 / Weigand & Irons 2007).
 - [ ] VERIFY: Jegadeesh (1990) short-horizon reversal & Jegadeesh & Titman (1993) momentum — open primaries.
 - [ ] VERIFY: Perold (1988) implementation shortfall decomposition & Almgren & Chriss (2001) square-root impact — open primaries.
+
+## Self-critique (2026-07-18 data-snooping iter)
+- Simulation is synthetic noise (Box–Muller, stdlib, seed 42) — deliberately null; demonstrates the *selection* effect, not a market claim. Numbers are reproducible as written.
+- S88 (Sullivan/Timmermann/White 1999) only abstract opened; conclusion softened to "quantify the bias / canonical demonstration" rather than asserting "profitability disappears" (full text not opened → do NOT assert stronger).
+- Carried forward open Verify tasks from prior iters remain; no new Verify spawned (White 2000 + STW 1999 primaries now opened, resolving the earlier Jegadeesh/White "data-snooping" gap at the conceptual level).
 
 COMPLETION: all above (P0+P1+P2) done + no open Verify tasks → KB COMPLETE.
