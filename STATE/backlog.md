@@ -46,7 +46,7 @@ Two phases:
 - [x] 06-portfolio-construction: risk parity & Kelly sizing — DONE 2026-07-18 (risk-parity-kelly-sizing.md; confidence: robust)
 - [x] 06-portfolio-construction: Black–Litterman — DONE 2026-07-18 (black-litterman.md; confidence: robust)
 - [x] 06-portfolio-construction: factor portfolios & smart beta — DONE 2026-07-18 (factor-portfolios-smart-beta.md; confidence: contested)
-- [ ] 07-risk-management: drawdown & position sizing / stops
+- [x] 07-risk-management: drawdown & position sizing / stops — DONE 2026-07-18 (drawdown-position-sizing-stops.md; confidence: contested)
 - [ ] 07-risk-management: stress testing & scenario analysis
 - [ ] 09-market-microstructure: maker-taker, payment for order flow, HFT
 - [ ] 10-derivatives: volatility surface, skew, hedging basics
