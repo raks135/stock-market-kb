@@ -45,3 +45,14 @@ Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JF
 | S26 | Sidley Austin, "SEC Proposes Rescission of the Order Protection Rule" (Jun 16, 2026) https://www.sidley.com/en/insights/newsupdates/2026/06/sec-proposes-rescission-of-the-order-protection-rule | 2 | 2026 proposal to rescind Rule 611 / 610(e); conflicting analysis |
 | S27 | Nasdaq, "Off-Exchange Trading Increases Across All Types of Stocks" https://www.nasdaq.com/articles/exchange-trading-increases-across-all-types-stocks | 2 | Off-exchange >50% (Nov 2024–Jan 2025); dark pools rangebound, growth is bilateral |
 | S28 | Davis Polk, "Reg NMS Resized: SEC adjusts tick sizes, lowers access fees" https://www.davispolk.com/insights/client-update/reg-nms-resized-sec-adjusts-tick-sizes-lowers-access-fees-and-accelerates | 2 | Rule 612 half-penny tick (TWACS), Rule 610 access-fee cap $0.001 detail |
+
+## 2026-07-18 — financial statements article (01-fundamental-analysis)
+|| # | Source | Tier | Used for |
+|---|---|---|---|
+| S29 | SEC, "Beginners' Guide to Financial Statements" (Office of Investor Education) https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide | 1 | 4 statements; accounting equation; income-statement staircase; current/non-current split; EPS definition |
+| S30 | SEC Investor.gov, "Investor Bulletin: How to Read a 10-K" (Sep 2011) https://www.sec.gov/files/reada10k.pdf | 1 | 10-K Item 8 audited statements; GAAP & audit opinions; non-GAAP warning; SOX CEO/CFO certification; SEC review cadence |
+| S31 | Investor.gov, "How to Read a 10-K" https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k | 1 | 10-K section map (Business, Risk Factors, MD&A, Financial Statements) |
+| S32 | CFA Institute, "Analyzing Statements of Cash Flows I" (2026 CFA L1 FSA) https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i | 1 | CFS purpose/liquidity; link to IS & BS; direct/indirect methods; GAAP vs IFRS contrast |
+| S33 | Corporate Finance Institute, "The 3 Financial Statements" https://corporatefinanceinstitute.com/resources/accounting/three-financial-statements | 2 | Period vs point-in-time; NI->RE link; CFS->cash link; summary comparison table |
+| S34 | Investopedia, "How Financial Statements Connect" https://www.investopedia.com/ask/answers/031815/how-are-three-major-financial-statements-related-each-other.asp | 2 | NI->retained earnings; NI as top line of CFS; investing/financing tie to BS |
+| S35 | Pearson, "GAAP vs. IFRS: Statement of Cash Flows" https://www.pearson.com/channels/financial-accounting/learn/brian/ch-15-gaap-vs-ifrs/gaap-vs-ifrs-statement-of-cash-flows | 2 | GAAP vs IFRS classification of interest/dividends in CFS |

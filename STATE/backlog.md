@@ -6,7 +6,7 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [x] 00-foundations: market structure, instruments, order types, participants, mechanics  (DONE: market-structure.md)
 - [x] 00-foundations: what is a stock / share / equity claim
 - [x] 00-foundations: exchanges, ATS/dark pools, Reg NMS basics (DONE: 00-foundations/exchanges-ats-regnms.md)
-- [ ] 01-fundamental-analysis: income statement / balance sheet / cash flow reading
+- [x] 01-fundamental-analysis: income statement / balance sheet / cash flow reading  (DONE: 01-fundamental-analysis/financial-statements.md)
 - [ ] 01-fundamental-analysis: ratio analysis (liquidity, solvency, profitability, efficiency)
 - [ ] 01-fundamental-analysis: quality of earnings & red flags
 - [ ] 02-valuation: DCF (FCFF/FCFE) intuition + mechanics
@@ -44,3 +44,4 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 ## Verify tasks (insufficient evidence — promote to Tier 1/2 before claiming)
 - [ ] VERIFY: maker-taker rebate net effect on retail execution quality (conflicting: some studies say improves liquidity, some say harms price discovery) — need Tier 1 source.
 - [ ] VERIFY: HFT net contribution to liquidity vs. fragility — SEC 2014 lit review Part II is a start; need a peer-reviewed summary.
+- [ ] VERIFY: academic evidence that accruals predict future cash flows / earnings persistence (Dechow 1994, Sloan 1996) — need to open and cite the primary paper before asserting in financial-statements.md.
