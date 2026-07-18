@@ -32,14 +32,13 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Behavioral: biases, sentiment, crowding | 12-behavioral-finance/cognitive-biases-sentiment-crowding.md | done | robust |
 | Data & tooling (vendors, libraries, reproducibility) | 13-data-and-tooling/data-vendors-apis-libraries-reproducibility.md | done | robust |
 | Data & tooling (hygiene / survivorship-free datasets) | 13-data-and-tooling/... | todo | — |
-| Strategy catalog | 14-strategy-catalog/... | todo | — |
+| Value & quality factor strategies (evidence + failure modes) | 14-strategy-catalog/value-quality-strategies.md | done | robust |
 | Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 22/61 nodes done.
-- PHASE A breadth: 03, 04, 06, 07, 09, 10, 11, 12, 13 now have first articles; folder still empty of a first article: 14 (15 has data-snooping).
-- Next up: Phase A 14-strategy-catalog first article; then Phase B P1/P2 depth.
-- P0 gaps: 15 survivorship still open; 15 already has data-snooping. All other P0 (00,01,02,05,07,08) sourced.
-- New folder-first articles still needed before full breadth: 14.
+- Coverage: 23/61 nodes done.
+- PHASE A breadth: ALL folders 00–15 now have >=1 first article (14 done this iteration). Breadth complete.
+- Next up: Phase B P1/P2 depth — remaining todos: 01 DuPont; 02 residual-income/sum-of-parts; 03 indicators/charts/candlesticks; 04 Fama–French/momentum-value/low-vol/factors/APT/timing; 05 cointegration/feature-engineering; 06 risk-parity/Kelly/Black–Litterman/smart-beta; 07 drawdown/position-sizing/stress; 09 maker-taker/HFT; 10 vol-surface/option-strategies; 11 regime-detection/inflation; 12 herding/limits-to-arbitrage; 13 hygiene/backtesting-cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
+- P0 gaps: 15 survivorship still open (Phase A/B). All other P0 (00,01,02,05,07,08) sourced.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.

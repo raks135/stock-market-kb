@@ -255,4 +255,17 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S159 | Investopedia, "Survivorship Bias" — https://www.investopedia.com/terms/s/survivorshipbias.asp | 2 | Definition (referenced in further reading) |
 | S160 | Cowell et al., "Look-Ahead Benchmark Bias" (arXiv:0810.1922) — https://cdn.arenafi.org/papers/arxiv/0810.1922.pdf | 1 | Academic preprint; up to ~8%/yr look-ahead benchmark bias for S&P500 (PDF NOT directly opened this iteration → Verify) |
 
+## 2026-07-18 — 14-strategy-catalog value & quality article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S161 | Novy-Marx, R. (2013), "The Other Side of Value: The Gross Profitability Premium," JFE 108(1):1–28 (PDF) https://mysimon.rochester.edu/novy-marx/research/OSoV.pdf | 1 | Gross profitability (GP/A) premium; same power as B/M; improves value; sample 1973–2010; 0.21%/mo long-short (t=2.34) |
+| S162 | Asness, C., Frazzini, A. & Pedersen, L.H. (2013/2019), "Quality Minus Junk," Review of Accounting Studies 24(1) (PDF) http://www.econ.yale.edu/~shiller/behfin/2013_04-10/asness-frazzini-pedersen.pdf | 1 | Quality = profitability/growth/safety/payout; QMJ long top 30%/short bottom 30%; significant in US + 23/24 countries; price-of-quality R² 12%/6% |
+| S163 | Asness, C. (2020), "Is (Systematic) Value Investing Dead?" AQR Perspectives https://www.aqr.com/Insights/Perspectives/Is-Systematic-Value-Investing-Dead | 2 | Value-not-dead defense; value spread >4 std; market Sharpe ~0.4; down decade ≠ −2σ event |
+| S164 | Fama, E.F. & French, K.R. (2005), "The Value Premium and the CAPM" (Tuck/Dartmouth WP) https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/acrobat/Size%20Value%20and%20the%20CAPM_2005_05.pdf | 1 | VMG/HML avg 0.40%/mo (1926–2004, t=3.43); larger for small caps post-63; CAPM rejected post-63; international 14 mkt similar |
+| S165 | Horstmeyer, D., Liu, Y. & Wilkins, A. (2022), "Fama and French: The Five-Factor Model Revisited," CFA Institute Enterprising Investor https://rpc.cfainstitute.org/blogs/enterprising-investor/2022/fama-and-french-the-five-factor-model-revisited | 1 | HML >4000% 1926–2007 then lost ~half post-2007; RMW most consistent factor since 1963; intangibles critique (Arnott) |
+| S166 | Investopedia, "Magic Formula Investing Explained" https://www.investopedia.com/terms/m/magic-formula-investing.asp | 2 | Greenblatt ranks by earnings yield & return on capital; "good companies at cheap prices" |
+| S167 | Podgórski, K. (2026), "Assessing the effectiveness of Greenblatt's Magic Formula across international stock markets: Literature review," REF 10(1) https://journals.ue.poznan.pl/REF/article/download/2790/1711 | 2 | Magic Formula outperforms most markets but contingent on costs/size/conditions; ROC=EBIT/(NWC+Net PP&E), EY=EBIT/EV; int'l evidence |
+| S168 | Asness, C. (2022), "Is Value Just an Interest Rate Bet?" AQR Perspectives https://www.aqr.com/Insights/Perspectives/Is-Value-Just-an-Interest-Rate-Bet | 2 | Long-run HML↔10y-yield correlation ~0.10 (trivial); strong only last ~5y; value not merely a rate bet |
+| S169 | Inker, B. & Pease, J. (2021), "The Duration of Value and Growth," GMO white paper https://www.gmo.com/americas/research-library/the-duration-of-value-and-growth_whitepaper | 2 | Value & growth durations much closer than assumed; value can outperform without rate moves |
+
 
