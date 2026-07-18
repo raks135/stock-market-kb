@@ -384,3 +384,10 @@
 - Sources: 8 — Tier 1: vectorbt GitHub S356, zipline-reloaded PyPI S359, zipline tutorial S360; Tier 2: QuantStart S361, PyQuant News S362; reused S153/S154/S155. All opened + verified; versions confirmed via PyPI JSON.
 - Wrote 13-data-and-tooling/backtesting-libraries-cookbook.md (template-compliant; three-bucket labeling; runnable stdlib demo VERIFIED: correct Sharpe −0.125 vs look-ahead +0.125 = +0.250 pts inflation + sign flip; vectorized≡event-driven to 1e-12; 3 pinned library snippets syntax-checked).
 - Self-critique: no new Verify spawned (all claims >=2 opened independent sources). Repo health: 49/61 nodes done; Phase B remaining: 14 (3) + 15 (5) = 8; open Verify carried forward.
+
+## 2026-07-18 — iter 49
+- Selected Phase B task: 14-strategy-catalog momentum & trend-following strategies (top unchecked backlog item).
+- Sub-questions: cross-sectional (Jegadeesh-Titman 1993) vs time-series/TSM (Moskowitz-Ooi-Pedersen 2012; Hurst-Ooi-Pedersen 2017) mechanics; vol-scaled signal & 10% target; empirical record (58/58 futures, 137yr/67mkts, positive each decade, 8/10 stress positive); costs & post-GFC weakness (Baltas-Kosowski 2017); momentum crashes & conditional-beta (Daniel-Moskowitz 2016); risk-vs-behavioral conflict; failure modes (costs, capacity, survivorship, look-ahead, non-stationarity, tail risk).
+- Sources: 5 new, ALL Tier 1, ALL opened & verified — S363 JT1993, S364 Hurst2017, S365 Baltas2017, S366 DanielMoskowitz2016; reused S91 MOP2012, S215 F&F2020, S218 Baltussen. Major claims corroborated by >=2 opened independent sources.
+- Wrote 14-strategy-catalog/momentum-trend-following-strategies.md (template-compliant; three-bucket: phenomenon robust, net-of-cost forward edge & cross-sectional decay contested; runnable numpy demo VERIFIED: TSM cum P&L -22.4%@rho0 → +31.5%@rho0.30, Sharpe -0.02 → +0.14).
+- Self-critique: no new Verify spawned (all claims >=2 opened independent sources). Repo health: 50/61 nodes done; Phase B remaining: 14 (2: mean-reversion/carry-vol) + 15 (5) = 7; open Verify carried forward.

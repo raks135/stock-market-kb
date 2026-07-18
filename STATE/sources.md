@@ -521,6 +521,14 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S361 | QuantStart, "Event-Driven Backtesting with Python Part I" — https://www.quantstart.com/articles/Event-Driven-Backtesting-with-Python-Part-I | 2 | Vectorised backtesters "suffer from some drawbacks in the way that trade execution is simulated"; event-driven = more realistic; opened & verified |
 | S362 | PyQuant News, "Event-Driven Backtesting for Trading Strategies" — https://www.pyquantnews.com/free-python-resources/event-driven-backtesting-for-trading-strategies | 2 | Event-driven "more closely reflect real trading scenarios"; "account for market latency and slippage"; opened & verified |
 
+## 2026-07-18 — 14-strategy-catalog momentum & trend-following article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S363 | Jegadeesh, N. & Titman, S. (1993), "Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency," *Journal of Finance* 48(1):65–91 https://www.bauer.uh.edu/rsusmel/phd/jegadeesh-titman93.pdf | 1 | Primary (opened & verified): cross-sectional momentum; ~1%/mo over 3–12m holding 1965–1989; abnormal returns not due to systematic risk; partial reversal months 13–36 |
+| S364 | Hurst, B., Ooi, Y.H. & Pedersen, L.H. (2017), "A Century of Evidence on Trend-Following Investing," *Journal of Portfolio Management* 44(1):15–29 https://fairmodel.econ.yale.edu/ec439/hurst.pdf | 1 | Primary (opened & verified): TSM 1880–2016 across 67 markets; positive each decade; 8/10 stress periods positive; best in low-correlation regimes; 10% vol target |
+| S365 | Baltas, N. & Kosowski, R. (2017), "Demystifying Time-Series Momentum Strategies: Volatility Estimators, Trading Rules and Pairwise Correlations" https://www.cmegroup.com/education/files/demystifiing-time-series-momentum-strategies.pdf | 1 | Primary (opened & verified): TSM turnover ~36% reducible w/o penalty; Sharpe ~1.0–1.15 pre-cost, ~1.0 post-cost; post-GFC (2009–2013) ~0 / negative after costs; correlations drive post-2008 weakness |
+| S366 | Daniel, K. & Moskowitz, T.J. (2016), "Momentum Crashes," *Journal of Financial Economics* 122(2):221–247 https://www.nber.org/system/files/working_papers/w20439/w20439.pdf | 1 | Primary (opened & verified): momentum negatively skewed; crashes in panic states after declines/high vol; 1932 losers +232%/winners +32%, 2009 losers +163%/winners +8%; conditional beta asymmetry −1.51 vs −0.70; dynamic vol-scaled ~doubles Sharpe |
+
 
 
 
