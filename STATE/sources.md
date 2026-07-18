@@ -430,6 +430,17 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S281 | Luxalgo, "5 Position Sizing Methods for High-Volatility Trades" https://www.luxalgo.com/blog/5-position-sizing-methods-for-high-volatility-trades | 2 | ATR sizing, fixed-risk-% sizing mechanics; fewer shares when vol high (opened) |
 | S282 | Van Tharp Institute, "Position Sizing Strategies and Risk Management" https://vantharpinstitute.com/van-tharp-teaches-position-sizing-strategies-and-risk-management | 3 | R-multiple framework; "position sizing, not the system, determines objectives"; lead only, not sole source (opened) |
 
+## 2026-07-18 — 07-risk-management stress testing & scenario analysis article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S290 | Federal Reserve Board, "Stress Tests" (CCAR/DFAST, stress capital buffer) https://www.federalreserve.gov/supervisionreg/stress-tests-capital-planning.htm | 1 | Annual supervisory stress test; >=2 scenarios (baseline + severely adverse); firms with >=$100bn assets; SCB integrates stress test with capital reqs; largest banks >doubled CET1 since 2009 |
+| S291 | Federal Reserve, "2025 Stress Test Scenarios" https://www.federalreserve.gov/publications/2025-stress-test-scenarios.htm | 1 | Real severe-scenario magnitudes: unemployment +5.9pp to 10% peak; ~33% house-price decline; ~30% CRE decline; widening corp spreads; global market shock + counterparty-default components; 28 variables; scenarios NOT forecasts; footnote 13 warns market liquidity can change abruptly |
+| S292 | Basel Committee on Banking Supervision, "Stress testing principles" (Oct 2018, d450) https://www.bis.org/bcbs/publ/d450.pdf | 1 | 9 high-level principles; taxonomy spans sensitivity + scenario (enterprise-wide) + reverse stress; Principle 4 stresses "sufficiently severe" + material risks; governance, model risk, communication; replaced 2009 principles |
+| S293 | SAMA Rulebook, "Reverse Stress Testing" (5.4) https://rulebook.sama.gov.sa/en/54-reverse-stress-testing | 1 | Reverse ST starts from a specified failure outcome and works backward; "to failure" = point bank cannot operate due to lost market confidence; required; assess likelihood + remedial action |
+| S294 | AnalystPrep, "Use of Sensitivity and Scenario Risk Measures" (CFA L2, Reading 41) https://analystprep.com/study-notes/cfa-level-2/describe-the-use-of-sensitivity-risk-measures-and-scenario-risk-measures | 2 | Stress tests = scenario risk measures quantifying extreme-negative impact; sensitivity measures (beta/duration/Greeks) convey no likelihood; historical vs hypothetical scenarios; reverse ST explores tail risks/hidden vulnerabilities |
+| S295 | Ryan O'Connell, CFA FRM, "Stress Testing & Scenario Analysis" https://ryanoconnellfinance.com/stress-testing-scenario-analysis | 2 | Complements VaR ("what happens when markets break"); three scenario types (stylized/DPG 7, historical extreme, hypothetical); model-based (factor push, max-loss opt, worst-case); DPG 7-shock table; historical event table (Black Monday -20.5%, LTCM -19.3%, GFC -56.8%, ESDC -19.4%, COVID -33.9%); LTCM correlation-spike lesson; limitations (one-factor, static, behavioral); worked pension example; PRA requires reverse ST |
+
+
 
 
 

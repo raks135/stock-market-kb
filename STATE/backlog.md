@@ -47,7 +47,7 @@ Two phases:
 - [x] 06-portfolio-construction: Black–Litterman — DONE 2026-07-18 (black-litterman.md; confidence: robust)
 - [x] 06-portfolio-construction: factor portfolios & smart beta — DONE 2026-07-18 (factor-portfolios-smart-beta.md; confidence: contested)
 - [x] 07-risk-management: drawdown & position sizing / stops — DONE 2026-07-18 (drawdown-position-sizing-stops.md; confidence: contested)
-- [ ] 07-risk-management: stress testing & scenario analysis
+- [x] 07-risk-management: stress testing & scenario analysis — DONE 2026-07-18 (stress-testing-scenario-analysis.md; confidence: robust)
 - [ ] 09-market-microstructure: maker-taker, payment for order flow, HFT
 - [ ] 10-derivatives: volatility surface, skew, hedging basics
 - [ ] 10-derivatives: option strategies (covered call, protective put, spreads)
@@ -89,3 +89,9 @@ COMPLETION: all 16 folders (00-15) have >=1 article AND all Phase A/B items done
 - Carried forward open Verify tasks from prior iters remain; no new Verify spawned (White 2000 + STW 1999 primaries now opened, resolving the earlier Jegadeesh/White "data-snooping" gap at the conceptual level).
 
 COMPLETION: all above (P0+P1+P2) done + no open Verify tasks → KB COMPLETE.
+
+## Self-critique (iter 39 — 07 stress testing & scenario analysis)
+- Wrote 07-risk-management/stress-testing-scenario-analysis.md (template-compliant; three-bucket labeling: framework/categories robust, scenario-selection severity contested; stdlib-only runnable engine VERIFIED on CPython 3.14.4 — GFC -50.7%, COVID -29.6%, BREACH vs 25% limit, reverse-stress equity -19.9% → $250m loss).
+- Sources: 6 new — Tier 1: Federal Reserve Stress Tests S290, Fed 2025 Stress Test Scenarios S291 (real macro shock magnitudes: unemployment +5.9pp→10%, house -33%, CRE -30%), BIS Stress testing principles 2018 S292, SAMA Reverse Stress Testing S293; Tier 2: AnalystPrep CFA L2 S294, Ryan O'Connell S295 (DPG 7 scenarios, historical event table, worked pension example, limitations). All cited URLs opened + verified.
+- No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; Fed macro magnitudes from opened primary; BIS 9 principles + reverse-ST requirement from opened primaries/regulatory).
+- Kept companion rate/credit/RE shocks in the code clearly labeled "illustrative" so the engine demonstrates method without asserting unsourced magnitudes; only the equity leg of historical scenarios is sourced (S295).
