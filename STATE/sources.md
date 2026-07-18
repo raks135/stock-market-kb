@@ -32,3 +32,16 @@ Credibility tiers:
 | S19 | Investopedia, "Market Capitalization" (updated Jun 2026) https://www.investopedia.com/terms/m/marketcapitalization.asp | 2 | Market Cap = Price × Shares Outstanding; cap tiers; market cap ≠ intrinsic value; splits/dilution effects |
 
 Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JFE version for citation if available.
+
+## 2026-07-18 — exchanges/ATS/Reg NMS article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S20 | SEC, "Regulation of NMS Stock Alternative Trading Systems" (Oct 9, 2018, Rel. 34-84541) https://www.sec.gov/rules-regulations/2018/07/regulation-nms-stock-alternative-trading-systems | 1 | ATS registration as broker-dealer, Form ATS-N, dark pools included |
+| S21 | FINRA, "Can You Swim in a Dark Pool?" https://www.finra.org/investors/insights/can-you-swim-dark-pool | 1 | Dark pool definition, concerns, TRF reporting, post-trade transparency |
+| S22 | Congressional Research Service, "Dark Pools in Equity Trading: Policy Concerns and Recent Developments" (R43739, Sep 2014) https://www.everycrsreport.com/reports/R43739.html | 1 | Dark pool history/growth (4%→15%), regulatory concerns |
+| S23 | SEC Div. of Trading & Markets, "FAQs Concerning Rule 611 and Rule 610 of Regulation NMS" (Apr 4, 2008) https://www.sec.gov/divisions/marketreg/nmsfaq610-11.htm | 1 | Four Reg NMS rules, NBBO, protected quotations, ISO exception |
+| S24 | Investopedia, "Order Protection Rule" (updated Mar 2026) https://www.investopedia.com/terms/o/order-protection-rule.asp | 2 | Rule 611 framing + critiques (fragmentation, dark trading) |
+| S25 | SEC, Atkins statement re: Minimum Pricing Increments & Access Fee Caps (Oct 15, 2025) https://www.sec.gov/newsroom/speeches-statements/atkins-101525-statement-regarding-minimum-pricing-increments-access-fee-caps | 1 | 2024 Rule 610/612 amendments, D.C. Circuit uphold, compliance dates |
+| S26 | Sidley Austin, "SEC Proposes Rescission of the Order Protection Rule" (Jun 16, 2026) https://www.sidley.com/en/insights/newsupdates/2026/06/sec-proposes-rescission-of-the-order-protection-rule | 2 | 2026 proposal to rescind Rule 611 / 610(e); conflicting analysis |
+| S27 | Nasdaq, "Off-Exchange Trading Increases Across All Types of Stocks" https://www.nasdaq.com/articles/exchange-trading-increases-across-all-types-stocks | 2 | Off-exchange >50% (Nov 2024–Jan 2025); dark pools rangebound, growth is bilateral |
+| S28 | Davis Polk, "Reg NMS Resized: SEC adjusts tick sizes, lowers access fees" https://www.davispolk.com/insights/client-update/reg-nms-resized-sec-adjusts-tick-sizes-lowers-access-fees-and-accelerates | 2 | Rule 612 half-penny tick (TWACS), Rule 610 access-fee cap $0.001 detail |
