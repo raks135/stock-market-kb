@@ -13,7 +13,7 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [x] 02-valuation: relative valuation / comps
 - [x] 05-stats-and-ml: stationarity, ADF, autocorrelation (DONE: 05-stats-and-ml/stationarity-adf-autocorrelation.md)
 - [x] 05-stats-and-ml: overfitting & look-ahead bias (DONE: 05-stats-and-ml/overfitting-lookahead.md)
-- [ ] 08-backtesting-methodology: transaction costs, slippage, walk-forward
+- [x] 08-backtesting-methodology: transaction costs, slippage, walk-forward (DONE: 08-backtesting-methodology/transaction-costs-slippage-walkforward.md)
 - [ ] 08-backtesting-methodology: deflated Sharpe ratio, multiple-testing
 - [ ] 15-pitfalls-and-antipatterns: data snooping / p-hacking
 - [ ] 15-pitfalls-and-antipatterns: survivorship bias
@@ -53,4 +53,4 @@ Priorities: P0 = foundations & traps, then fan out. Each item = one article.
 - [ ] VERIFY (DCF): the "75% terminal value" figure for a specific forecast length — WSP/Macabacus quote ~75% (5-yr) and ~50% (10-yr); confirm against an independent practitioner/academic source (illustrative, not a law).
 - [ ] VERIFY (relative valuation): single-stock out-of-sample validity of "cheap multiple = outperform" — market-level P/E/CAPE mean-reversion (Campbell & Shiller 1998, Weigand & Irons 2007) is cited second-hand from search abstracts only; open the primary papers (or a peer-reviewed meta-review) before asserting any predictive power at the single-name level; note horizon dependence.
 - [ ] VERIFY: short-horizon reversal (Jegadeesh 1990) and 6–12m momentum (Jegadeesh & Titman 1993) primary evidence for the horizon-dependent autocorrelation claim made in stationarity-adf-autocorrelation.md — currently asserted only via Cont (2001) framework; open the primaries before asserting specific magnitudes/effects at the single-name level.
-- [ ] VERIFY: Harvey, Liu & Zhu (2016) exact required t-statistic cutoff for cross-sectional factor significance — overfitting-lookahead.md cites "~3.0" via Foxholm Tier-2 review (S72) of the RFS paper; the primary SSRN/Oxford URLs failed to fetch, so the precise numeric (some secondary sources cite 3.18) is unverified against primary. Open Harvey, Liu & Zhu (2016), RFS 29(1):5–68 before asserting the exact number.
+- [ ] VERIFY: open Perold (1988) "The Implementation Shortfall: Paper vs Reality" (FAJ 44(5)) primary to confirm exact IS component decomposition (execution/delay/opportunity) and Almgren & Chriss (2001) "Optimal execution of portfolio transactions" for the precise square-root impact functional form/constant before asserting numeric magnitudes; current article states the law qualitatively (corroborated by CFA S75 + Graham Capital S76 + Bouchaud S79) but the exact η constant is market-specific and not asserted.

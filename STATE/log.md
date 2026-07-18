@@ -87,3 +87,12 @@
 - Three-bucket labeling applied (topic robust; contested: HLZ ~3.0 cutoff debated by Chen 2024; DSR vs holdout; CPCV vs walk-forward). Failure modes: effective-N for correlated trials, OOS≠future, non-stationarity, costs/capacity, DSR doesn't fix costs.
 - Self-critique -> spawned 1 new Verify task (Harvey-Liu-Zhu exact t cutoff unverified against primary; SSRN/Oxford fetch failed, cited via Tier-2 Foxholm).
 - Repo health: 10/61 nodes done; P0 gaps remain (backtest costs, deflated Sharpe, data-snooping, survivorship); open Verify tasks carried forward.
+
+## 2026-07-18 — iter 11
+- Selected P0 task: 08-backtesting-methodology transaction costs, slippage, walk-forward.
+- Sub-questions: explicit vs implicit cost split; implementation shortfall (Perold 1988) decomposition; effective/realized spread & VWAP benchmarking; slippage definition/drivers; square-root market-impact law; walk-forward protocol, mechanics, limitations; capacity.
+- Sources: 5 new (Tier 1: CFA Trading Costs & Electronic Markets S75; Tier 2: Graham Capital TCA note S76, QuantInsti WFO S77, Investopedia Slippage S78, Bouchaud square-root law S79) + reused S68/S69 for deflated-Sharpe/CPCV cross-reference. All URLs opened + verified; cost decomposition corroborated S75+S76, square-root law S76+S79, IS S75+S76.
+- Wrote 08-backtesting-methodology/transaction-costs-slippage-walkforward.md (template-compliant; inline cites S75–S79; stdlib-only runnable Python VERIFIED: IS=$408/0.408%, eff spread $0.50, 10% participation -> ~37.9 bps impact, naive Sharpe 1.69 vs WFO OOS 1.24).
+- Three-bucket labeling applied (topic robust; square-root η market-specific; WFO mitigates not eliminates overfit). Failure modes: implicit costs dominate, VWAP understates impact, WFO regime-lag + window bias, capacity/scale, no look-ahead in code.
+- Self-critique -> spawned 1 new Verify task (open Perold 1988 + Almgren&Chriss 2001 primaries for exact IS decomposition / impact constant).
+- Repo health: 11/61 nodes done; open P0 gaps: 08 deflated Sharpe, 15 data-snooping, 15 survivorship; open Verify tasks carried forward.
