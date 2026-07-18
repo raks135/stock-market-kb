@@ -49,7 +49,7 @@ Two phases:
 - [x] 07-risk-management: drawdown & position sizing / stops — DONE 2026-07-18 (drawdown-position-sizing-stops.md; confidence: contested)
 - [x] 07-risk-management: stress testing & scenario analysis — DONE 2026-07-18 (stress-testing-scenario-analysis.md; confidence: robust)
 - [x] 09-market-microstructure: maker-taker, payment for order flow, HFT — DONE 2026-07-18 (maker-taker-pfof-hft.md; confidence: contested)
-- [ ] 10-derivatives: volatility surface, skew, hedging basics
+- [x] 10-derivatives: volatility surface, skew, hedging basics — DONE 2026-07-18 (volatility-surface-skew-hedging.md; confidence: robust)
 - [ ] 10-derivatives: option strategies (covered call, protective put, spreads)
 - [ ] 11-macro-and-regimes: regime detection methods
 - [ ] 11-macro-and-regimes: inflation, yields & equity valuation
@@ -102,3 +102,10 @@ COMPLETION: all above (P0+P1+P2) done + no open Verify tasks → KB COMPLETE.
 - HFT net liquidity-vs-fragility framed as REGIME-DEPENDENT (supplier in calm, withdrawer in stress) — corroborated by opened S5 (positive) + S300 (fragility); the carried-forward Verify task "HFT net contribution to liquidity vs fragility" remains OPEN as a cross-source synthesis question, not a claim I asserted.
 - No new Verify tasks spawned (all claims corroborated by >=2 opened independent sources; 2024 access-fee cap $0.001 and 2026 Rule 611 rescission proposal from opened S28/S26).
 - Repo health: 41/61 nodes done; Phase B remaining: 10 vol-surface/strategies, 11 regime-detection/inflation, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.
+
+## Self-critique (iter 41 — 10 volatility surface, skew & hedging)
+- Wrote 10-derivatives/volatility-surface-skew-hedging.md (template-compliant; three-bucket labeling: surface/skew mechanics & delta-hedging/P&L-decomposition robust, "delta hedge = risk-free replication" flagged folklore, "skew as crash forecast" contested; pure-stdlib runnable Python VERIFIED on CPython 3.14.4 — 30d IV chain 0.3835→0.0913 across strikes, put skew +6.39pts, risk reversal −12.03pts, ATM term structure 0.2168→0.1854; short-straddle Δ-hedged P&L = −41.57 (σ_real=σ_imp=0.20, i.e. pure txn-cost bleed) / −73.41 (σ_real=0.30) / −11.29 (σ_real=0.10), confirming gamma-scalping sign logic).
+- Sources: 8 new — Tier 1: Hull & White 2017 optimal delta hedging S305 (full PDF opened; practitioner-BS delta, OOS hedging gains), Bakshi-Kapadia-Madan 2003 primary S308 (full PDF opened; index vs single-stock skew, −0.48 skew-kurtosis corr, CBOE SKEW basis); Tier 2: Ryan O'Connell smile/skew S302 + delta-hedging S307, Investopedia skew S303, AnalystPrep smiles S304 (FX fat-tail table), Sepp 2017 discrete-hedging P&L S306; foundational Leland 1985 S309 via secondary description only. Reused Tier 1: Haugh BS notes S129 (gamma P&L formula, vol-surface skew), Investopedia Greeks S130.
+- No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; BKM empirical skew numbers from opened primary; Hull OOS hedging-gain numbers from opened primary; Sepp P&L identity matches Haugh S129).
+- Leland 1985 cited only via secondary d-nb description (primary PDF not directly opened) — flagged in sources.md and Further Reading, not asserted as a primary claim.
+- Repo health: 42/61 nodes done; Phase B remaining: 10 option-strategies, 11 regime-detection/inflation, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.

@@ -39,7 +39,8 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Deflated Sharpe / multiple-testing | 08-backtesting-methodology/deflated-sharpe-multiple-testing.md | done | robust |
 | Microstructure: liquidity, spreads, execution, impact | 09-market-microstructure/liquidity-spreads-execution-impact.md | done | robust |
 | Maker-taker, PFOF, HFT (pricing, routing, speed, contested net effect) | 09-market-microstructure/maker-taker-pfof-hft.md | done | contested |
-|| Options greeks (delta/gamma/vega/theta/rho, BS formulas, hedging) | 10-derivatives/option-greeks.md | done | robust |
+||| Options greeks (delta/gamma/vega/theta, BS formulas, hedging) | 10-derivatives/option-greeks.md | done | robust |
+||| Vol surface, skew, delta/gamma hedging, P&L decomposition | 10-derivatives/volatility-surface-skew-hedging.md | done | robust |
 | Macro / regimes: rates, business cycle, sector rotation, regime detection | 11-macro-and-regimes/rates-business-cycles-sector-rotation.md | done | robust |
 | Behavioral: biases, sentiment, crowding | 12-behavioral-finance/cognitive-biases-sentiment-crowding.md | done | robust |
 | Data & tooling (vendors, libraries, reproducibility) | 13-data-and-tooling/data-vendors-apis-libraries-reproducibility.md | done | robust |
