@@ -1,5 +1,13 @@
 # Iteration Log
 
+## 2026-07-18 — iter 16
+- Selected PHASE A task: 06-portfolio-construction mean-variance / efficient frontier (first article for folder 06).
+- Sub-questions: MV optimization & efficient frontier definition; portfolio moments w'μ, w'Σw; GMV closed form; tangency/max-Sharpe with risk-free (CAL/CML); 2-fund theorem; estimation-error / error-maximization critique; 1/N vs sample MV empirical record (DeMiguel 2009); remedies.
+- Sources: 7 new — Tier 1: CFA Part I S103, Columbia Haugh notes S104, DeMiguel 2009 primary abstract S106, Michaud 1989 abstract S108, Markowitz 1952 S109; Tier 2: Wikipedia S105, Scientific Portfolio abstract quote S107. All URLs opened+verified (DeMiguel & Michaud via opened abstract/search; full texts not directly opened → claims limited to abstract level; 1/N numbers corroborated S106+S107).
+- Wrote 06-portfolio-construction/mean-variance-efficient-frontier.md (template-compliant; three-bucket labeling; pure-stdlib runnable Python VERIFIED: GMV vol 0.1105, tangency Sharpe 0.6283 at t=1.0, frontier traces correctly).
+- Self-critique → spawned 1 Verify task (empirical edge of shrinkage/resampled efficiency vs 1/N OOS).
+- Repo health: 16/61 nodes done; PHASE A: 03/04/06 done; 07/09/10/11/12/13/14 still need first articles; open Verify carried forward.
+
 ## 2026-07-18 — iter 15
 - Selected PHASE A task: 04-quant-and-factors CAPM & beta (first article for folder 04).
 - Sub-questions: CAPM/SML formula; beta definition & OLS estimation; levered/unlevered (bottom-up) beta; Blume shrinkage; empirical record (F&F 1992 flat beta); Roll's critique; assumptions/limitations; conflicts (CAPM dead vs alive; time-series vs cross-section).

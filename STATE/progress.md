@@ -19,7 +19,7 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Momentum/value premiums | 04-quant-and-factors/... | todo | — |
 | Stats: stationarity, ADF, autocorrelation | 05-stats-and-ml/stationarity-adf-autocorrelation.md | done | robust |
 | Stats: overfitting/look-ahead | 05-stats-and-ml/overfitting-lookahead.md | done | robust |
-| Mean-variance | 06-portfolio-construction/... | todo | — |
+| Mean-variance / efficient frontier | 06-portfolio-construction/mean-variance-efficient-frontier.md | done | robust |
 | Risk parity / Kelly | 06-portfolio-construction/... | todo | — |
 | Black–Litterman | 06-portfolio-construction/... | todo | — |
 | VaR / CVaR | 07-risk-management/... | todo | — |
@@ -36,8 +36,8 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 15/61 nodes done.
-- PHASE A breadth in progress: 03 and 04 now have first articles; folders still empty of a first article: 06, 07, 09, 10, 11, 12, 13, 14 (15 has data-snooping).
-- Next up: Phase A 06-portfolio-construction mean-variance; then 07/09/10/11/12/13/14 first articles; then Phase B P1/P2 depth.
+- Coverage: 16/61 nodes done.
+- PHASE A breadth in progress: 03, 04, 06 now have first articles; folders still empty of a first article: 07, 09, 10, 11, 12, 13, 14 (15 has data-snooping).
+- Next up: Phase A 07-risk-management VaR/CVaR; then 09/10/11/12/13/14 first articles; then Phase B P1/P2 depth.
 - P0 gaps: 15 survivorship still open; 15 already has data-snooping. All other P0 (00,01,02,05,08) sourced.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.

@@ -158,6 +158,17 @@ Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JF
 || S102 | Prajapati (MPRA 2012), "Empirical Analysis of the Forecast Error Impact of Classical and Bayesian Beta Adjustment Techniques" https://mpra.ub.uni-muenchen.de/37662/ | 2 | Blume (1971)/Levy (1971) finding: extreme betas over/under-predict subsequent betas (reversion toward 1); shrinkage improves forecasts |
 
 Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corroborated by the opened S102 academic abstract; exact coefficients are empirical estimates that vary, not asserted as canonical.
+
+## 2026-07-18 — 06 mean-variance / efficient frontier article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S103 | CFA Institute, "Portfolio Risk and Return: Part I" (2026 CFA L1 refresher reading) https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/portfolio-risk-return-part-1 | 1 | Efficient frontier, GMV, two-fund separation, CAL, risk-free asset geometry |
+| S104 | Haugh, M. (Columbia IEOR E4706), "Mean-Variance Optimization and the CAPM" lecture notes https://www.columbia.edu/~mh2078/FoundationsFE/MeanVariance-CAPM.pdf | 1 | MV quadratic program; GMV = Σ⁻¹1/(1ᵀΣ⁻¹1); tangency ∝ Σ⁻¹(μ−rf1); 1- & 2-fund theorems; closed-form frontier A,B,C,D |
+| S105 | Wikipedia, "Efficient frontier" https://en.wikipedia.org/wiki/Efficient_frontier | 2 | Hyperbola/Markowitz bullet, tangency, CML, Markowitz 1952 origin |
+| S106 | DeMiguel, V., Garlappi, L. & Uppal, R. (2009), "Optimal Versus Naive Diversification: How Inefficient is the 1/N Portfolio Strategy?" RFS 22(5):1915–1953 (SSRN abstract_id=1376199; OUP https://academic.oup.com/rfs/article-abstract/22/5/1915/1592901) | 1 | Primary abstract: none of 14 models beats 1/N OOS; ~3000 mo (25 assets)/~6000 mo (50 assets) needed for MV to win |
+| S107 | Scientific Portfolio, verbatim abstract of DeMiguel et al. 2009 https://scientificportfolio.com/external-research-anthology/victor-demiguel-lorenzo-garlappi-raman-uppal-2009/optimal-versus-naive-diversification-how-inefficient-is-the-1-n-portfolio-strategy | 2 | Corroboration of 1/N numbers (abstract quoted; AI summary internally inconsistent, not used) |
+| S108 | Michaud, R. (1989), "The Markowitz Optimization Enigma: Is 'Optimized' Optimal?" (SSRN abstract_id=2387669) https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2387669 | 1 | Primary abstract: MV "tends to maximize the effects of errors in the input assumptions" (error-maximizer); full text not directly opened |
+| S109 | Markowitz, H. (1952), "Portfolio Selection," Journal of Finance 7(1):77–91 | 1 | Foundational primary; first formulation of MV/efficient frontier (cited via S104/S105) |
 | # | Source | Tier | Used for |
 |---|---|---|---|
 | S89 | CFA Institute Research Foundation, *Technical Analysis: Modern Perspectives* (Hill, Nadig, Hougan; Scott, Carr, Cremonie, CMT), Literature Review, Nov 2016 https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-lit-review/2016/rflrv11n11.pdf | 1 | TA definition/three tenets; Dow theory; moving-average caveats (costs, lag, false signals); quotes Brock 1992 (+12%/−7% annualized, 7,846 rules, bootstrap), Jegadeesh & Titman 1993 (6/6 → 12.01%/yr), Cowles 1933, Brown/Goetzmann/Kumar 1998 (Sharpe 0.559 vs 0.456), Sullivan et al 1999, Fang/Jacobsen/Qin 2014 (OOS null), Park & Irwin 2007 meta-review, Malkiel vs Hasanhodzic-Lo-Viola 2010, Lo AMH, support/resistance definition (psychology/loss aversion), VBSR, fusion/value+momentum |
