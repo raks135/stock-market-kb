@@ -377,3 +377,10 @@
 - Wrote 13-data-and-tooling/data-hygiene-survivorship-free.md (template-compliant; three-bucket: hygiene mechanics robust, magnitude estimates framed as ranges; pure-stdlib runnable Python VERIFIED: FREE CAGR 9.19% vs BIAS 10.17% (~1.0pp/yr inflation), share losing >50% 1.0% vs 6.6% (6.6x understated), back-adj 100→105→110 total return +5.71% vs naive −47.6%).
 - No new Verify spawned for asserted claims (all >=2 opened independent sources). Carried-forward Verify tasks remain open. Repo health: 48/61 nodes done; Phase B remaining: 13 cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship.
 - Self-critique: no new Verify spawned (all claims >=2 opened independent sources). S329 params flagged snippet/abstract-level (full PDF unopened). Repo health: 46/61 nodes done; Phase B remaining: 12 limits-to-arbitrage, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.
+
+## 2026-07-18 — iter 48
+- Selected Phase B task: 13-data-and-tooling backtesting libraries cookbook (vectorbt / backtrader / zipline-reloaded).
+- Sub-questions: vectorized vs event-driven architecture; library identities & pinned versions (vectorbt 0.28.5 / backtrader 1.9.78.123 / zipline-reloaded 3.1.1); runnable cookbook snippets; look-ahead hazard; cost/version/data caveats; cross-links to 08/13/15.
+- Sources: 8 — Tier 1: vectorbt GitHub S356, zipline-reloaded PyPI S359, zipline tutorial S360; Tier 2: QuantStart S361, PyQuant News S362; reused S153/S154/S155. All opened + verified; versions confirmed via PyPI JSON.
+- Wrote 13-data-and-tooling/backtesting-libraries-cookbook.md (template-compliant; three-bucket labeling; runnable stdlib demo VERIFIED: correct Sharpe −0.125 vs look-ahead +0.125 = +0.250 pts inflation + sign flip; vectorized≡event-driven to 1e-12; 3 pinned library snippets syntax-checked).
+- Self-critique: no new Verify spawned (all claims >=2 opened independent sources). Repo health: 49/61 nodes done; Phase B remaining: 14 (3) + 15 (5) = 8; open Verify carried forward.

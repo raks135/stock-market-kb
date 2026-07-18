@@ -512,6 +512,15 @@ Note: S101 is Tier-3 (formula only) — the Blume shrinkage *direction* is corro
 | S354 | FactSet, "Fundamentals Point-in-Time" https://www.factset.com/marketplace/catalog/product/factset-fundamentals-point-in-time | 2 | Point-in-time definition: build backtests with historical data "as it existed on each date" to avoid look-ahead bias | opened & verified |
 | S355 | S&P Global, "Fundamental Data" https://www.spglobal.com/market-intelligence/en/solutions/products/fundamental-data | 2 | Point-in-time fundamentals: "preserve the historical record as it existed on each date" to reduce look-ahead bias | opened & verified |
 
+## 2026-07-18 — 13 backtesting libraries cookbook article
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S356 | vectorbt (polakowo/vectorbt) GitHub — https://github.com/polakowo/vectorbt | 1 | Vectorized backtesting; built on NumPy + Numba + Rust; "Thinks in matrices. Backtests at scale."; Apache-2.0 + Commons Clause; open-source community edition of VectorBT PRO; opened & verified |
+| S359 | zipline-reloaded PyPI 3.1.1 — https://pypi.org/project/zipline-reloaded/ | 1 | "Pythonic event-driven system for backtesting, developed and used as the backtesting and live-trading engine by Quantopian"; Quantopian closed late 2020; maintained by Stefan Jansen (ml4t); v3.1.1 (Jul 2025); Python>=3.9, pandas>=2.0 (v3.0), NumPy 2.0 (v3.05); opened & verified |
+| S360 | zipline-reloaded beginner tutorial — https://zipline.ml4trading.io/beginner-tutorial.html | 1 | initialize()/handle_data() API; run_algorithm(); data.history(); "Realistic: slippage, transaction costs, order delays"; "Stream-based: Process each event individually, avoids look-ahead bias"; opened & verified |
+| S361 | QuantStart, "Event-Driven Backtesting with Python Part I" — https://www.quantstart.com/articles/Event-Driven-Backtesting-with-Python-Part-I | 2 | Vectorised backtesters "suffer from some drawbacks in the way that trade execution is simulated"; event-driven = more realistic; opened & verified |
+| S362 | PyQuant News, "Event-Driven Backtesting for Trading Strategies" — https://www.pyquantnews.com/free-python-resources/event-driven-backtesting-for-trading-strategies | 2 | Event-driven "more closely reflect real trading scenarios"; "account for market latency and slippage"; opened & verified |
+
 
 
 

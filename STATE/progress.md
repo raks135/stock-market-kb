@@ -50,13 +50,14 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Limits to arbitrage (Shleifer–Vishny; noise-trader risk; agency/performance capital; empirical exhibits) | 12-behavioral-finance/limits-to-arbitrage.md | done | contested |
 | Data & tooling (vendors, libraries, reproducibility) | 13-data-and-tooling/data-vendors-apis-libraries-reproducibility.md | done | robust |
 | Data & tooling (hygiene / survivorship-free datasets) | 13-data-and-tooling/data-hygiene-survivorship-free.md | done | robust |
+| Data & tooling (backtesting libraries cookbook) | 13-data-and-tooling/backtesting-libraries-cookbook.md | done | robust |
 | Value & quality factor strategies (evidence + failure modes) | 14-strategy-catalog/value-quality-strategies.md | done | robust |
 | Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 48/61 nodes done (data-hygiene added; folder 13 now has 2 articles).
+- Coverage: 49/61 nodes done (backtesting-libraries cookbook added; folder 13 now has 3 articles).
 - PHASE A breadth: ALL folders 00–15 now have >=1 first article. Breadth complete.
-- Next up (Phase B depth): 13 backtesting-libraries cookbook; 14 momentum/mean-reversion/carry-vol; 15 overfitting/regime/look-ahead/txn-cost/survivorship.
-- P0 gaps: 15 survivorship still open (Phase A/B). All other P0 (00,01,02,05,07,08) sourced.
+- Next up (Phase B depth): 14 momentum/mean-reversion/carry-vol (3 items); 15 overfitting/regime/look-ahead/txn-cost/survivorship (5 items).
+- Open Phase B items: 14 (3) + 15 (5) = 8 remaining. Open Verify tasks carried forward (not asserted).
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.
