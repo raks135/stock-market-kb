@@ -29,16 +29,16 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 | Microstructure: liquidity, spreads, execution, impact | 09-market-microstructure/liquidity-spreads-execution-impact.md | done | robust |
 || Options greeks (delta/gamma/vega/theta/rho, BS formulas, hedging) | 10-derivatives/option-greeks.md | done | robust |
 | Macro / regimes: rates, business cycle, sector rotation, regime detection | 11-macro-and-regimes/rates-business-cycles-sector-rotation.md | done | robust |
-| Behavioral | 12-behavioral-finance/... | todo | — |
+| Behavioral: biases, sentiment, crowding | 12-behavioral-finance/cognitive-biases-sentiment-crowding.md | done | robust |
 | Data & tooling | 13-data-and-tooling/... | todo | — |
 | Strategy catalog | 14-strategy-catalog/... | todo | — |
 | Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
 | Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
 
 ## Health check
-- Coverage: 20/61 nodes done.
-- PHASE A breadth: 03, 04, 06, 07, 09, 10, 11 now have first articles; folders still empty of a first article: 12, 13, 14 (15 has data-snooping).
-- Next up: Phase A 12-behavioral-finance (first article); then 13/14 first articles; then Phase B P1/P2 depth.
+- Coverage: 21/61 nodes done.
+- PHASE A breadth: 03, 04, 06, 07, 09, 10, 11, 12 now have first articles; folders still empty of a first article: 13, 14 (15 has data-snooping).
+- Next up: Phase A 13-data-and-tooling (first article); then 14-strategy-catalog first article; then Phase B P1/P2 depth.
 - P0 gaps: 15 survivorship still open; 15 already has data-snooping. All other P0 (00,01,02,05,07,08) sourced.
-- New folder-first articles still needed before full breadth: 12, 13, 14.
+- New folder-first articles still needed before full breadth: 13, 14.
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.

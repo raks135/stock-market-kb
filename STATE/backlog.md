@@ -13,7 +13,7 @@ Two phases:
 - [x] 09-market-microstructure: liquidity, spreads, execution, market impact  (first article for 09) — DONE 2026-07-18 (liquidity-spreads-execution-impact.md; confidence: robust)
 - [x] 10-derivatives: option greeks intuition (delta/gamma/vega/theta/rho)  (first article for 10) — DONE 2026-07-18 (option-greeks.md; confidence: robust)
 - [x] 11-macro-and-regimes: rates, business cycles, sector rotation  (first article for 11) — DONE 2026-07-18 (rates-business-cycles-sector-rotation.md; confidence: robust)
-- [ ] 12-behavioral-finance: cognitive biases, sentiment, crowding  (first article for 12)
+- [x] 12-behavioral-finance: cognitive biases, sentiment, crowding  (first article for 12) — DONE 2026-07-18 (cognitive-biases-sentiment-crowding.md; confidence: robust)
 - [ ] 13-data-and-tooling: data vendors/APIs, libraries (pinned), reproducibility  (first article for 13)
 - [ ] 14-strategy-catalog: value & quality factor strategies (evidence + failure modes)  (first article for 14)
 - [x] 15-pitfalls-and-antipatterns: data snooping / p-hacking  (first article for 15) — DONE earlier (data-snooping-phacking.md); marked complete this iteration
