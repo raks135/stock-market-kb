@@ -42,3 +42,12 @@
 - Three-bucket labeling applied (topic robust; contested: EBIT vs EBITDA coverage, "higher always better", static vs average denominators). Failure modes: historical data, accounting-policy/inflation/seasonality distortions, predictive-model decay, survivorship/look-ahead in naive backtests.
 - Self-critique -> spawned 2 new Verify tasks (Altman cutoff zones from primary; Piotroski net-of-cost/out-of-sample robustness).
 - Repo health: 5/61 nodes done; many P0 open.
+
+## 2026-07-18 — iter 6
+- Selected P0 task: 01-fundamental-analysis quality of earnings & red flags.
+- Sub-questions: definition (cash vs accruals); CFO/NI quality screen; Sloan (1996) accrual anomaly (persistence + returns); Beneish M-Score 8 variables/coefficients/threshold; red-flag categories (revenue recognition, capitalization, reserves, CFO management); empirical validation + decay; conflicts.
+- Sources: 7 (Tier 1: Sloan 1996 primary S43, CFA Institute QofE blog S44, reused SEC S29/S30/S31 as S48; Tier 2: Investopedia Beneish S45, MarketXLS S46, Soleadea CFA L1 red flags S47, Quantpedia accrual-anomaly S49). All URLs opened + verified. Sloan primary opened (resolves earlier accrual Verify); Beneish coefficients cross-checked S45 vs S46 (minor TATA 4.679 vs 4.697 discrepancy noted).
+- Wrote 01-fundamental-analysis/quality-of-earnings.md (template-compliant; inline cites S43–S49; runnable stdlib Python for accruals ratio, CFO/NI, and full Beneish M-Score — verified executing: M≈−2.08 gray zone).
+- Three-bucket labeling applied (framework robust; trading-edge of accrual strategy contested/decayed post-2002 per S49; M-Score a forensic flag not proof). Failure modes: accruals≠fraud, single-metric decisions, look-ahead via restatements, survivorship in backtests, taxes/costs, non-stationarity.
+- Self-critique -> resolved Sloan accrual Verify (primary opened); spawned 2 new Verify tasks (COSO fraud-category primary; Beneish TATA coefficient canonical value).
+- Repo health: 6/61 nodes done; many P0 open.

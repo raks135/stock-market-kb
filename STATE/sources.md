@@ -47,7 +47,7 @@ Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JF
 | S28 | Davis Polk, "Reg NMS Resized: SEC adjusts tick sizes, lowers access fees" https://www.davispolk.com/insights/client-update/reg-nms-resized-sec-adjusts-tick-sizes-lowers-access-fees-and-accelerates | 2 | Rule 612 half-penny tick (TWACS), Rule 610 access-fee cap $0.001 detail |
 
 ## 2026-07-18 — financial statements article (01-fundamental-analysis)
-|| # | Source | Tier | Used for |
+| # | Source | Tier | Used for |
 |---|---|---|---|
 | S29 | SEC, "Beginners' Guide to Financial Statements" (Office of Investor Education) https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide | 1 | 4 statements; accounting equation; income-statement staircase; current/non-current split; EPS definition |
 | S30 | SEC Investor.gov, "Investor Bulletin: How to Read a 10-K" (Sep 2011) https://www.sec.gov/files/reada10k.pdf | 1 | 10-K Item 8 audited statements; GAAP & audit opinions; non-GAAP warning; SOX CEO/CFO certification; SEC review cadence |
@@ -67,3 +67,14 @@ Note: S5 is a preprint/PDF mirror — verified openable; prefer the published JF
 | S40 | Piotroski, J.D. (2000), "Value Investing: The Use of Historical Financial Statement Information to Separate Winners from Losers," J. Accounting Research 38, 1-41 (UChicago GSB Selected Paper 84) https://www.anderson.ucla.edu/documents/areas/prg/asam/2019/F-Score.pdf | 1 | Empirical evidence: +7.5% annual on high-BM via strong firms; 23% long-short 1976-1996; concentration in neglected/small firms; market underreaction |
 | S41 | Altman, E.I. (1968), "Financial Ratios, Discriminant Analysis and the Prediction of Corporate Bankruptcy," Journal of Finance 23(4):589-609 https://www.jstor.org/stable/2978933 | 1 | Empirical evidence: Z-score model + weights predicting bankruptcy (manufacturers) |
 | S42 | Corporate Finance Institute, "Limitations of Ratio Analysis" (Feb 2020) https://corporatefinanceinstitute.com/resources/accounting/limitations-ratio-analysis | 2 | Limitations: historical data, inflation, accounting-policy changes, operational changes, seasonality, window dressing |
+
+## 2026-07-18 — quality-of-earnings article (01-fundamental-analysis)
+| # | Source | Tier | Used for |
+|---|---|---|---|
+| S43 | Sloan, R.G. (1996), "Do Stock Prices Fully Reflect Information in Accruals and Cash Flows about Future Earnings?" The Accounting Review 71(3):289-315 (PDF mirror) https://www.cuhk.edu.hk/acy2/workshop/June2009Wasley/1996TAR).pdf | 1 | Primary: accrual component less persistent than cash; high-accrual firms earn negative future abnormal returns; investor "fixation" on earnings; accruals-ratio definition |
+| S44 | CFA Institute (RPC), "Quality of Earnings: A Critical Lens for Financial Analysts" (Enterprising Investor, 26 Mar 2025) https://rpc.cfainstitute.org/blogs/enterprising-investor/2025/quality-of-earnings-a-critical-lens-for-financial-analysts | 1 | QofE framework; CFO/NI as quality proxy; proof-of-cash; NWC red flags; audit limitations (UK Audit Reform Lab going-concern stat) |
+| S45 | Investopedia, "Beneish Model: Definition, Examples, and M-Score Calculation" (updated Feb 2026) https://www.investopedia.com/terms/b/beneishmodel.asp | 2 | Beneish 8 variables + −1.78 threshold; Enron flag (1998 Cornell); cites Beneish (1999) FAJ 55(5) |
+| S46 | MarketXLS, "Beneish M-Score" https://marketxls.com/blog/beneish-m-score | 2 | Exact 8-variable formulas + published coefficients; interpretation bands; TATA=4.697 variant |
+| S47 | Soleadea, "CFA Level 1: Issues and Red Flags" (financial reporting quality) https://soleadea.org/cfa-level-1/issues-red-flags | 2 | Aggressive vs conservative accounting choices; revenue-recognition/inventory/R&D-capitalization/reserve red flags; CFO management techniques |
+| S48 | (reused) SEC Beginners' Guide S29 / How to Read a 10-K S30,S31 | 1 | Where to pull raw line items (EDGAR 10-K) for the screens |
+| S49 | Quantpedia, "Accrual Anomaly" https://quantpedia.com/strategies/accrual-anomaly | 2 | Empirical decay post-2002 (Mohanram); mid-2000s rebound (Bender & Nielsen); live validity rated Weak; BS_ACC formula; OOS drawdown/Sharpe |
