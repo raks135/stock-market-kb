@@ -10,7 +10,7 @@ Two phases:
 - [x] 04-quant-and-factors: CAPM & beta  (first article for 04) — DONE 2026-07-18 (capm-beta.md; confidence: contested)
 - [x] 06-portfolio-construction: mean-variance / efficient frontier  (first article for 06) — DONE 2026-07-18 (mean-variance-efficient-frontier.md; confidence: robust)
 - [x] 07-risk-management: VaR / CVaR  (first article for 07) — DONE 2026-07-18 (var-cvar.md; confidence: robust)
-- [ ] 09-market-microstructure: liquidity, spreads, execution, market impact  (first article for 09)
+- [x] 09-market-microstructure: liquidity, spreads, execution, market impact  (first article for 09) — DONE 2026-07-18 (liquidity-spreads-execution-impact.md; confidence: robust)
 - [ ] 10-derivatives: option greeks intuition (delta/gamma/vega/theta/rho)  (first article for 10)
 - [ ] 11-macro-and-regimes: rates, business cycles, sector rotation  (first article for 11)
 - [ ] 12-behavioral-finance: cognitive biases, sentiment, crowding  (first article for 12)
@@ -77,7 +77,8 @@ Two phases:
 - [ ] VERIFY (relative valuation): single-stock OOS validity (Campbell & Shiller 1998 / Weigand & Irons 2007).
 - [ ] VERIFY: Jegadeesh (1990) reversal & Jegadeesh & Titman (1993) momentum primaries.
 - [ ] VERIFY: Perold (1988) IS decomposition & Almgren & Chriss (2001) square-root impact primaries.
-- [ ] VERIFY: empirical edge of shrinkage (Ledoit–Wolf 2004) / resampled efficiency (Michaud 1998) vs 1/N out-of-sample (DeMiguel 2009 leaves this open).
+- [ ] VERIFY: Kyle (1985) exact λ / market-depth algebra and linear pricing rule p = p* + λ·y (primary PDF not directly opened; cited via S120/S121 — only qualitative depth=1/λ asserted).
+- [ ] VERIFY: Huang & Stoll (1997) exact three-way spread split (order processing / inventory / adverse selection) coefficients — primary not directly opened; two-component S123 opened corroborates the decomposition concept only.
 
 COMPLETION: all 16 folders (00-15) have >=1 article AND all Phase A/B items done AND no open Verify tasks → KB COMPLETE.
 - Simulation is synthetic noise (Box–Muller, stdlib, seed 42) — deliberately null; demonstrates the *selection* effect, not a market claim. Numbers are reproducible as written.

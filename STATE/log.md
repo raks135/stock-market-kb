@@ -1,5 +1,13 @@
 # Iteration Log
 
+## 2026-07-18 — iter 18
+- Selected PHASE A task: 09-market-microstructure liquidity/spreads/execution/impact (first article for folder 09).
+- Sub-questions: liquidity tri-dimensionality (tightness/depth/resiliency); spread measures (quoted/effective/realized); Roll (1984) implicit spread; Glosten–Harris (1988) transitory vs adverse-selection decomposition; Kyle (1985) lambda/depth; Almgren–Chriss (2000/01) temporary/permanent impact + efficient frontier; square-root impact law; implementation shortfall (Perold 1988).
+- Sources: 8 new — Tier 1: Roll 1984 primary S119, Almgren–Chriss primary S120, BIS CGFS 1999 S121, Glosten–Harris 1988 primary S123, Perold 1988 primary S126; Tier 2: O'Connell IS S125; Kyle 1985 S122 & Huang–Stoll 1997 S124 cited as primaries via reference only (NOT directly opened → 2 new Verify tasks). Reused S75/S76/S79. All opened URLs verified; Roll/Almgren-Chriss/Glosten-Harris/BIS PDFs opened & formulas extracted directly.
+- Wrote 09-market-microstructure/liquidity-spreads-execution-impact.md (template-compliant; three-bucket labeling; pure-stdlib runnable Python VERIFIED: Roll implicit spread 0.0484 vs injected 0.05; Almgren-Chriss schedules front-load from 2.0%→81.5%→97.4% first-interval as λ rises, E rises $192k→$359k→$423k while V falls, confirming cost/variance trade-off; square-root scaling ≈3.16× per 10× Q).
+- Self-critique → spawned 2 Verify tasks (Kyle λ algebra; Huang–Stoll 3-way split) since primaries not directly opened.
+- Repo health: 18/61 nodes done; PHASE A: 03/04/06/07/09 done; 10/11/12/13/14 still need first articles; open Verify carried forward.
+
 ## 2026-07-18 — iter 16
 - Selected PHASE A task: 06-portfolio-construction mean-variance / efficient frontier (first article for folder 06).
 - Sub-questions: MV optimization & efficient frontier definition; portfolio moments w'μ, w'Σw; GMV closed form; tangency/max-Sharpe with risk-free (CAL/CML); 2-fund theorem; estimation-error / error-maximization critique; 1/N vs sample MV empirical record (DeMiguel 2009); remedies.
