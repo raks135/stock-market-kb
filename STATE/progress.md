@@ -56,12 +56,15 @@ Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Con
 |||| Mean-reversion & statistical-arbitrage strategies (OU/s-score, variance-ratio, Avellaneda–Lee, Aug-2007) | 14-strategy-catalog/mean-reversion-stat-arb.md | done | contested |
 || Carry & volatility (short-tail-risk) strategies (cross-asset carry + VRP, evidence, failure modes) | 14-strategy-catalog/carry-volatility-strategies.md | done | contested |
 || Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
-|| Overfitting & curve fitting (bias-variance, selection bias, DSR/PBO/MCS) | 15-pitfalls-and-antipatterns/overfitting-curve-fitting.md | done | robust |
-|| Survivorship bias | 15-pitfalls-and-antipatterns/... | todo | — |
+||| Overfitting & curve fitting (bias-variance, selection bias, DSR/PBO/MCS) | 15-pitfalls-and-antipatterns/overfitting-curve-fitting.md | done | robust |
+||| Regime change & non-stationarity (concept drift, structural breaks, mitigations) | 15-pitfalls-and-antipatterns/regime-change-non-stationarity.md | done | robust |
+||| Look-ahead bias (deep dive) | 15-pitfalls-and-antipatterns/look-ahead-bias.md | todo | — |
+||| Transaction-cost neglect | 15-pitfalls-and-antipatterns/transaction-cost-neglect.md | todo | — |
+||| Survivorship bias | 15-pitfalls-and-antipatterns/survivorship-bias.md | todo | — |
 
 ## Health check
-- Coverage: 53/61 nodes done (overfitting-curve-fitting added; folder 15 now has 2 articles).
+- Coverage: 54/61 nodes done (regime-change-non-stationarity added; folder 15 now has 3 articles).
 - PHASE A breadth: ALL folders 00–15 now have >=1 first article. Breadth complete.
-- Next up (Phase B depth): 15 regime/look-ahead/txn-cost/survivorship (4 items).
-- Open Phase B items: 15 (4) = 4 remaining. Open Verify tasks carried forward (not asserted).
+- Next up (Phase B depth): 15 look-ahead/txn-cost/survivorship (3 items).
+- Open Phase B items: 15 (3) = 3 remaining. Open Verify tasks carried forward (not asserted).
 - DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.
