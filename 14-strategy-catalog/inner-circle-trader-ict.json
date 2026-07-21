@@ -1,0 +1,43 @@
+{
+  "id": "strategy.ict.innercircle",
+  "topic": "Inner Circle Trader (ICT) — smart money concepts, entry/exit strategies",
+  "last_verified": "2026-07-19",
+  "confidence": "emerging",
+  "sources": ["ICT mentorship material", "Coleman/Zarbai order flow literature", "CFTC COT reports", "Dalton/Dalton-Jones Volume Profile"],
+  "structure": "three-phase: accumulation/manipulation/distribution",
+  "core_concepts": [
+    "Liquidity Pool — buy-side (below lows), sell-side (above highs)",
+    "Order Block — last leg before strong move (demand/supply)",
+    "Fair Value Gap (FVG) — three-candle imbalance, price returns to fill",
+    "Optimal Trade Entry (OTE) — 62%-79% Fibonacci retracement of impulse"
+  ],
+  "entry_rules": [
+    "Wait for liquidity sweep that takes out stops",
+    "Identify opposite-side order block",
+    "Enter at OTE (62%-79% retracement) with confluence (FVG, support/resistance)",
+    "Place SL just beyond the sweep level",
+    "Target next liquidity pool or 1:2+ reward-to-risk"
+  ],
+  "exit_rules": [
+    "Same-side liquidity pool (trend continuation)",
+    "Opposite-side order block (break/breaker block)",
+    "FVG fill or time-based exit (kill zone transition)",
+    "1:2 or 1:3 RR targets"
+  ],
+  "risk_management": [
+    "1-2% max per trade risk",
+    "Trade during kill zones (London/NY open)",
+    "Avoid high-impact news around sweeps",
+    "Multi-timeframe structure confirmation"
+  ],
+  "fallback_strategies": [
+    "If entry fails, wait for rejection candle at OTE (alternative trigger)",
+    "During low volatility, wait for COT extreme readings",
+    "If price stalls at OTE, use trailing stops"
+  ],
+  "model_fallback": {
+    "primary": "poolside/laguna-m.1:free",
+    "fallback": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "usage": "Use for trend analysis, COT interpretation, risk calculations"
+  }
+}
