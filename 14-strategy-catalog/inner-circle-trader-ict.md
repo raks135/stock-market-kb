@@ -75,3 +75,51 @@ Traders using ICT wait for the manipulation phase, then enter in the direction o
 - **Volume Profile (Viktor Niederhoffer, Jim Dalton)** – shows where volume has accumulated (high‑volume nodes = likely liquidity pools).
 - **“Trading Price Action Trends” by Al Brooks** – detailed breakdown of price‑action patterns, spikes, and reversals that underlie ICT concepts.
 - **ICT‑style cheat sheets** – many free PDFs online summarizing the key patterns (liquidity sweeps, order blocks, FVGs, OTEs).
+
+### 5. The Four Core ICT Pattern Categories
+
+#### **The Turtle Soup (Accumulation Pattern)**
+**Identifying Hidden Institutional Accumulation:**
+1. Price shows strong move in one direction
+2. Retraces significantly but doesn't exceed original movement by >~50%
+3. Character changes from trending to range
+4. Next 5-10 candles often favor the original direction
+**Trade Setup:** Enter after confirmation candle, tight stops at the depth of retracement
+
+#### **The Break Fail (BJ Pattern)**
+**False Breakout Capture:**
+1. Price breaks above/below a significant level
+2. Retraces to fill the breakout gap
+3. Reversal patterns develop (pin bars, engulfing candles)
+4. Original direction resumes with high momentum
+**Trade Setup:** Enter at rejection candle, SL just beyond false breakout, target next liquidity pool
+
+#### **Jay's Setup (Multiple Order Block Structure)**
+**High-Probability Institutional Footprint:**
+- Multiple order blocks in same directional sequence
+- Confluence zones with minimal noise
+- Extended price action in expected direction
+- Strong momentum continuation after completion
+**Trade Setup:** More favorable risk/reward, tighter stops due to reduced uncertainty
+
+#### **Eskimo Trade (Range Strategy)**
+**Institutional Activity in Consolidation:**
+- Price trades in tight range (1-2% swings)
+- Deep liquidity pools established in range corners
+- Repeated stop-hunting patterns
+- High win rate with controlled risk
+**Trade Setup:** Enter at order block formation, target range center, use wider stops
+
+### 6. Technical Analysis Integration
+
+**ICT + Market Structure Indicators:**
+- **Trend Lines:** Must align with institutional flow direction
+- **Support/Resistance:** Liquidity pools often reinforce key levels
+- **Volume:** Low volume on sweeps = institutional dominance
+- **Volume Profile:** High-volume nodes align with OTE zones
+
+**Common Success Metrics:**
+- Risk-adjusted returns >20% annualized
+- Maximum drawdown <10%
+- Profit factor >1.5
+- Win rate 40-60% (higher for volatile conditions)

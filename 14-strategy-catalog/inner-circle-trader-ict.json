@@ -1,15 +1,20 @@
 {
   "id": "strategy.ict.innercircle",
-  "topic": "Inner Circle Trader (ICT) — smart money concepts, entry/exit strategies",
+  "topic": "Inner Circle Trader (ICT) \u2014 smart money concepts, entry/exit strategies",
   "last_verified": "2026-07-19",
   "confidence": "emerging",
-  "sources": ["ICT mentorship material", "Coleman/Zarbai order flow literature", "CFTC COT reports", "Dalton/Dalton-Jones Volume Profile"],
+  "sources": [
+    "ICT mentorship material",
+    "Coleman/Zarbai order flow literature",
+    "CFTC COT reports",
+    "Dalton/Dalton-Jones Volume Profile"
+  ],
   "structure": "three-phase: accumulation/manipulation/distribution",
   "core_concepts": [
-    "Liquidity Pool — buy-side (below lows), sell-side (above highs)",
-    "Order Block — last leg before strong move (demand/supply)",
-    "Fair Value Gap (FVG) — three-candle imbalance, price returns to fill",
-    "Optimal Trade Entry (OTE) — 62%-79% Fibonacci retracement of impulse"
+    "Liquidity Pool \u2014 buy-side (below lows), sell-side (above highs)",
+    "Order Block \u2014 last leg before strong move (demand/supply)",
+    "Fair Value Gap (FVG) \u2014 three-candle imbalance, price returns to fill",
+    "Optimal Trade Entry (OTE) \u2014 62%-79% Fibonacci retracement of impulse"
   ],
   "entry_rules": [
     "Wait for liquidity sweep that takes out stops",
@@ -39,5 +44,56 @@
     "primary": "poolside/laguna-m.1:free",
     "fallback": "nvidia/nemotron-3-ultra-550b-a55b:free",
     "usage": "Use for trend analysis, COT interpretation, risk calculations"
+  },
+  "enhanced_examples": "\n**Real-World Trade Examples**\n\n1. **AAPL Call Option (Mar 2024)** - Bullish ICT Setup\n- Market Structure: Higher highs (uptrend confirmed)\n- Liquidity Sweep: Price dropped to $175 (below order block)\n- Order Block: $176.50-$177.20 (demand zone)\n- OTE Entry: $178.90 (61% Fib of impulse from $175 to $185)\n- Stop: $176.80 (sweep low)\n- Target: $184.50 (next liquidity pool)\n\n2. **ES Mini (Mar 2024)** - Bearish ICT Setup\n- Market Structure: Lower highs (downtrend confirmed)  \n- Liquidity Sweep: Price spiked to 4792 (above recent high)\n- Order Block: 4796-$4800 (supply zone)\n- OTE Entry: 4765 (68% Fib of impulse from 4792 to 4720)\n- Stop: 4792 (sweep high)\n- Target: 4710 (next liquidity pool)\n\n**Risk Management:** Both examples used 1R=150 points with strict 1.5% per-trade risk.\n",
+  "trailing_stops_strategy": "\n**Position Management with Trail Stops**\nWhen price stalls at OTE or shows reduced momentum:\n- Use successive higher/lower stop levels based on swing points\n- Break-even moves after 2:1 RR achieved\n- Use FVGs and order blocks to set dynamic stops\n- Trail stops add 1-2 points for every 1R profit captured (or 5-10 ticks for ES futures)\n",
+  "advanced_concepts": [
+    "Turtle Soup Pattern - Hidden institutional accumulation",
+    "Breakout Fail (B truffle) - False breakout capture",
+    "Jay's Trade - Multiple order block confluence",
+    "Eskimo Trader - Range-bound institutional activity"
+  ],
+  "timeframe_specific": {
+    "scalping": {
+      "timeframes": "1-5 min",
+      "OTE_range": "62-68%",
+      "trades_per_day": "3-10"
+    },
+    "day_trading": {
+      "timeframes": "15-60 min",
+      "OTE_range": "68-75%",
+      "trades_per_day": "4-8"
+    },
+    "swing_trading": {
+      "timeframes": "4-24 hours",
+      "OTE_range": "70-79%",
+      "trades_per_week": "1-3"
+    }
+  },
+  "model_usage": {
+    "poolside_laguna": {
+      "strengths": [
+        "Fast trend analysis",
+        "Volume profile identification",
+        "COT data interpretation"
+      ],
+      "best_for": [
+        "Real-time order flow analysis",
+        "Price pattern detection",
+        "Market structure identification"
+      ]
+    },
+    "nemotron_fallback": {
+      "strengths": [
+        "Complex reasoning",
+        "Multi-factor analysis",
+        "Risk assessment"
+      ],
+      "best_for": [
+        "Portfolio optimization",
+        "Strategy selection",
+        "Risk calculations"
+      ]
+    }
   }
 }
