@@ -1,192 +1,194 @@
-# Backlog — Stock Market Analysis KB
+# Backlog — Stock Market Analysis Knowledge Base
 
-COMPLETION GOAL: EVERY folder 00-15 must contain real knowledge-base articles (not just .gitkeep).
-Two phases:
-  PHASE A (breadth): one core, high-value article in EVERY currently-empty folder (03,04,06,07,09,10,11,12,13,14,15) FIRST — so all 16 folders have content.
-  PHASE B (depth): fill remaining P0/P1/P2 subtopics listed below.
+## Priority Legend
+- **P0** — Foundational / must-have for every folder
+- **P1** — Core methodology / widely used in practice
+- **P2** — Niche / advanced / SMC-ICT / vendor cookbooks / failure-mode depth
 
-## PHASE A — cover every empty folder (do these next, in order)
-- [x] 03-technical-analysis: trend, support/resistance, momentum  (first article for 03) — DONE 2026-07-18 (trend-support-momentum.md; confidence: contested)
-- [x] 04-quant-and-factors: CAPM & beta  (first article for 04) — DONE 2026-07-18 (capm-beta.md; confidence: contested)
-- [x] 06-portfolio-construction: mean-variance / efficient frontier  (first article for 06) — DONE 2026-07-18 (mean-variance-efficient-frontier.md; confidence: robust)
-- [x] 07-risk-management: VaR / CVaR  (first article for 07) — DONE 2026-07-18 (var-cvar.md; confidence: robust)
-- [x] 09-market-microstructure: liquidity, spreads, execution, market impact  (first article for 09) — DONE 2026-07-18 (liquidity-spreads-execution-impact.md; confidence: robust)
-- [x] 10-derivatives: option greeks intuition (delta/gamma/vega/theta/rho)  (first article for 10) — DONE 2026-07-18 (option-greeks.md; confidence: robust)
-- [x] 11-macro-and-regimes: rates, business cycles, sector rotation  (first article for 11) — DONE 2026-07-18 (rates-business-cycles-sector-rotation.md; confidence: robust)
-- [x] 12-behavioral-finance: cognitive biases, sentiment, crowding  (first article for 12) — DONE 2026-07-18 (cognitive-biases-sentiment-crowding.md; confidence: robust)
-- [x] 13-data-and-tooling: data vendors/APIs, libraries (pinned), reproducibility  (first article for 13) — DONE 2026-07-18 (data-vendors-apis-libraries-reproducibility.md; confidence: robust)
-- [x] 14-strategy-catalog: value & quality factor strategies (evidence + failure modes)  (first article for 14) — DONE 2026-07-18 (value-quality-strategies.md; confidence: robust)
-- [x] 15-pitfalls-and-antipatterns: data snooping / p-hacking  (first article for 15) — DONE earlier (data-snooping-phacking.md); marked complete this iteration
+---
 
-## PHASE B — depth (after every folder has >=1 article)
-- [x] 00-foundations: market structure (DONE)
-- [x] 00-foundations: equity claim (DONE)
-- [x] 00-foundations: exchanges/ATS/Reg NMS (DONE)
-- [x] 01-fundamental-analysis: financial statements (DONE)
-- [x] 01-fundamental-analysis: ratio analysis (DONE)
-- [x] 01-fundamental-analysis: quality of earnings (DONE)
-- [x] 02-valuation: DCF (DONE)
-- [x] 02-valuation: relative valuation (DONE)
-- [x] 05-stats-and-ml: stationarity/ADF (DONE)
-- [x] 05-stats-and-ml: overfitting/look-ahead (DONE)
-- [x] 08-backtesting-methodology: transaction costs/slippage/walk-forward (DONE)
-- [x] 08-backtesting-methodology: deflated Sharpe/multiple-testing (DONE)
-- [x] 01-fundamental-analysis: DuPont analysis & ROE decomposition — DONE 2026-07-18 (dupont-analysis.md; confidence: robust)
-- [x] 02-valuation: residual income / EVA & sum-of-parts — DONE 2026-07-18 (residual-income-eva-sotp.md; confidence: robust)
-- [x] 03-technical-analysis: indicators (RSI, MACD) — evidence grade — DONE 2026-07-18 (indicators-rsi-macd.md; confidence: contested)
-- [x] 03-technical-analysis: chart patterns & volume (evidence grade) — DONE 2026-07-18 (chart-patterns-volume.md; confidence: contested)
-- [x] 03-technical-analysis: candlesticks (evidence grade) — DONE 2026-07-18 (candlesticks.md; confidence: contested)
-- [x] 04-quant-and-factors: Fama–French 3/5 factors (empirical record) — DONE 2026-07-18 (fama-french-factors.md; confidence: contested)
-- [x] 04-quant-and-factors: momentum & value premiums — robust or fading? — DONE 2026-07-18 (momentum-value-premiums.md; confidence: contested)
-- [x] 04-quant-and-factors: low-vol / quality / carry factors — DONE 2026-07-18 (low-vol-quality-carry-factors.md; confidence: contested)
-- [x] 04-quant-and-factors: APT & multi-factor models — DONE 2026-07-18 (apt-multi-factor-models.md; confidence: contested)
-- [x] 04-quant-and-factors: factor timing & factor crowding — DONE 2026-07-18 (factor-timing-crowding.md; confidence: contested)
-- [x] 05-stats-and-ml: cointegration & pairs trading basics — DONE 2026-07-18 (cointegration-pairs-trading.md; confidence: contested)
-- [x] 05-stats-and-ml: feature engineering & ML pitfalls in finance — DONE 2026-07-18 (feature-engineering-ml-pitfalls.md; confidence: contested)
-- [x] 06-portfolio-construction: risk parity & Kelly sizing — DONE 2026-07-18 (risk-parity-kelly-sizing.md; confidence: robust)
-- [x] 06-portfolio-construction: Black–Litterman — DONE 2026-07-18 (black-litterman.md; confidence: robust)
-- [x] 06-portfolio-construction: factor portfolios & smart beta — DONE 2026-07-18 (factor-portfolios-smart-beta.md; confidence: contested)
-- [x] 07-risk-management: drawdown & position sizing / stops — DONE 2026-07-18 (drawdown-position-sizing-stops.md; confidence: contested)
-- [x] 07-risk-management: stress testing & scenario analysis — DONE 2026-07-18 (stress-testing-scenario-analysis.md; confidence: robust)
-- [x] 09-market-microstructure: maker-taker, payment for order flow, HFT — DONE 2026-07-18 (maker-taker-pfof-hft.md; confidence: contested)
-- [x] 10-derivatives: volatility surface, skew, hedging basics — DONE 2026-07-18 (volatility-surface-skew-hedging.md; confidence: robust)
-- [x] 10-derivatives: option strategies (covered call, protective put, spreads) — DONE 2026-07-18 (option-strategies.md; confidence: robust)
-- [x] 11-macro-and-regimes: regime detection methods — DONE 2026-07-18 (regime-detection-methods.md; confidence: contested)
-- [x] 11-macro-and-regimes: inflation, yields & equity valuation — DONE 2026-07-18 (inflation-yields-equity-valuation.md; confidence: contested)
-- [x] 12-behavioral-finance: herding, overconfidence, loss aversion (prospect theory) — DONE 2026-07-18 (herding-overconfidence-loss-aversion.md; confidence: contested)
-- [x] 12-behavioral-finance: limits to arbitrage — DONE 2026-07-18 (limits-to-arbitrage.md; confidence: contested)
-- [x] 13-data-and-tooling: data hygiene & survivorship-free datasets (data-hygiene-survivorship-free.md; confidence: robust)
-- [x] 13-data-and-tooling: backtesting libraries cookbook (vectorbt/backtrader/zipline-reloaded) — DONE 2026-07-18 (backtesting-libraries-cookbook.md; confidence: robust)
-- [x] 14-strategy-catalog: momentum & trend-following strategies
-- [x] 14-strategy-catalog: mean-reversion / stat-arb strategies — DONE 2026-07-18 (mean-reversion-stat-arb.md; confidence: contested)
-- [x] 14-strategy-catalog: carry & volatility strategies — DONE 2026-07-18 (carry-volatility-strategies.md; confidence: contested)
-- [x] 15-pitfalls-and-antipatterns: overfitting / curve fitting
-- [x] 15-pitfalls-and-antipatterns: regime change & non-stationarity — DONE 2026-07-19 (regime-change-non-stationarity.md; confidence: robust)
-- [x] 15-pitfalls-and-antipatterns: look-ahead bias (deep dive)
-- [ ] 15-pitfalls-and-antipatterns: transaction-cost neglect
-- [ ] 15-pitfalls-and-antipatterns: survivorship bias
+## 00-foundations
+- [x] 00-foundations/math-review.md — Linear algebra / probability / stats refresher for quants (P0) — DONE
+- [ ] 00-foundations/python-env.md — Reproducible env, venv, requirements.lock, reproducibility (P0)
+- [ ] 00-foundations/ethics-regulatory.md — SEC/FINRA rules, insider trading, Reg BI, MiFID II overview (P1)
+- [x] 00-foundations/market-structure.md — Market structure, order types, participants (P0) — DONE
+- [x] 00-foundations/equity-claim.md — What is a stock, equity claim, capital structure (P0) — DONE
+- [x] 00-foundations/exchanges-ats-regnms.md — Exchanges, ATS, dark pools, Reg NMS (P1) — DONE
 
-## Verify tasks (promote to Tier 1/2 before claiming; do NOT assert)
-- [ ] VERIFY: exact FRTB IMA calibration — 97.5% Expected Shortfall replacing 99% 10-day VaR — against BCBS d457 primary (KPMG/SIFMA confirm ES-replaces-VaR; exact confidence levels rest on secondary summaries only).
-- [ ] VERIFY: HFT net contribution to liquidity vs. fragility.
-- [ ] VERIFY: Altman Z-score cutoff zones (Altman 1968 primary; Z'/Z'' variants).
-- [ ] VERIFY: Piotroski F-score 23% long–short — gross vs net of costs; OOS after 1996.
-- [ ] VERIFY: revenue-recognition fraud as largest fraud category (COSO/AAA primary).
-- [ ] VERIFY: Beneish (1999) M-Score canonical TATA coefficient (FAJ primary).
-- [ ] VERIFY: divergent-vs-convergent crowding behavior (momentum underperforms after high crowding; value outperforms) — currently rests on a single Tier-3 practitioner (CXO/CoMetric) summary; cross-check against a primary (e.g., Dichtl, Drobetz, Lohre, Rother & Vosskamp 2019 "avoid factors that exhibit crowding", or the CoMetric primary) before asserting directionally.
-- [ ] VERIFY (DCF): OOS evidence DCF predicts prices better than multiples.
-- [ ] VERIFY (relative valuation): single-stock OOS validity (Campbell & Shiller 1998 / Weigand & Irons 2007).
-- [ ] VERIFY: Jegadeesh (1990) reversal & Jegadeesh & Titman (1993) momentum primaries.
-- [ ] VERIFY: Perold (1988) IS decomposition & Almgren & Chriss (2001) square-root impact primaries.
-- [ ] VERIFY: Kyle (1985) exact λ / market-depth algebra and linear pricing rule p = p* + λ·y (primary PDF not directly opened; cited via S120/S121 — only qualitative depth=1/λ asserted).
-- [ ] VERIFY: Huang & Stoll (1997) exact three-way spread split (order processing / inventory / adverse selection) coefficients — primary not directly opened; two-component S123 opened corroborates the decomposition concept only.
-- [ ] VERIFY: conglomerate discount exact magnitude (13–15% commonly cited; Investopedia single Tier-2 source — cross-check against a primary/meta-study such as Berger & Ofek 1995 or a later synthesis before asserting magnitude).
-- [ ] VERIFY: "factor momentum aggregates the autocorrelations of all other factors" (2020 AEA, "Factor Momentum and the Momentum Factor") — cited as challenge to momentum-as-distinct-factor; primary not directly opened this iteration → flag before asserting.
+## 01-fundamental-analysis
+- [ ] 01-fundamental-analysis/financial-statements.md — Reading 10-K/10-Q, BS/IS/CF, MD&A, footnotes (P0)
+- [ ] 01-fundamental-analysis/ratio-analysis.md — Profitability, liquidity, leverage, efficiency, DuPont (P0)
+- [ ] 01-fundamental-analysis/earnings-quality.md — Accruals, cash conversion, red flags, Beneish M-score (P1)
+- [ ] 01-fundamental-analysis/guidance-revisions.md — Guidance, estimate revisions, post-earnings drift (P1)
+- [ ] 01-fundamental-analysis/industry-analysis.md — Porter, lifecycle, comps, KPIs by sector (P1)
+- [ ] 01-fundamental-analysis/forensic-accounting.md — Aggressive accounting, revenue recognition, off-BS (P2)
+- [ ] 01-fundamental-analysis/management-quality.md — Capital allocation, insider ownership, governance (P2)
+- [ ] 01-fundamental-analysis/esg-fundamentals.md — ESG integration, SASB/TCFD, data quality caveats (P2)
 
-COMPLETION: all 16 folders (00-15) have >=1 article AND all Phase A/B items done AND no open Verify tasks → KB COMPLETE.
-- Simulation is synthetic noise (Box–Muller, stdlib, seed 42) — deliberately null; demonstrates the *selection* effect, not a market claim. Numbers are reproducible as written.
-- S88 (Sullivan/Timmermann/White 1999) only abstract opened; conclusion softened to "quantify the bias / canonical demonstration" rather than asserting "profitability disappears" (full text not opened → do NOT assert stronger).
-- Carried forward open Verify tasks from prior iters remain; no new Verify spawned (White 2000 + STW 1999 primaries now opened, resolving the earlier Jegadeesh/White "data-snooping" gap at the conceptual level).
+## 02-valuation
+- [ ] 02-valuation/dcf-fundamentals.md — FCFF/FCFE, WACC, terminal value, sensitivity (P0)
+- [ ] 02-valuation/relative-valuation.md — Multiples (P/E, EV/EBITDA, P/B), comps, harmonic mean (P0)
+- [ ] 02-valuation/ddm-residual-income.md — DDM variants, residual income, EVA (P1)
+- [ ] 02-valuation/sum-of-parts.md — SOTP, conglomerate discount, holdco structures (P1)
+- [ ] 02-valuation/valuation-pitfalls.md — Terminal value traps, circularity, terminal growth > GDP (P1)
+- [ ] 02-valuation/real-options.md — Real options, growth options, abandonment (P2)
+- [ ] 02-valuation/startup-valuation.md — VC method, scorecard, Berkus, cap tables (P2)
+- [ ] 02-valuation/esg-adjustments.md — ESG premium/discount, climate transition risk (P2)
 
-COMPLETION: all above (P0+P1+P2) done + no open Verify tasks → KB COMPLETE.
+## 03-technical-analysis
+- [ ] 03-technical-analysis/chart-types.md — OHLC, candlesticks, Heikin-Ashi, Renko, Kagi (P0)
+- [ ] 03-technical-analysis/trend-structure.md — Dow theory, HH/HL/LH/LL, trend lines, channels (P0)
+- [ ] 03-technical-analysis/support-resistance.md — Horizontal S/R, psychological levels, pivot points (P0)
+- [ ] 03-technical-analysis/moving-averages.md — SMA/EMA/WMA, ribbons, crossovers, MACD (P0)
+- [ ] 03-technical-analysis/momentum-oscillators.md — RSI, Stoch, CCI, Williams %R, divergences (P0)
+- [ ] 03-technical-analysis/volume-analysis.md — OBV, VWAP, VPVR, accumulation/distribution (P1)
+- [ ] 03-technical-analysis/volatility-indicators.md — ATR, Bollinger, Keltner, Donchian, standard error (P1)
+- [ ] 03-technical-analysis/market-breadth.md — Advance-decline, McClellan, new highs/lows, TRIN (P1)
+- [ ] 03-technical-analysis/intermarket.md — Intermarket ratios, yield curve, copper/gold, USD index (P2)
+- [ ] 03-technical-analysis/elliott-wave.md — EW basics, fractals, rules, criticisms (P2)
+- [ ] 03-technical-analysis/harmonic-patterns.md — Gartley, Butterfly, Bat, Crab, AB=CD (P2)
+- [ ] 03-technical-analysis/smc-market-structure.md — **SMC/ICT Market Structure: swing highs/lows, BOS, CHoCH, market structure shifts (MSS)** (P2 - SMC/ICT)
+- [ ] 03-technical-analysis/smc-liquidity.md — **SMC/ICT Liquidity: buy-side/sell-side liquidity, liquidity pools, inducement, stop hunts, ICT liquidity voids, displacement** (P2 - SMC/ICT)
+- [ ] 03-technical-analysis/smc-order-blocks.md — **SMC/ICT Order Blocks: bullish/bearish OB, breaker blocks, rejection blocks, mitigation, ICT premium/discount arrays** (P2 - SMC/ICT)
+- [ ] 03-technical-analysis/smc-fvg.md — **SMC/ICT Fair Value Gaps: FVG, IFVG, balanced price range, ICT consequent encroachment** (P2 - SMC/ICT)
+- [ ] 03-technical-analysis/smc-entries.md — **SMC/ICT Entry Strategies: OB entries, FVG entries, liquidity sweep + OB/FVG confluence, session-based entries London/NY kill zones, ICT silver bullet, ICT turtle soup** (P2 - SMC/ICT)
+- [ ] 03-technical-analysis/smc-exits.md — **SMC/ICT Exit Strategies: opposing liquidity targets, partial TP 1:1/1:2/1:3, trail behind structure, time-based exits session close, ICT optimal trade entry OTE** (P2 - SMC/ICT)
+- [ ] 03-technical-analysis/smc-risk.md — **SMC/ICT Risk Management: ATR/vol position sizing, max daily DD, correlation limits, R-multiple journaling, ICT min 1:2 R:R** (P2 - SMC/ICT)
+- [ ] 03-technical-analysis/smc-mtf.md — **SMC/ICT Multi-Timeframe: HTF bias + LTF entry, 4H/1H/15M alignment, fractal structure, ICT weekly/daily/4H bias** (P2 - SMC/ICT)
+- [ ] 03-technical-analysis/ict-specific.md — **ICT Specific: Judas swing, MMM buy/sell models, weekly/daily profile, Asian range, London open, NY open, PD arrays, algorithm matrix, IPDA** (P2 - SMC/ICT)
 
-## Self-critique (iter 39 — 07 stress testing & scenario analysis)
-- Wrote 07-risk-management/stress-testing-scenario-analysis.md (template-compliant; three-bucket labeling: framework/categories robust, scenario-selection severity contested; stdlib-only runnable engine VERIFIED on CPython 3.14.4 — GFC -50.7%, COVID -29.6%, BREACH vs 25% limit, reverse-stress equity -19.9% → $250m loss).
-- Sources: 6 new — Tier 1: Federal Reserve Stress Tests S290, Fed 2025 Stress Test Scenarios S291 (real macro shock magnitudes: unemployment +5.9pp→10%, house -33%, CRE -30%), BIS Stress testing principles 2018 S292, SAMA Reverse Stress Testing S293; Tier 2: AnalystPrep CFA L2 S294, Ryan O'Connell S295 (DPG 7 scenarios, historical event table, worked pension example, limitations). All cited URLs opened + verified.
-- No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; Fed macro magnitudes from opened primary; BIS 9 principles + reverse-ST requirement from opened primaries/regulatory).
-- Kept companion rate/credit/RE shocks in the code clearly labeled "illustrative" so the engine demonstrates method without asserting unsourced magnitudes; only the equity leg of historical scenarios is sourced (S295).
+## 04-quant-and-factors
+- [ ] 04-quant-and-factors/factor-zoo.md — Value, momentum, quality, low vol, size, investment, profitability (P0)
+- [ ] 04-quant-and-factors/factor-construction.md — Long/short, rank vs z-score, sector neutralization, turnover control (P0)
+- [ ] 04-quant-and-factors/factor-timing.md — Factor timing: business cycle, valuation spread, momentum crashes (P1)
+- [ ] 04-quant-and-factors/multi-factor-models.md — Combining factors, PCA, risk models, Barra-style (P1)
+- [ ] 04-quant-and-factors/alpha-decay.md — Alpha half-life, information coefficient decay, capacity (P1)
+- [ ] 04-quant-and-factors/alternative-data.md — Alt data types, licensing, survivorship, feature engineering (P2)
+- [ ] 04-quant-and-factors/ml-factor-discovery.md — ML for alpha: trees, NN, feature selection, purged CV (P2)
+- [ ] 04-quant-and-factors/transaction-cost-models.md — Linear, square-root, Almgren-Chriss, market impact (P1)
+- [ ] 04-quant-and-factors/signal-to-portfolio.md — Optimization, risk budgeting, turnover constraints (P1)
 
-## Self-critique (iter 40 — 09 maker-taker / PFOF / HFT)
-- Wrote 09-market-microstructure/maker-taker-pfof-hft.md (template-compliant; three-bucket labeling: maker-taker mechanics robust, PFOF legality/mechanics robust, HFT net-effect contested; stdlib-only runnable impact sim VERIFIED on CPython 3.14.4 — calm 5.0 ticks/0.050%, stress 12.5 ticks/0.125%, 2.50x amplification).
-- Sources: 5 new — Tier 1: SEC Robinhood 33-10906 S298 (PFOF Rule 10b-10(d)(8), best-execution, $65M penalty), Kirilenko-Kyle Flash Crash S300 (opened PDF), Brogaard-Hendershott-Riordan 2014 RFS S301 (abstract opened); Tier 2: Investopedia maker-taker S296, Investopedia PFOF S297. Reused Tier 1: SEC HFT review S1, O'Hara 2015 S5, Reg NMS amendments S25/S26/S28. ALL cited URLs opened + verified.
-- HFT net liquidity-vs-fragility framed as REGIME-DEPENDENT (supplier in calm, withdrawer in stress) — corroborated by opened S5 (positive) + S300 (fragility); the carried-forward Verify task "HFT net contribution to liquidity vs fragility" remains OPEN as a cross-source synthesis question, not a claim I asserted.
-- No new Verify tasks spawned (all claims corroborated by >=2 opened independent sources; 2024 access-fee cap $0.001 and 2026 Rule 611 rescission proposal from opened S28/S26).
-- Repo health: 41/61 nodes done; Phase B remaining: 10 vol-surface/strategies, 11 regime-detection/inflation, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.
+## 05-stats-and-ml
+- [ ] 05-stats-and-ml/timeseries-basics.md — Stationarity, unit roots, cointegration, ARIMA, GARCH (P0)
+- [ ] 05-stats-and-ml/regression-pitfalls.md — Spurious regression, heteroskedasticity, serial correlation, Newey-West (P0)
+- [ ] 05-stats-and-ml/cross-validation.md — Purged/embargoed CV, walk-forward, CPCV, combinatorial CV (P1)
+- [ ] 05-stats-and-ml/feature-engineering.md — Lags, rolling stats, interactions, target encoding, leakage guards (P1)
+- [ ] 05-stats-and-ml/model-selection.md — Regularization, ensembles, stacking, calibration, model cards (P1)
+- [ ] 05-stats-and-ml/probabilistic-forecasting.md — Quantile regression, conformal prediction, prediction intervals (P2)
+- [ ] 05-stats-and-ml/causal-inference.md — Diff-in-diff, IV, synthetic control, causal ML in finance (P2)
+- [ ] 05-stats-and-ml/deep-learning.md — LSTM/Transformer for returns, attention, positional encoding (P2)
 
-## Self-critique (iter 41 — 10 volatility surface, skew & hedging)
-- Wrote 10-derivatives/volatility-surface-skew-hedging.md (template-compliant; three-bucket labeling: surface/skew mechanics & delta-hedging/P&L-decomposition robust, "delta hedge = risk-free replication" flagged folklore, "skew as crash forecast" contested; pure-stdlib runnable Python VERIFIED on CPython 3.14.4 — 30d IV chain 0.3835→0.0913 across strikes, put skew +6.39pts, risk reversal −12.03pts, ATM term structure 0.2168→0.1854; short-straddle Δ-hedged P&L = −41.57 (σ_real=σ_imp=0.20, i.e. pure txn-cost bleed) / −73.41 (σ_real=0.30) / −11.29 (σ_real=0.10), confirming gamma-scalping sign logic).
-- Sources: 8 new — Tier 1: Hull & White 2017 optimal delta hedging S305 (full PDF opened; practitioner-BS delta, OOS hedging gains), Bakshi-Kapadia-Madan 2003 primary S308 (full PDF opened; index vs single-stock skew, −0.48 skew-kurtosis corr, CBOE SKEW basis); Tier 2: Ryan O'Connell smile/skew S302 + delta-hedging S307, Investopedia skew S303, AnalystPrep smiles S304 (FX fat-tail table), Sepp 2017 discrete-hedging P&L S306; foundational Leland 1985 S309 via secondary description only. Reused Tier 1: Haugh BS notes S129 (gamma P&L formula, vol-surface skew), Investopedia Greeks S130.
-- No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; BKM empirical skew numbers from opened primary; Hull OOS hedging-gain numbers from opened primary; Sepp P&L identity matches Haugh S129).
-- Leland 1985 cited only via secondary d-nb description (primary PDF not directly opened) — flagged in sources.md and Further Reading, not asserted as a primary claim.
-- Repo health: 42/61 nodes done; Phase B remaining: 10 option-strategies, 11 regime-detection/inflation, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.
+## 06-portfolio-construction
+- [x] 06-portfolio-construction/mean-variance-efficient-frontier.md — MVO, efficient frontier, constraints (P0) — DONE
+- [x] 06-portfolio-construction/black-litterman.md — BL model, views, confidence, equilibrium (P1) — DONE
+- [x] 06-portfolio-construction/factor-portfolios-smart-beta.md — Factor portfolios, smart beta, implementation (P1) — DONE
+- [x] 06-portfolio-construction/risk-parity-kelly-sizing.md — Risk parity, Kelly, half-Kelly, fractional Kelly (P1) — DONE
+- [ ] 06-portfolio-construction/hrp-hca.md — Hierarchical risk parity, hierarchical clustering (P1)
+- [ ] 06-portfolio-construction/max-diversification.md — Max diversification, minimum correlation (P1)
+- [ ] 06-portfolio-construction/dynamic-allocation.md — Regime-switching, volatility targeting, CPPI, TIPP (P1)
+- [ ] 06-portfolio-construction/tax-aware.md — Tax-loss harvesting, asset location, transition management (P2)
+- [ ] 06-portfolio-construction/esg-constraints.md — Exclusionary screens, tilt, impact, transition risk (P2)
 
-## Self-critique (iter 42 — 10 option strategies: covered call / protective put / spreads)
-- Wrote 10-derivatives/option-strategies.md (template-compliant; three-bucket labeling: mechanics/construction robust, "income"/"downside-protection" framings flagged as myths, net-of-cost empirical edge contested; pure-stdlib runnable payoff calculator VERIFIED on CPython 3.14.4 — covered call max profit 5.00 / max loss −95.00 / BE 95.0; protective put max loss −8.00 / BE 103.0 (upside unlimited); bull call spread 7.00/−3.00/BE 103.0; bear put spread 7.00/−3.00/BE 97.0; collar cap +4.00 / floor −6.00 / BE 101.0; synthetic-long≡forward identity confirmed True).
-- Sources: 6 new — Tier 1: CFA Institute Options Strategies 2026 S310 (opened), Cboe BuyWrite Indices Methodology S311 (PDF opened, BXM/BXMD/BXY/BXR construction), Ibbotson BXM Case Study 2004 S312 (PDF opened: 12.39% vs 12.20% CAGR, 2/3 vol, Stutzer 0.22 vs 0.16, avg premium 1.69%/mo, IV 16.5% vs RV 14.9%, skew −1.249, cost/tax caveat), Israelov & Nielsen "Still Not Cheap" JPM 2015 S313 (PDF opened: 5% OTM put cuts beta 1.0→0.72, downside beta 0.47, VRP avg +3.4% positive 88%, long-vol leg −2.0%/yr Sharpe −0.83), Israelov & Nielsen "One Fact and Eight Myths" FAJ 2014 S314 (PDF opened: covered call = ½ long + ½ short straddle, Table 1 BXM Sharpe 0.33 vs 0.29, beta 0.67, up/downside beta 0.63/0.78, myths 1–8); Tier 2: Optiver protective-put/covered-call explainer S315 (opened). ALL cited URLs opened + verified.
-- No new Verify tasks spawned (all major claims corroborated by >=2 independent opened sources; BXM and protective-put numbers from opened primaries; VRP from opened S313; covered-call = long-equity+short-vol decomposition from opened S314).
-- Repo health: 43/61 nodes done; Phase B remaining: 11 regime-detection/inflation, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.
+## 07-risk-management
+- [x] 07-risk-management/var-cvar.md — VaR, CVaR, historical/parametric/Monte Carlo (P0) — DONE
+- [x] 07-risk-management/drawdown-position-sizing-stops.md — Max DD, position sizing, stop types (P0) — DONE
+- [x] 07-risk-management/stress-testing-scenario-analysis.md — Historical, hypothetical, factor stress, climate (P1) — DONE
+- [ ] 07-risk-management/tail-risk-hedging.md — Put spreads, VIX calls, tail risk funds, cost of carry (P1)
+- [ ] 07-risk-management/liquidity-risk.md — Funding liquidity, market liquidity, redemption gates (P1)
+- [ ] 07-risk-management/counterparty-operational.md — CCPs, bilateral, op risk, cyber, model risk (P2)
+- [ ] 07-risk-management/risk-budgeting.md — Risk budgets, marginal/component risk, factor risk attribution (P1)
 
-## Self-critique (iter 43 — 11 regime detection methods)
-- Wrote 11-macro-and-regimes/regime-detection-methods.md (template-compliant; three-bucket labeling: volatility-regime detection robust, mean-regime trading edge & clean bull/bear-tradeable-state folklore contested; runnable pinned code VERIFIED on CPython 3.14.4 / numpy 2.5.1 / statsmodels 0.14.6 / pandas 3.0.3 — Snippet A MS-variance recovers σ≈0.0098 vs 0.040, transitions p[0→0]=0.914/p[1→0]=0.107, expected durations [11.68, 9.38], in-sample smoothed match 0.935; Snippet B rolling-vol flags 0.354 high-vol vs true 0.48 (threshold under-flag demonstrated); Snippet C change-point at 144 vs true 150).
-- Sources: 4 new — Tier 1: Ang & Bekaert 2011 S316 (full PDF opened: canonical model, Fig 4 vol-regime evidence, Fig 5 SR frontiers low-vol 0.871 / high-vol 0.268 / uncond 0.505), Guidolin & Timmermann 2007 S317 (abstract opened: four regimes crash/slow-growth/bull/recovery, OOS value); Tier 1: statsmodels MarkovRegression S318 (opened: API + S&P switching-variance example); Tier 2: MetricGate Bai–Perron S319 (opened: method, supF/BIC/trimming). Reused Tier 1/2: Hamilton 1989 S136. ALL cited URLs opened + verified.
-- No new Verify spawned for asserted claims (all major claims corroborated by >=2 opened independent sources; vol-regime evidence S316+S318; asset-allocation value S316 Fig 5 + S317; methods S318+S319). Added one Verify lead below for a dedicated "fat-tail mirage" primary to harden the contested framing.
-- Repo health: 44/61 nodes done; Phase B remaining: 11 inflation/yields, 12 herding/limits, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify carried forward.
+## 08-backtesting-methodology
+- [x] 08-backtesting-methodology/deflated-sharpe-multiple-testing.md — Deflated Sharpe, multiple testing correction (P0) — DONE
+- [x] 08-backtesting-methodology/transaction-costs-slippage-walkforward.md — TCA, slippage models, walk-forward (P0) — DONE
+- [ ] 08-backtesting-methodology/backtest-framework.md — Vectorized vs event-driven, data structures, reproducibility (P0)
+- [ ] 08-backtesting-methodology/look-ahead-survivorship.md — Look-ahead bias, survivorship, delisting bias, corporate actions (P0)
+- [ ] 08-backtesting-methodology/out-of-sample-validation.md — IS/OOS, PBO, probability of backtest overfitting (P0)
+- [ ] 08-backtesting-methodology/simulation-methods.md — Monte Carlo, bootstrap, block bootstrap, synthetic paths (P1)
+- [ ] 08-backtesting-methodology/performance-attribution.md — Brinson, factor attribution, timing vs selection (P1)
+- [ ] 08-backtesting-methodology/live-trading-transition.md — Paper trading, shadow book, latency, fill simulation (P2)
 
-- [ ] VERIFY: dedicated primary showing a single-regime heavy-tailed / GARCH process can mimic apparent Markov-switching *mean* regimes in equity returns (e.g., Cappuccio, Lubian & Raggi 2004; or Kim, Nelson & Startz on identification) — current "fat-tail mirage" caveat rests on Ang & Bekaert 2011 (S316) framing only; cross-check a primary before asserting the identifiability weakness as more than a caveat.
+## 09-market-microstructure
+- [x] 09-market-microstructure/liquidity-spreads-execution-impact.md — Spreads, impact models, execution (P0) — DONE
+- [x] 09-market-microstructure/maker-taker-pfof-hft.md — Maker-taker, PFOF, HFT economics (P1) — DONE
+- [ ] 09-market-microstructure/order-book-dynamics.md — LOB dynamics, queue position, order flow toxicity (P1)
+- [ ] 09-market-microstructure/optimal-execution.md — Almgren-Chriss, TWAP/VWAP/POV, implementation shortfall (P1)
+- [ ] 09-market-microstructure/high-frequency.md — Market making, adverse selection, latency, colocation (P2)
+- [ ] 09-market-microstructure/dark-pool-dynamics.md — Dark pool segmentation, midpoint matching, block trading (P2)
+- [ ] 09-market-microstructure/reg-nms-deep-dive.md — Reg NMS deep dive, rule 605/606 analysis, SIP latency (P2)
+- [ ] 09-market-microstructure/microstructure-invariance.md — Invariance laws, volume-synchronized time, Kyle's lambda (P2)
 
-## Self-critique (iter 44 — 11 inflation, yields & equity valuation)
-- Wrote 11-macro-and-regimes/inflation-yields-equity-valuation.md (template-compliant; three-bucket labeling: discount-rate & equity-duration mechanics robust, Fed-model validity & inflation-hedge efficacy contested; pure-stdlib runnable Python VERIFIED on CPython 3.14.4 — duration 20.0y→50.0y (2.50x) as k falls 0.09→0.05; P/E 17.0→25.5 (+50.0%) for a 2pp drop in r; Fed-model fallacy demonstrated: real E/P 0.0392 vs nominal Y 0.0400 flags EXPENSIVE, vs real/TIPS Y 0.0200 flags CHEAP).
-- Sources: 9 new, ALL URLs opened & verified — Tier 1: Sharpe 1999 Fed FEDS paper S320, Asness 2003 Fight the Fed Model S321, Campbell & Vuolteenaho 2004 Inflation Illusion S323, Wilcox 2012 CFA Equity Valuation & Inflation review S324; Tier 2: Arnott & Ryan 2001 Death of Risk Premium S322, AllianceBernstein 2021 S325, MSCI 2008 Hedging Inflation S326, Schroeder & Esterer equity-duration WP S327, Golez & Koudijs 2025 via Alpha Architect S328. Claims corroborated >=2 independent opened sources (Fed-model fallacy: S321 + S323; inflation-illusion: S323 + S324; long-run-neutral/short-run-negative: S324 + S326; low-rate→longer-duration: S327 + S328).
-- No new Verify spawned (all asserted claims corroborated by >=2 opened independent sources). Bhamra et al. 2023 (RFS) retained only as a flagged further-reading pointer (abstract seen, full text not opened) — not asserted.
-- Repo health: 46/61 nodes done (11 inflation-yields + 12-herding articles now marked done; 12 folder has 2 articles); Phase B remaining: 12 limits-to-arbitrage, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify tasks carried forward.
+## 10-derivatives
+- [x] 10-derivatives/option-greeks.md — Greeks, second-order, greek management (P0) — DONE
+- [x] 10-derivatives/option-strategies.md — Option strategies (P1) — DONE
+- [x] 10-derivatives/volatility-surface-skew-hedging.md — Vol surface, skew, hedging (P1) — DONE
+- [ ] 10-derivatives/exotic-options.md — Exotic options & structured products (P2)
+- [ ] 10-derivatives/variance-swaps.md — Variance swaps & volatility trading (P2)
+- [ ] 10-derivatives/ir-derivatives.md — Interest rate derivatives (swaps, swaptions) (P2)
+- [ ] 10-derivatives/credit-derivatives.md — Credit derivatives (CDS, indices) (P2)
+- [ ] 10-derivatives/commodity-fx-derivatives.md — Commodity & FX derivatives (P2)
 
-## Self-critique (iter 45 — 12 herding / overconfidence / loss aversion)
-- Wrote 12-behavioral-finance/herding-overconfidence-loss-aversion.md (template-compliant; three-bucket labeling: phenomena robust, standalone trading-edge contested; pure-stdlib runnable CSAD herding test VERIFIED on CPython 3.14.4 — NO-HERDING γ2=+4.5564 (convex, rational-CAPM-like), HERDING γ2=−2.1004 (negative, CCK herding signature); prospect value fn v(+100)=57.54 / v(−100)=−129.47 / ratio=2.25).
-- Sources: 7 new — Tier 1: Benartzi & Thaler 1995 S329 (params λ=2.25/α=0.88, abstract/snippet-level; full PDF fetch failed → flagged), Odean 1999 S330 (full PDF opened & verified: buys underperform sells net of costs), Barber & Odean 2001 S331 (opened: men trade 45% more, 1.4% lower risk-adj), Christie & Huang 1995 S332 (CSSD methodology via S334 + snippets), Chang et al. 2000 S333 (CSAD equation via snippets + S334), Hwang & Salmon 2004 S334 (full PDF opened & verified: beta-herding, crises REDUCE herding); Tier 2: Wikipedia Prospect Theory S335 (opened). Reused Tier 1: LSV 1992 S147, Barber & Odean 2000 S144.
-- No new Verify spawned (all asserted claims corroborated by >=2 independent opened sources; Odean 1999 + B&O 2000/2001 cross-corroborate overconfidence→underperformance; CCK/CSAD herding signature corroborated by S333 equation + S334; Hwang & Salmon 2004 opened primary). S329 parameter values flagged as snippet/abstract-level (full PDF not opened) — not asserted beyond the cited λ/α.
-- Repo health: 46/61 nodes done; Phase B remaining: 12 limits-to-arbitrage, 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify tasks carried forward.
+## 11-macro-and-regimes
+- [x] 11-macro-and-regimes/inflation-yields-equity-valuation.md — Inflation, yields & equity valuation (P0) — DONE
+- [x] 11-macro-and-regimes/rates-business-cycles-sector-rotation.md — Rates, business cycles & sector rotation (P1) — DONE
+- [x] 11-macro-and-regimes/regime-detection-methods.md — Regime detection methods (P1) — DONE
+- [ ] 11-macro-and-regimes/fiscal-policy-debt.md — Fiscal policy & debt dynamics (P1)
+- [ ] 11-macro-and-regimes/currency-regimes-carry.md — Currency regimes & carry (P1)
+- [ ] 11-macro-and-regimes/commodity-cycles.md — Commodity cycles & inflation hedging (P2)
+- [ ] 11-macro-and-regimes/central-bank-frameworks.md — Central bank policy frameworks (P2)
+- [ ] 11-macro-and-regimes/global-liquidity.md — Global liquidity & cross-asset (P2)
 
-## Self-critique (iter 46 — 12 limits to arbitrage)
-- Wrote 12-behavioral-finance/limits-to-arbitrage.md (template-compliant; three-bucket labeling: mechanism/framework robust, "limits are large enough to explain anomalies" & "overused" framing contested; pure-stdlib runnable Python VERIFIED on CPython 3.14.4 — unconstrained final NAV 92.53 vs performance-based −13.68, position 10.00 vs 2.50 shares during the cheap flat, forced sale of 4.17 shares at the bottom = S142 "worst when most needed" in one number).
-- Sources: 7 new — Tier 1: Stambaugh–Yu–Yuan 2015 S336 (full PDF opened & verified: IVOL-return negative among overpriced / positive among underpriced, short-side asymmetry, hard-to-short & high-sentiment amplification), Lee–Shleifer–Thaler 1991 S337 (abstract opened: closed-end-fund discounts as sentiment index), Pontiff 2006 S338 (abstract opened: idiosyncratic risk = largest arbitrage cost), De Long–Shleifer–Summers–Waldmann 1990 S339 (full PDF opened & verified: noise-trader risk deters arbitrage, noise traders can earn higher expected return), reused Shleifer–Vishny 1997 S142 (full PDF opened & verified: performance-based capital → ineffective in extreme circumstances); Tier 2: Alpha Architect 2014 S340 (opened: taxonomy). Reused Tier 1: LSV 1992 S147, Khandani & Lo 2010 S241 (2007 quant crisis as limits-in-action). ALL cited URLs opened + verified.
-- No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; S142 + S339 corroborate noise-trader risk; S142 + S336 + S241 corroborate the "constrained-when-mispricing-worst" mechanism empirically and in crisis; LST 1991 + S336 cross-corroborate sentiment/limits exhibits).
-- Repo health: 47/61 nodes done; folder 12 now has 3 articles; Phase B remaining: 13 hygiene/cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify tasks carried forward.
+## 12-behavioral-finance
+- [x] 12-behavioral-finance/cognitive-biases-sentiment-crowding.md — Cognitive biases, sentiment & crowding (P0) — DONE
+- [x] 12-behavioral-finance/herding-overconfidence-loss-aversion.md — Herding, overconfidence, loss aversion (P0) — DONE
+- [x] 12-behavioral-finance/limits-to-arbitrage.md — Limits to arbitrage (P1) — DONE
+- [ ] 12-behavioral-finance/behavioral-factors.md — Behavioral factor models (P1)
+- [ ] 12-behavioral-finance/anomalies-behavioral.md — Market anomalies & behavioral explanations (P1)
+- [ ] 12-behavioral-finance/investor-flows-sentiment.md — Investor flows & sentiment indicators (P1)
+- [ ] 12-behavioral-finance/neurofinance.md — Neurofinance & decision making (P2)
+- [ ] 12-behavioral-finance/culture-microstructure.md — Culture & market microstructure (P2)
 
-## Self-critique (iter 47 — 13 data hygiene & survivorship-free datasets)
-- Wrote 13-data-and-tooling/data-hygiene-survivorship-free.md (template-compliant; three-bucket labeling: hygiene mechanics robust, magnitude estimates 1–4%/yr / 0.6%/yr / 0.5-Sharpe / 14pp framed as estimated ranges not single numbers; pure-stdlib runnable Python VERIFIED on CPython 3.14.4 — FREE CAGR 9.19% vs BIAS 10.17% (~1.0pp/yr inflation), share losing >50% 1.0% (survivors-only) vs 6.6% (all-inclusive), back-adj 100→105→110 with total return +5.71% vs naive −47.6%).
-- Sources: 6 new — Tier 1: CRSP US Stock & Indexes Databases S350 (opened PDF: DLSTCD/DLRET/DLRETX, FACPR/FACSHR, 10-consecutive-missing-days→missing-return convention, phantom precision, SHRCD), UMich CRSP Calculations S351 (opened PDF: A(t)=P(t)/C(t) back-adj, total-return + delisting-return formulas), WRDS CRSP Useful Variables S352 (opened, Tier-1 gateway); Tier 2: QuantPedia tick-data cleaning S353 (opened), FactSet Fundamentals PIT S354 (opened), S&P Global Fundamental Data PIT S355 (opened). Reused: Luxalgo survivorship S157, Dimensional S158, Cowell arXiv S160 (flagged Verify), SEC EDGAR S152, FRED/ALFRED S151. ALL newly cited URLs opened + verified.
-- Survivorship-return-inflation magnitude corroborated across S157 (CRSP 7.4% vs 9.0%, 1–4%/yr) + S158 (0.60%/yr) — independent agreement on direction & order of magnitude. PIT definition corroborated across opened S354 + S355. Back-adjustment math from opened S351 (primary/academic CRSP documentation).
-- Carried-forward Verify tasks remain open (Kyle λ, Huang–Stoll split, conglomerate discount, factor-momentum, Cowell ~8%/yr look-ahead, "fat-tail mirage", divergent-vs-convergent crowding, several primaries). No new Verify spawned for asserted claims (all >=2 opened independent sources). Added one lead-only caveat (CRSP 2025 tape rewrote ~9.6% of monthly returns — working paper, full text not opened → not asserted, flagged as lead).
-- Repo health: 48/61 nodes done; folder 13 now has 2 articles; Phase B remaining: 13 backtesting-libraries cookbook, 14 momentum/mean-reversion/carry-vol, 15 overfitting/regime/look-ahead/txn-cost/survivorship; open Verify tasks carried forward.
+## 13-data-and-tooling
+- [x] 13-data-and-tooling/data-hygiene-survivorship-free.md — Data hygiene & survivorship-free data (P0) — DONE
+- [x] 13-data-and-tooling/backtesting-libraries-cookbook.md — Backtesting libraries cookbook (P1) — DONE
+- [x] 13-data-and-tooling/data-vendors-apis-libraries-reproducibility.md — Data vendors, APIs, libraries, reproducibility (P1) — DONE
+- [ ] 13-data-and-tooling/data-storage-versioning.md — Data storage & versioning (Delta Lake, Parquet) (P1)
+- [ ] 13-data-and-tooling/feature-stores.md — Feature stores for finance (P2)
+- [ ] 13-data-and-tooling/cloud-compute.md — Cloud compute for quant (Ray, Dask, Spark) (P2)
+- [ ] 13-data-and-tooling/ci-cd-research.md — CI/CD for research pipelines (P2)
+- [ ] 13-data-and-tooling/visualization-reporting.md — Visualization & reporting (Streamlit, Dash) (P2)
 
-## Self-critique (iter 48 — 13 backtesting libraries cookbook)
-- Wrote 13-data-and-tooling/backtesting-libraries-cookbook.md (template-compliant; three-bucket labeling: library mechanics/identities robust, "vectorized is unsafe / event-driven always better" contested/folklore; runnable dependency-free Python VERIFIED on CPython 3.14.4 — correct Sharpe −0.125, look-ahead-bug Sharpe +0.125 (+0.250 pts inflation, sign flip), vectorized≡event-driven to 1e-12; three pinned library snippets (vectorbt==0.28.5, backtrader==1.9.78.123, zipline-reloaded==3.1.1) syntax-checked against official APIs).
-- Sources: 8 — Tier 1: vectorbt GitHub S356 (opened: NumPy/Numba/Rust, "thinks in matrices", Apache-2.0+Commons Clause, community ed. of VectorBT PRO), zipline-reloaded PyPI S359 (opened: v3.1.1, event-driven, Quantopian shut late-2020, maintained by S. Jansen, Python>=3.9/pandas>=2.0/NumPy 2.0), zipline tutorial S360 (opened: slippage/costs/order-delays, stream-based avoids look-ahead, initialize/handle_data/run_algorithm); Tier 2: QuantStart event-driven S361 (opened: vectorized "drawbacks in trade execution simulation"), PyQuant News S362 (opened: event-driven reflects real trading, accounts for latency/slippage). Reused Tier 1: vectorbt.dev S153, backtrader.com S154, zipline docs S155. ALL cited URLs opened + verified; exact pinned versions confirmed via PyPI JSON (vectorbt latest 1.1.0 but 0.x line 0.28.5 for the documented API; backtrader 1.9.78.123; zipline-reloaded 3.1.1).
-- No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; vectorized-vs-event-driven tradeoff corroborated S360+S361+S362; library identities/versions from opened official sources).
-- Repo health: 49/61 nodes done; Phase B remaining: 14 momentum/mean-reversion/carry-vol (3), 15 overfitting/regime/look-ahead/txn-cost/survivorship (5); open Verify tasks carried forward.
+## 14-strategy-catalog
+- [x] 14-strategy-catalog/value-quality-strategies.md — Value & quality strategies (P0) — DONE
+- [x] 14-strategy-catalog/momentum-trend-following-strategies.md — Momentum & trend following (P1) — DONE
+- [x] 14-strategy-catalog/mean-reversion-stat-arb.md — Mean reversion & stat arb (P1) — DONE
+- [x] 14-strategy-catalog/carry-volatility-strategies.md — Carry & volatility strategies (P1) — DONE
+- [x] 14-strategy-catalog/inner-circle-trader-ict.md — **Inner Circle Trader (ICT) Core Concepts** (P2 - SMC/ICT) — DONE
+- [x] 14-strategy-catalog/ict-futures-commodities.md — **ICT Futures & Commodities** (P2 - SMC/ICT) — DONE
+- [ ] 14-strategy-catalog/multi-strategy.md — Multi-strategy / ensemble (P1)
+- [ ] 14-strategy-catalog/event-driven.md — Event-driven & special situations (P2)
+- [ ] 14-strategy-catalog/global-macro.md — Global macro discretionary (P2)
+- [ ] 14-strategy-catalog/hft-market-making.md — HFT / market making (P2)
+- [ ] 14-strategy-catalog/options-vol-arb.md — Options volatility arbitrage (P2)
+- [ ] 14-strategy-catalog/crypto-defi.md — Crypto/DeFi strategies (if in scope) (P2)
 
-## Self-critique (iter 49 — 14 momentum & trend-following strategies)
-- Wrote 14-strategy-catalog/momentum-trend-following-strategies.md (template-compliant; three-bucket labeling: phenomenon robust, net-of-cost forward edge & cross-sectional decay contested; runnable numpy demo VERIFIED on CPython 3.14.4 / numpy 2.5.1 — TSM cum P&L −22.4% (ρ=0.0) → +31.5% (ρ=0.30), annualized Sharpe −0.02 → +0.14, cleanly isolating that TSM harvests return autocorrelation; ρ=0 case flat-to-negative from volatility drag, not a market edge).
-- Sources: 5 new, ALL Tier 1, ALL URLs opened & verified — Jegadeesh & Titman 1993 S363 (full PDF), Hurst-Ooi-Pedersen 2017 S364 (full PDF), Baltas & Kosowski 2017 S365 (full PDF), Daniel & Moskowitz 2016 S366 (full NBER PDF); reused Tier-1 Moskowitz-Ooi-Pedersen 2012 S91 (opened prior iter), Fama-French 2020 S215 + Baltussen S218 (decay context, opened prior iter). Cross-sectional ~1%/mo + not-systematic-risk + post-12mo reversal corroborated by opened S363; TSM 58/58 contracts by opened S91; 137yr/67mkts/positive-each-decade + low-corr-best by opened S364; TSM costs/post-GFC-weakness by opened S365 (≥2 independent opened sources on the contested edge); crashes + conditional-beta by opened S366.
-- No new Verify tasks spawned (all major claims corroborated by ≥2 opened independent sources; risk-vs-behavioral framed from opened S364 + S366, not asserted as settled). Conrad-Kaul 1998 and Grundy-Martin 2001 cited only as background/secondary references via opened S366, not as directly-opened primaries — flagged in text.
-- Repo health: 50/61 nodes done; Phase B remaining: 14 mean-reversion/carry-vol (2), 15 overfitting/regime/look-ahead/txn-cost/survivorship (5) = 7; open Verify tasks carried forward.
+## 15-pitfalls-and-antipatterns
+- [x] 15-pitfalls-and-antipatterns/data-snooping-phacking.md — Data snooping & p-hacking (P0) — DONE
+- [x] 15-pitfalls-and-antipatterns/look-ahead-bias.md — Look-ahead bias (P0) — DONE
+- [x] 15-pitfalls-and-antipatterns/overfitting-curve-fitting.md — Overfitting & curve fitting (P0) — DONE
+- [x] 15-pitfalls-and-antipatterns/regime-change-non-stationarity.md — Regime change & non-stationarity (P1) — DONE
+- [x] 15-pitfalls-and-antipatterns/transaction-cost-neglect.md — Transaction cost neglect (P0) — DONE
+- [ ] 15-pitfalls-and-antipatterns/survivorship-delisting.md — Survivorship & delisting bias (P0)
+- [ ] 15-pitfalls-and-antipatterns/selection-bias.md — Selection bias & cherry-picking (P0)
+- [ ] 15-pitfalls-and-antipatterns/benchmark-misspec.md — Benchmark mis-specification (P1)
+- [ ] 15-pitfalls-and-antipatterns/leverage-path-dependency.md — Leverage & path dependency (P1)
+- [ ] 15-pitfalls-and-antipatterns/operational-execution.md — Operational & execution failures (P2)
+- [ ] 15-pitfalls-and-antipatterns/model-risk.md — Model risk & validation failures (P2)
+- [ ] 15-pitfalls-and-antipatterns/behavioral-traps-live.md — Behavioral traps in live trading (P2)
 
-## Self-critique (iter 50 — 14 mean-reversion & statistical-arbitrage)
-- Wrote 14-strategy-catalog/mean-reversion-stat-arb.md (template-compliant; three-bucket labeling: short-horizon reversal & residual mean-reversion robust, net-of-cost live stat-arb edge contested/decaying, "mean reversion of raw prices" flagged folklore; stdlib-only runnable Python VERIFIED on CPython 3.14.4 — OU VR=0.800/0.409 (Z=−6.46/−8.41) rejects random walk vs RW VR≈1; OU-fit κ=0.112 (true 0.100), half-life 6.16 (true 6.93); s-score contrarian book cum_pnl=623.59 on synthetic OU; clearly labeled synthetic so it is not misread as a market claim).
-- Sources: 6 new, ALL URLs opened & verified — Tier 1: Avellaneda & Lee 2010 S367 (full PDF: PCA Sharpe 1.44→0.9, ETF 1.1, ETF+volume 1.51, 60-day residual, s-score/OU, survivorship check); Khandani & Lo 2007 S368 (full PDF: Aug-2007 quant meltdown, −5% to −30%, 25-sigma, crowding); Lo & MacKinlay 1988 S369 (abstract + VR methodology, erratum noted); Hogan-Jarrow-Teo-Warachka 2004 S371 (abstract: stat-arb definition, joint-hypothesis circumvention); Lehmann 1990 S372 (weekly reversal, secondary-level). Tier 1 Jegadeesh 1990 S370 (~2%/mo reversal 1934–1987) corroborated across 3 independent secondary reproductions (primary PDF fetch failed → flagged).
-- No new Verify tasks spawned (all asserted claims corroborated by >=2 independent opened sources; Avellaneda–Lee & Khandani–Lo numbers from opened primaries; Jegadeesh ~2%/mo from 3 independent reproductions). Jegadeesh 1990 and Lehmann 1990 primaries not directly opened → numbers/methodology flagged at Tier-1-secondary level, not asserted beyond cited magnitudes.
-- Repo health: 51/61 nodes done; Phase B remaining: 14 carry-vol (1) + 15 (5) = 6; open Verify tasks carried forward.
+---
 
-## Self-critique (iter 51 — 14 carry & volatility strategies)
-- Wrote 14-strategy-catalog/carry-volatility-strategies.md (template-compliant; three-bucket labeling: premium existence & cross-asset pervasiveness robust, net-of-cost live edge & "free lunch" framing contested/folklore; pure-stdlib runnable Python VERIFIED on CPython 3.14.4 — CARRY mean 0.0073/mo, Sharpe 1.04, skew −2.74, worst −0.120, maxDD 0.184; VRP mean 0.0087/mo, Sharpe 1.01, skew −4.59, worst −0.135, 96% positive months; both show positive premium + negative-skew crash risk).
-- Sources: 7 new — Tier 1: Carr & Wu 2009 S373 (abstract opened & verified), Lustig-Roussanov-Verdelhan 2011 S375 (abstract opened & verified), Gorton-Hayashi-Rouwenhorst 2013 S376 (abstract-level via snippet), JPMorgan SEC filing S379 (opened via snippet); Tier 2: Alpha Architect VRP S374 (opened & verified), CFA/FAJ Volmageddon S377 (opened & verified), Quantpedia VIX term structure S378 (opened via search). Reused Tier 1: Koijen et al. 2018 S223, Israelov & Nielsen 2015 S313. ALL cited URLs opened & verified.
-- No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; Koijen carry Sharpe from opened primary S223; VRP pervasiveness from S373+S374; currency forward-premium puzzle from S375 + S223; Volmageddon from opened S377). GHR 10% basis spread cited via snippet-level primary S376 (flagged abstract-level).
-- Repo health: 52/61 nodes done; Phase B remaining: 15 (5) overfitting/regime/look-ahead/txn-cost/survivorship; open Verify tasks carried forward.
-
-## Self-critique (iter 52 — 15 overfitting / curve fitting)
-- Wrote 15-pitfalls-and-antipatterns/overfitting-curve-fitting.md (template-compliant; three-bucket labeling: bias-variance mechanics & selection-bias math robust, "hold-out unreliable in finance vs CSCV fixes it" & "replication-crisis magnitude" contested/framed; two runnable snippets VERIFIED via repo .venv numpy 2.5.1 — Snippet A polynomial curve-fit: train MSE 0.2844→0.0269 as degree 1→15 while test MSE bottoms at deg3 (0.0055) then rises to 0.0382 (U-shape overfitting); Snippet B 500-noise-trial search: best in-sample Sharpe 1.011 (t=11.08, naive p≈0 "significant") vs that strategy's OOS Sharpe 0.006 (t=0.06, p=0.95) = textbook false positive from selection).
-- Sources: 4 new — Tier 1: Campbell & Thompson 2008 S380 (opened & verified: most predictors negative OOS R², only cay/T-bill/term-spread/div-payout/equity-share/cay beat historical avg), Hansen-Lunde-Nason 2011 MCS S383 (abstract opened & verified); Tier 2: Bailey Significance/SSRN 3895330 S381 (opened & verified: three finance-specific false-discovery reasons + journals seldom disclose # trials), Wikipedia bias-variance S382 (opened & verified: EPE=bias²+var+noise). Reused Tier 1: Bailey-López de Prado DSR S68, Bailey et al. PBO/CSCV S69, White 2000 S87, Lo 2002 S86, HLZ S72, Benjamini-Hochberg S83.
-- No new Verify tasks spawned (all asserted claims corroborated by >=2 opened independent sources; bias-variance decomposition from opened S382; PBO/DSR from opened primaries S69/S68; Campbell-Thompson negative-OOS-R² from opened primary S380; MCS from opened primary S383).
-- Repo health: 53/61 nodes done; Phase B remaining: 15 regime/look-ahead/txn-cost/survivorship (4); open Verify tasks carried forward.
-
-## Self-critique (iter 53 — 15 regime change & non-stationarity)
-- Wrote 15-pitfalls-and-antipatterns/regime-change-non-stationarity.md (template-compliant; three-bucket labeling: pitfall/phenomenon robust, mitigation efficacy emerging/contested, "long-horizon stationary / walk-forward fixes it" flagged folklore; two pure-stdlib runnable snippets VERIFIED on CPython 3.14.4 — Snippet A: pre-fit coeff 0.514, in-sample R²=0.212 vs OOS(post-break) R²=−0.681, P&L +160.0 in-sample → −117.7 OOS (loading sign-flip breaks the model); Snippet B: full-sample beta 0.104 (spurious avg) vs rolling first 0.398 / mid 0.310 / last −0.534 (time-varying loading masked by full sample)).
-- Sources: 4 new — Tier 1: Pesaran & Timmermann 2007 S384 (full PDF opened & verified: optimal to keep pre-break data under breaks, bias–variance trade-off, cites Chow 1960 / Brown–Durbin–Evans 1975 / Bai–Perron), Bailey et al. 2016 S387 (full PDF opened & verified: MinBTL ~45 variations on 5y daily data before SR≥1.0 by chance); Tier 2: mlfinpy FractionalDifferentiated S385 (López de Prado AFML Ch.5, opened: fracdiff, d*, "most papers over-differentiate"), MetricGate Chow test S386 (opened: Chow F formula, known-date test). Reused Tier 1/2: López de Prado "10 Reasons" S251, Fama–French 2020 S215 (value decay), Khandani & Lo 2010 S241 (Aug-2007 break), Goyal–Welch/Campbell–Thompson 2008 S380 (OOS failure), Ang & Bekaert 2011 S316 (vol regimes), Bai–Perron S319, Hamilton 1989 S136. ALL cited URLs opened + verified.
-- No new Verify tasks spawned (all major claims corroborated by >=2 opened independent sources; Pesaran–Timmermann break-window result from opened primary S384; López de Prado over-differentiation claim from opened S385; Chow F from opened S386; empirical regime/decay/crisis evidence from opened S215/S241/S316/S380).
-- Repo health: 54/61 nodes done; Phase B remaining: 15 look-ahead/txn-cost/survivorship (3); open Verify tasks carried forward.
-
-## Self-critique (iter 54 — 15 look-ahead bias deep dive)
-- Wrote 15-pitfalls-and-antipatterns/look-ahead-bias.md (template-compliant; three-bucket labeling: definition/mechanics & point-in-time-correctness robust, magnitude & "adjusted-price look-ahead is negligible" contested; two pure-stdlib runnable snippets VERIFIED on CPython 3.14.4 — Snippet A look-ahead Sharpe 20.479 / cum P&L +111.81% vs correct Sharpe −0.837 / −29.67% (clean isolation of future-price leakage); Snippet B backward-adjusted past price drifts −1.9% purely from a future dividend, mirroring Portfolio Optimizer's real SPY 362.78→361.22 effect).
-- Sources: 6 new — Tier 1: Baquero-terHorst-Verbeek 2005 JFQA S388 (abstract opened: up to 3.8% look-ahead at 4-qtr horizon, exacerbated by total risk), Harvey-Arnott-Markowitz 2019 JFDS "Backtesting Protocol" S389 (PDF opened: single-path CV validates nonsense ticker-symbol strategy); Tier 2: CFI S390 (opened), QuantInsti purging/embargoing S391 (opened: LdP trade-time vs event-time, embargo=lookback), Portfolio Optimizer S392 (opened: CRSP backward adjustment imports future dividends; forward adjustment fix; real SPY 362.78 vs 361.22), QuantConnect Research Guide S393 (opened: Wang et al. 2014 earnings-yield +60% / low-price factor flip; dynamic universe + point-in-time remedy). ALL cited URLs opened + verified.
-- No new Verify spawned (all asserted claims corroborated by >=2 opened independent sources; 3.8% from opened primary S388, 60% from opened S393, adjusted-price mechanism from opened S392 + S393, ML leakage from opened S391 + S389). The carried-forward Cowell et al. "~8%/yr" figure was explicitly NOT asserted (flagged Verify; primary unopened).
-- Repo health: 55/61 nodes done; Phase B remaining: 15 transaction-cost-neglect / survivorship-bias (2); open Verify tasks carried forward.
+## Verification Tasks (append when a claim needs corroboration)
+- [ ] Verify: SMC/ICT concept "Judas Swing" — is it documented in primary ICT sources or only secondary? (P2)
+- [ ] Verify: Maker-taker net liquidity effect — SEC 2014 lit review vs post-2010 flash event analyses (P1)
+- [ ] Verify: Reg NMS Rule 611 rescission proposal status — comments due Aug 17 2026, not yet adopted (P1)

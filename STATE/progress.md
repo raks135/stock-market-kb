@@ -1,70 +1,262 @@
-# Progress Map — Stock Market Analysis KB
+# Progress Map — Stock Market Analysis Knowledge Base
 
-Coverage status per taxonomy node. Status: todo / drafting / sourced / done. Confidence: robust | emerging | contested.
+## Legend
+- ✅ **Done** — Article exists, follows template, sources cited
+- 🔄 **In Progress** — Currently being worked on
+- ⏳ **Backlog** — Planned, not started
+- ❌ **Missing** — Not yet in backlog
 
-| Topic | Path | Status | Confidence |
-|---|---|---|---|
-| Market structure, instruments, order types, participants, mechanics | 00-foundations/market-structure.md | done | robust |
-| Equity claim (what a share is) | 00-foundations/equity-claim.md | done | robust |
-| Exchanges / ATS / Reg NMS | 00-foundations/exchanges-ats-regnms.md | done | robust |
-| Financial statements | 01-fundamental-analysis/financial-statements.md | done | robust |
-| Ratio analysis | 01-fundamental-analysis/ratio-analysis.md | done | robust |
-| Quality of earnings | 01-fundamental-analysis/quality-of-earnings.md | done | robust |
-| DuPont analysis & ROE decomposition | 01-fundamental-analysis/dupont-analysis.md | done | robust |
-| DCF (FCFF/FCFE, WACC, terminal value) | 02-valuation/dcf.md | done | robust |
-| Relative valuation / comps | 02-valuation/relative-valuation.md | done | robust |
-| Residual income / EVA / SOTP | 02-valuation/residual-income-eva-sotp.md | done | robust |
-| Technical: trend/momentum | 03-technical-analysis/trend-support-momentum.md | done | contested |
-|| Technical: indicators (RSI, MACD, evidence grade) | 03-technical-analysis/indicators-rsi-macd.md | done | contested |
-||| Technical: chart patterns & volume (evidence grade) | 03-technical-analysis/chart-patterns-volume.md | done | contested |
-||| Technical: candlesticks (evidence grade) | 03-technical-analysis/candlesticks.md | done | contested |
-| CAPM & beta (SML, estimation, Blume, Roll's critique) | 04-quant-and-factors/capm-beta.md | done | contested |
-|| Fama–French 3/5 factors (construction, empirical record, extensions) | 04-quant-and-factors/fama-french-factors.md | done | contested |
-|| Momentum & value premiums (robust vs fading, crash risk, diversification) | 04-quant-and-factors/momentum-value-premiums.md | done | contested |
-||| Low-vol / quality / carry factors (BAB, QMJ, Carry) | 04-quant-and-factors/low-vol-quality-carry-factors.md | done | contested |
-|||| APT & multi-factor models (Ross 1976, factor structure, macro/fundamental/statistical, vs CAPM) | 04-quant-and-factors/apt-multi-factor-models.md | done | contested |
-|||| Factor timing & factor crowding | 04-quant-and-factors/factor-timing-crowding.md | done | contested |
-|| Stats: stationarity, ADF, autocorrelation | 05-stats-and-ml/stationarity-adf-autocorrelation.md | done | robust |
-|| Stats: cointegration, Engle-Granger/Johansen, pairs trading | 05-stats-and-ml/cointegration-pairs-trading.md | done | contested |
-|| Feature engineering & ML pitfalls in finance | 05-stats-and-ml/feature-engineering-ml-pitfalls.md | done | contested |
-| Stats: overfitting/look-ahead | 05-stats-and-ml/overfitting-lookahead.md | done | robust |
-| Mean-variance / efficient frontier | 06-portfolio-construction/mean-variance-efficient-frontier.md | done | robust |
-| Risk parity / Kelly sizing | 06-portfolio-construction/risk-parity-kelly-sizing.md | done | robust |
-| Black–Litterman (reverse optimization + Bayesian views blend) | 06-portfolio-construction/black-litterman.md | done | robust |
-| Factor portfolios & smart beta (construction, long–short vs ETF gap, capacity/costs) | 06-portfolio-construction/factor-portfolios-smart-beta.md | done | contested |
-| VaR / CVaR | 07-risk-management/var-cvar.md | done | robust |
-|| Drawdown / position sizing / stops | 07-risk-management/drawdown-position-sizing-stops.md | done | contested |
-| Stress testing & scenario analysis | 07-risk-management/stress-testing-scenario-analysis.md | done | robust |
-| Backtest: costs/slippage/walk-forward | 08-backtesting-methodology/transaction-costs-slippage-walkforward.md | done | robust |
-| Deflated Sharpe / multiple-testing | 08-backtesting-methodology/deflated-sharpe-multiple-testing.md | done | robust |
-| Microstructure: liquidity, spreads, execution, impact | 09-market-microstructure/liquidity-spreads-execution-impact.md | done | robust |
-| Maker-taker, PFOF, HFT (pricing, routing, speed, contested net effect) | 09-market-microstructure/maker-taker-pfof-hft.md | done | contested |
-||| Options greeks (delta/gamma/vega/theta, BS formulas, hedging) | 10-derivatives/option-greeks.md | done | robust |
-||| Vol surface, skew, delta/gamma hedging, P&L decomposition | 10-derivatives/volatility-surface-skew-hedging.md | done | robust |
-|| Option strategies (covered call, protective put, bull/bear spreads, collar, straddle, calendar) | 10-derivatives/option-strategies.md | done | robust |
-|| Macro / regimes: rates, business cycle, sector rotation, regime detection | 11-macro-and-regimes/rates-business-cycles-sector-rotation.md | done | robust |
-|| Regime detection methods (Markov-switching/HMM, structural breaks, heuristics) | 11-macro-and-regimes/regime-detection-methods.md | done | contested |
-| Inflation, yields & equity valuation (discount-rate/equity-duration channels, Fed-model critique, inflation-illusion) | 11-macro-and-regimes/inflation-yields-equity-valuation.md | done | contested |
-| Behavioral: biases, sentiment, crowding | 12-behavioral-finance/cognitive-biases-sentiment-crowding.md | done | robust |
-| Herding, overconfidence, loss aversion (prospect theory deep dive) | 12-behavioral-finance/herding-overconfidence-loss-aversion.md | done | contested |
-| Limits to arbitrage (Shleifer–Vishny; noise-trader risk; agency/performance capital; empirical exhibits) | 12-behavioral-finance/limits-to-arbitrage.md | done | contested |
-| Data & tooling (vendors, libraries, reproducibility) | 13-data-and-tooling/data-vendors-apis-libraries-reproducibility.md | done | robust |
-| Data & tooling (hygiene / survivorship-free datasets) | 13-data-and-tooling/data-hygiene-survivorship-free.md | done | robust |
-| Data & tooling (backtesting libraries cookbook) | 13-data-and-tooling/backtesting-libraries-cookbook.md | done | robust |
-|| Value & quality factor strategies (evidence + failure modes) | 14-strategy-catalog/value-quality-strategies.md | done | robust |
-||| Momentum & trend-following strategies (cross-sectional + TSM; evidence, costs, crashes) | 14-strategy-catalog/momentum-trend-following-strategies.md | done | contested |
-|||| Mean-reversion & statistical-arbitrage strategies (OU/s-score, variance-ratio, Avellaneda–Lee, Aug-2007) | 14-strategy-catalog/mean-reversion-stat-arb.md | done | contested |
-|| Carry & volatility (short-tail-risk) strategies (cross-asset carry + VRP, evidence, failure modes) | 14-strategy-catalog/carry-volatility-strategies.md | done | contested |
-|| Data snooping & p-hacking | 15-pitfalls-and-antipatterns/data-snooping-phacking.md | done | robust |
-||| Overfitting & curve fitting (bias-variance, selection bias, DSR/PBO/MCS) | 15-pitfalls-and-antipatterns/overfitting-curve-fitting.md | done | robust |
-||| Regime change & non-stationarity (concept drift, structural breaks, mitigations) | 15-pitfalls-and-antipatterns/regime-change-non-stationarity.md | done | robust |
-|||| Look-ahead bias (deep dive) | 15-pitfalls-and-antipatterns/look-ahead-bias.md | done | robust |
-||| Transaction-cost neglect | 15-pitfalls-and-antipatterns/transaction-cost-neglect.md | todo | — |
-||| Survivorship bias | 15-pitfalls-and-antipatterns/survivorship-bias.md | todo | — |
+---
 
-## Health check
-- Coverage: 55/61 nodes done (look-ahead-bias added; folder 15 now has 4 articles).
-- PHASE A breadth: ALL folders 00–15 now have >=1 first article. Breadth complete.
-- Next up (Phase B depth): 15 transaction-cost-neglect / survivorship-bias (2 items).
-- Open Phase B items: 15 (2) = 2 remaining. Open Verify tasks carried forward (not asserted).
-- DONE when every folder 00-15 has >=1 article AND all Phase A/B items done AND no open Verify tasks.
+## 00-foundations
+| Topic | File | Status |
+|-------|------|--------|
+| Market Structure, Order Types & Participants | market-structure.md | ✅ Done |
+| What Is a Stock? The Equity Claim | equity-claim.md | ✅ Done |
+| Exchanges, ATS / Dark Pools, Reg NMS | exchanges-ats-regnms.md | ✅ Done |
+| Math Review (LinAlg/Prob/Stats for Quants) | math-review.md | ✅ Done |
+| Python Reproducible Environment | python-env.md | ⏳ Backlog |
+| Ethics & Regulatory Landscape | ethics-regulatory.md | ⏳ Backlog |
+
+---
+
+## 01-fundamental-analysis
+| Topic | File | Status |
+|-------|------|--------|
+| Reading Financial Statements (10-K/10-Q) | financial-statements.md | ⏳ Backlog |
+| Ratio Analysis & DuPont | ratio-analysis.md | ⏳ Backlog |
+| Earnings Quality & Accruals | earnings-quality.md | ⏳ Backlog |
+| Guidance & Estimate Revisions | guidance-revisions.md | ⏳ Backlog |
+| Industry & Competitive Analysis | industry-analysis.md | ⏳ Backlog |
+| Forensic Accounting Red Flags | forensic-accounting.md | ⏳ Backlog |
+| Management Quality & Capital Allocation | management-quality.md | ⏳ Backlog |
+| ESG Fundamentals Integration | esg-fundamentals.md | ⏳ Backlog |
+
+---
+
+## 02-valuation
+| Topic | File | Status |
+|-------|------|--------|
+| DCF Fundamentals (FCFF/FCFE, WACC, TV) | dcf-fundamentals.md | ⏳ Backlog |
+| Relative Valuation (Multiples, Comps) | relative-valuation.md | ⏳ Backlog |
+| DDM & Residual Income / EVA | ddm-residual-income.md | ⏳ Backlog |
+| Sum-of-the-Parts & Conglomerates | sum-of-parts.md | ⏳ Backlog |
+| Valuation Pitfalls & Terminal Value Traps | valuation-pitfalls.md | ⏳ Backlog |
+| Real Options Valuation | real-options.md | ⏳ Backlog |
+| Startup / VC Valuation Methods | startup-valuation.md | ⏳ Backlog |
+| ESG Adjustments to Valuation | esg-adjustments.md | ⏳ Backlog |
+
+---
+
+## 03-technical-analysis
+| Topic | File | Status |
+|-------|------|--------|
+| Chart Types (OHLC, Candle, Heikin-Ashi, Renko) | chart-types.md | ⏳ Backlog |
+| Trend Structure (Dow, HH/HL/LH/LL) | trend-structure.md | ⏳ Backlog |
+| Support & Resistance | support-resistance.md | ⏳ Backlog |
+| Moving Averages & MACD | moving-averages.md | ⏳ Backlog |
+| Momentum Oscillators (RSI, Stoch, CCI) | momentum-oscillators.md | ⏳ Backlog |
+| Volume Analysis (OBV, VWAP, VPVR) | volume-analysis.md | ⏳ Backlog |
+| Volatility Indicators (ATR, BB, Keltner) | volatility-indicators.md | ⏳ Backlog |
+| Market Breadth (A/D, McClellan, TRIN) | market-breadth.md | ⏳ Backlog |
+| Intermarket Analysis | intermarket.md | ⏳ Backlog |
+| Elliott Wave Basics | elliott-wave.md | ⏳ Backlog |
+| Harmonic Patterns | harmonic-patterns.md | ⏳ Backlog |
+| **SMC/ICT Market Structure (BOS, CHoCH, MSS)** | smc-market-structure.md | ⏳ Backlog |
+| **SMC/ICT Liquidity Concepts** | smc-liquidity.md | ⏳ Backlog |
+| **SMC/ICT Order Blocks** | smc-order-blocks.md | ⏳ Backlog |
+| **SMC/ICT Fair Value Gaps** | smc-fvg.md | ⏳ Backlog |
+| **SMC/ICT Entry Strategies** | smc-entries.md | ⏳ Backlog |
+| **SMC/ICT Exit Strategies** | smc-exits.md | ⏳ Backlog |
+| **SMC/ICT Risk Management** | smc-risk.md | ⏳ Backlog |
+| **SMC/ICT Multi-Timeframe Analysis** | smc-mtf.md | ⏳ Backlog |
+| **ICT Specific Concepts (Judas Swing, MMM, IPDA)** | ict-specific.md | ⏳ Backlog |
+
+---
+
+## 04-quant-and-factors
+| Topic | File | Status |
+|-------|------|--------|
+| Factor Zoo (Value, Mom, Quality, Low Vol, Size) | factor-zoo.md | ⏳ Backlog |
+| Factor Construction (Rank/Z-score, Neutralization) | factor-construction.md | ⏳ Backlog |
+| Factor Timing (Cycle, Valuation Spread) | factor-timing.md | ⏳ Backlog |
+| Multi-Factor Models & Risk Models | multi-factor-models.md | ⏳ Backlog |
+| Alpha Decay & Capacity | alpha-decay.md | ⏳ Backlog |
+| Alternative Data & Feature Engineering | alternative-data.md | ⏳ Backlog |
+| ML for Factor Discovery | ml-factor-discovery.md | ⏳ Backlog |
+| Transaction Cost Models | transaction-cost-models.md | ⏳ Backlog |
+| Signal to Portfolio Construction | signal-to-portfolio.md | ⏳ Backlog |
+
+---
+
+## 05-stats-and-ml
+| Topic | File | Status |
+|-------|------|--------|
+| Time Series Basics (Stationarity, Cointegration) | timeseries-basics.md | ⏳ Backlog |
+| Regression Pitfalls in Finance | regression-pitfalls.md | ⏳ Backlog |
+| Cross-Validation for Finance (Purged/Embargoed) | cross-validation.md | ⏳ Backlog |
+| Feature Engineering & Leakage Guards | feature-engineering.md | ⏳ Backlog |
+| Model Selection & Calibration | model-selection.md | ⏳ Backlog |
+| Probabilistic Forecasting & Conformal Prediction | probabilistic-forecasting.md | ⏳ Backlog |
+| Causal Inference in Finance | causal-inference.md | ⏳ Backlog |
+| Deep Learning for Return Prediction | deep-learning.md | ⏳ Backlog |
+
+---
+
+## 06-portfolio-construction
+| Topic | File | Status |
+|-------|------|--------|
+| Mean-Variance & Efficient Frontier | mean-variance-efficient-frontier.md | ✅ Done |
+| Black-Litterman Model | black-litterman.md | ✅ Done |
+| Factor Portfolios & Smart Beta | factor-portfolios-smart-beta.md | ✅ Done |
+| Risk Parity & Kelly Sizing | risk-parity-kelly-sizing.md | ✅ Done |
+| Hierarchical Risk Parity (HRP) | hrp-hca.md | ⏳ Backlog |
+| Maximum Diversification | max-diversification.md | ⏳ Backlog |
+| Dynamic Allocation (Regime, Vol Target) | dynamic-allocation.md | ⏳ Backlog |
+| Tax-Aware Portfolio Management | tax-aware.md | ⏳ Backlog |
+| ESG Constraints & Integration | esg-constraints.md | ⏳ Backlog |
+
+---
+
+## 07-risk-management
+| Topic | File | Status |
+|-------|------|--------|
+| VaR & CVaR | var-cvar.md | ✅ Done |
+| Drawdown, Position Sizing & Stops | drawdown-position-sizing-stops.md | ✅ Done |
+| Stress Testing & Scenario Analysis | stress-testing-scenario-analysis.md | ✅ Done |
+| Tail Risk Hedging | tail-risk-hedging.md | ⏳ Backlog |
+| Liquidity Risk | liquidity-risk.md | ⏳ Backlog |
+| Counterparty & Operational Risk | counterparty-operational.md | ⏳ Backlog |
+| Risk Budgeting & Attribution | risk-budgeting.md | ⏳ Backlog |
+
+---
+
+## 08-backtesting-methodology
+| Topic | File | Status |
+|-------|------|--------|
+| Deflated Sharpe & Multiple Testing | deflated-sharpe-multiple-testing.md | ✅ Done |
+| Transaction Costs, Slippage, Walk-Forward | transaction-costs-slippage-walkforward.md | ✅ Done |
+| Backtest Framework Design | backtest-framework.md | ⏳ Backlog |
+| Look-Ahead Bias & Survivorship | look-ahead-survivorship.md | ⏳ Backlog |
+| Out-of-Sample Validation & PBO | out-of-sample-validation.md | ⏳ Backlog |
+| Simulation Methods (MC, Bootstrap) | simulation-methods.md | ⏳ Backlog |
+| Performance Attribution | performance-attribution.md | ⏳ Backlog |
+| Live Trading Transition | live-trading-transition.md | ⏳ Backlog |
+
+---
+
+## 09-market-microstructure
+| Topic | File | Status |
+|-------|------|--------|
+| Liquidity, Spreads, Execution Impact | liquidity-spreads-execution-impact.md | ✅ Done |
+| Maker-Taker, PFOF, HFT Economics | maker-taker-pfof-hft.md | ✅ Done |
+| Order Book Dynamics & Queue Position | order-book-dynamics.md | ⏳ Backlog |
+| Optimal Execution (Almgren-Chriss, TWAP/VWAP) | optimal-execution.md | ⏳ Backlog |
+| High-Frequency Market Making | high-frequency.md | ⏳ Backlog |
+| Dark Pool Dynamics | dark-pool-dynamics.md | ⏳ Backlog |
+| Reg NMS Deep Dive | reg-nms-deep-dive.md | ⏳ Backlog |
+| Microstructure Invariance & Kyle's Lambda | microstructure-invariance.md | ⏳ Backlog |
+
+---
+
+## 10-derivatives
+| Topic | File | Status |
+|-------|------|--------|
+| Option Greeks (1st/2nd Order) | option-greeks.md | ✅ Done |
+| Option Strategies | option-strategies.md | ✅ Done |
+| Volatility Surface, Skew & Hedging | volatility-surface-skew-hedging.md | ✅ Done |
+| Vol Surface Demo Code | vol_surface_skew_hedging_demo.py | ✅ Done |
+| Exotic Options & Structured Products | exotic-options.md | ⏳ Backlog |
+| Variance Swaps & Volatility Trading | variance-swaps.md | ⏳ Backlog |
+| Interest Rate Derivatives (Swaps, Swaptions) | ir-derivatives.md | ⏳ Backlog |
+| Credit Derivatives (CDS, Indices) | credit-derivatives.md | ⏳ Backlog |
+| Commodity & FX Derivatives | commodity-fx-derivatives.md | ⏳ Backlog |
+
+---
+
+## 11-macro-and-regimes
+| Topic | File | Status |
+|-------|------|--------|
+| Inflation, Yields & Equity Valuation | inflation-yields-equity-valuation.md | ✅ Done |
+| Rates, Business Cycles & Sector Rotation | rates-business-cycles-sector-rotation.md | ✅ Done |
+| Regime Detection Methods | regime-detection-methods.md | ✅ Done |
+| Fiscal Policy & Debt Dynamics | fiscal-policy-debt.md | ⏳ Backlog |
+| Currency Regimes & Carry | currency-regimes-carry.md | ⏳ Backlog |
+| Commodity Cycles & Inflation Hedging | commodity-cycles.md | ⏳ Backlog |
+| Central Bank Policy Frameworks | central-bank-frameworks.md | ⏳ Backlog |
+| Global Liquidity & Cross-Asset | global-liquidity.md | ⏳ Backlog |
+
+---
+
+## 12-behavioral-finance
+| Topic | File | Status |
+|-------|------|--------|
+| Cognitive Biases, Sentiment & Crowding | cognitive-biases-sentiment-crowding.md | ✅ Done |
+| Herding, Overconfidence, Loss Aversion | herding-overconfidence-loss-aversion.md | ✅ Done |
+| Limits to Arbitrage | limits-to-arbitrage.md | ✅ Done |
+| Behavioral Factor Models | behavioral-factors.md | ⏳ Backlog |
+| Market Anomalies & Behavioral Explanations | anomalies-behavioral.md | ⏳ Backlog |
+| Investor Flows & Sentiment Indicators | investor-flows-sentiment.md | ⏳ Backlog |
+| Neurofinance & Decision Making | neurofinance.md | ⏳ Backlog |
+| Culture & Market Microstructure | culture-microstructure.md | ⏳ Backlog |
+
+---
+
+## 13-data-and-tooling
+| Topic | File | Status |
+|-------|------|--------|
+| Data Hygiene & Survivorship-Free Data | data-hygiene-survivorship-free.md | ✅ Done |
+| Backtesting Libraries Cookbook | backtesting-libraries-cookbook.md | ✅ Done |
+| Data Vendors, APIs & Reproducibility | data-vendors-apis-libraries-reproducibility.md | ✅ Done |
+| Data Storage & Versioning (Delta Lake, Parquet) | data-storage-versioning.md | ⏳ Backlog |
+| Feature Stores for Finance | feature-stores.md | ⏳ Backlog |
+| Cloud Compute for Quant (Ray, Dask, Spark) | cloud-compute.md | ⏳ Backlog |
+| CI/CD for Research Pipelines | ci-cd-research.md | ⏳ Backlog |
+| Visualization & Reporting (Streamlit, Dash) | visualization-reporting.md | ⏳ Backlog |
+
+---
+
+## 14-strategy-catalog
+| Topic | File | Status |
+|-------|------|--------|
+| Value & Quality Strategies | value-quality-strategies.md | ✅ Done |
+| Momentum & Trend Following | momentum-trend-following-strategies.md | ✅ Done |
+| Mean Reversion & Stat Arb | mean-reversion-stat-arb.md | ✅ Done |
+| Carry & Volatility Strategies | carry-volatility-strategies.md | ✅ Done |
+| **Inner Circle Trader (ICT) — Core Concepts** | inner-circle-trader-ict.md | ✅ Done |
+| **ICT Futures & Commodities** | ict-futures-commodities.md | ✅ Done |
+| Multi-Strategy / Ensemble | multi-strategy.md | ⏳ Backlog |
+| Event-Driven & Special Situations | event-driven.md | ⏳ Backlog |
+| Global Macro Discretionary | global-macro.md | ⏳ Backlog |
+| High-Frequency / Market Making | hft-market-making.md | ⏳ Backlog |
+| Options Volatility Arbitrage | options-vol-arb.md | ⏳ Backlog |
+| Crypto/DeFi Strategies (if in scope) | crypto-defi.md | ⏳ Backlog |
+
+---
+
+## 15-pitfalls-and-antipatterns
+| Topic | File | Status |
+|-------|------|--------|
+| Data Snooping & p-Hacking | data-snooping-phacking.md | ✅ Done |
+| Look-Ahead Bias | look-ahead-bias.md | ✅ Done |
+| Overfitting & Curve Fitting | overfitting-curve-fitting.md | ✅ Done |
+| Regime Change & Non-Stationarity | regime-change-non-stationarity.md | ✅ Done |
+| Transaction Cost Neglect | transaction-cost-neglect.md | ✅ Done |
+| Survivorship & Delisting Bias | survivorship-delisting.md | ⏳ Backlog |
+| Selection Bias & Cherry-Picking | selection-bias.md | ⏳ Backlog |
+| Benchmark Mis-specification | benchmark-misspec.md | ⏳ Backlog |
+| Leverage & Path Dependency | leverage-path-dependency.md | ⏳ Backlog |
+| Operational & Execution Failures | operational-execution.md | ⏳ Backlog |
+| Model Risk & Validation Failures | model-risk.md | ⏳ Backlog |
+| Behavioral Traps in Live Trading | behavioral-traps-live.md | ⏳ Backlog |
+
+---
+
+## Summary
+- **Total planned articles**: ~160
+- **Completed**: 27
+- **Backlog**: ~133
+- **Coverage**: Folders 00-15 all have backlog items; 06, 07, 08, 10, 11, 12, 13, 14, 15 have some completed articles
+
+---
+*Update after each iteration. When every planned topic in folders 00-15 shows ✅ Done, write "KB COMPLETE" to log.md.*
